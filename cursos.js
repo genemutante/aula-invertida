@@ -29,11 +29,11 @@ const cursos = [
 
   "status": "DISPONÍVEL",
 
-  "linkAula": "URL_DO_TESTE_DISC",
+  "linkAula": "",
 
   "linkMusica": "",
 
-  "linkPdf": "",
+  "linkPdf": "https://perfil-disc.netlify.app/",
 
   "duracaoMinutos": 15,
 
@@ -101,7 +101,7 @@ const cursos = [
     "status": "DISPONÍVEL",
     "linkAula": "https://youtu.be/lUk4sAViIhM?list=PLKw4Uf_CJm94",
     "linkMusica": "",
-    "linkPdf": "",
+    "linkPdf": "https://perfil-disc.netlify.app/",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
