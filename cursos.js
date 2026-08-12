@@ -9,6 +9,86 @@
    ============================================================= */
 
 const cursos = [
+
+{
+  "material": "Testes",
+
+  "disciplina": "Projeto de Vida",
+
+  "serie": "Ensino Fundamental",
+
+  "bimestre": "Todos",
+
+  "aula": "Teste DISC",
+
+  "nome": "TESTE DISC + COMPETÊNCIAS",
+
+  "descricao": "AVALIAÇÃO COMPORTAMENTAL",
+
+  "quantidadeAulas": 1,
+
+  "status": "DISPONÍVEL",
+
+  "linkAula": "URL_DO_TESTE_DISC",
+
+  "linkMusica": "",
+
+  "linkPdf": "",
+
+  "duracaoMinutos": 15,
+
+  "i18n": {
+    "material": {
+      "pt": "Teste DISC",
+      "en": "DISC Assessment",
+      "es": "Evaluación DISC"
+    },
+
+    "disciplina": {
+      "pt": "Projeto de Vida",
+      "en": "Life Project",
+      "es": "Proyecto de Vida"
+    },
+
+    "serie": {
+      "pt": "7º Ano",
+      "en": "Grade 7",
+      "es": "7º Curso"
+    },
+
+    "bimestre": {
+      "pt": "1º Bimestre",
+      "en": "Term 1",
+      "es": "1º Bimestre"
+    },
+
+    "aula": {
+      "pt": "Teste DISC",
+      "en": "DISC Assessment",
+      "es": "Evaluación DISC"
+    },
+
+    "nome": {
+      "pt": "TESTE DISC + COMPETÊNCIAS",
+      "en": "DISC + COMPETENCIES ASSESSMENT",
+      "es": "EVALUACIÓN DISC + COMPETENCIAS"
+    },
+
+    "descricao": {
+      "pt": "AVALIAÇÃO COMPORTAMENTAL",
+      "en": "BEHAVIORAL ASSESSMENT",
+      "es": "EVALUACIÓN CONDUCTUAL"
+    },
+
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+}
+
+   
   {
     "material": "Correção da Tarefa",
     "disciplina": "Ciências",
