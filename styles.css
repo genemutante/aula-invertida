@@ -1402,16 +1402,7 @@ html.tema-em-transicao *::after {
 }
 .card-botoes-materiais {
   display: grid;
-
-  /*
-   * Distribui igualmente somente os botões existentes:
-   * 1 botão = 100%;
-   * 2 botões = 50% para cada;
-   * 3 botões = 33,33% para cada.
-   */
-  grid-auto-flow: column;
-  grid-auto-columns: minmax(0, 1fr);
-
+  grid-template-columns: repeat(auto-fit, minmax(min(118px, 100%), 1fr));
   gap: 7px;
   width: 100%;
 }
@@ -2567,5 +2558,54 @@ html.tema-em-transicao *::after {
 
   .btn-idioma {
     flex: 0 0 auto;
+  }
+}
+
+
+/* =============================================================
+   RECURSOS ADICIONAIS — APROFUNDAMENTO E APLICATIVO
+   ============================================================= */
+.btn-aprofundamento,
+.btn-aplicativo {
+  color: var(--color-text);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-strong);
+  box-shadow: none;
+}
+.btn-aprofundamento:hover {
+  color: var(--color-secondary);
+  background: var(--color-surface-soft);
+  border-color: var(--color-secondary);
+}
+.btn-aplicativo:hover {
+  color: var(--color-primary);
+  background: var(--color-surface-soft);
+  border-color: var(--color-primary);
+}
+.btn-aprofundamento::before {
+  content: "↗";
+  flex: 0 0 auto;
+  margin-right: 6px;
+  font-size: 0.78rem;
+  line-height: 1;
+}
+.btn-aplicativo::before {
+  content: "⚙";
+  flex: 0 0 auto;
+  margin-right: 6px;
+  font-size: 0.76rem;
+  line-height: 1;
+}
+@media (min-width: 701px) {
+  .card-botoes-materiais {
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  }
+}
+@media (max-width: 420px) {
+  .card-botoes-materiais {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .card-botoes-materiais > :only-child {
+    grid-column: 1 / -1;
   }
 }
