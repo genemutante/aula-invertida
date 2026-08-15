@@ -12,29 +12,19 @@ const cursos = [
 
 {
   "material": "Testes",
-
   "disciplina": "Projeto de Vida",
-
   "serie": "Ensino Fundamental",
-
   "bimestre": "Todos",
-
   "aula": "Teste DISC",
-
   "nome": "TESTE DISC + COMPETÊNCIAS",
-
   "descricao": "AVALIAÇÃO COMPORTAMENTAL",
-
   "quantidadeAulas": 1,
-
   "status": "DISPONÍVEL",
-
   "linkAula": "",
-
   "linkMusica": "",
-
-  "linkPdf": "https://perfil-disc.netlify.app/",
-
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "https://perfil-disc.netlify.app/",
   "duracaoMinutos": 15,
 
   "i18n": {
@@ -102,6 +92,9 @@ const cursos = [
     "linkAula": "https://youtu.be/lUk4sAViIhM?list=PLKw4Uf_CJm94",
     "linkMusica": "",
     "linkPdf": "https://perfil-disc.netlify.app/",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "linkPdf": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -159,6 +152,8 @@ const cursos = [
     "linkAula": "https://youtu.be/UHtiT9oaAGU?list=PLKw4Uf_CJm94",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -216,6 +211,8 @@ const cursos = [
     "linkAula": "https://youtu.be/ACjOYc_z09c?list=PLKw4Uf_CJm94",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -273,6 +270,8 @@ const cursos = [
     "linkAula": "https://youtu.be/X8yg-ADnFQk?list=PLKw4Uf_CJm94",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -330,6 +329,8 @@ const cursos = [
     "linkAula": "https://youtu.be/f1FENkAkpC4?list=PLKw4Uf_CJm94",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -387,6 +388,8 @@ const cursos = [
     "linkAula": "https://youtu.be/ovn-c5wITTw?list=PLKw4Uf_CJm94",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -444,6 +447,8 @@ const cursos = [
     "linkAula": "https://youtu.be/T-k__CArVrc?list=PLWPMTUGUSx2c",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -501,6 +506,8 @@ const cursos = [
     "linkAula": "https://youtu.be/fKefk5UZdS8?list=PLWPMTUGUSx2c",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -558,6 +565,8 @@ const cursos = [
     "linkAula": "https://youtu.be/i-Y8n0kSSCk?list=PLWPMTUGUSx2c",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -615,6 +624,8 @@ const cursos = [
     "linkAula": "https://youtu.be/RgSGbvPdZaw?list=PLWPMTUGUSx2c",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -672,6 +683,8 @@ const cursos = [
     "linkAula": "https://youtu.be/K5Tn3LKrW0E?list=PLWPMTUGUSx2c",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -729,6 +742,8 @@ const cursos = [
     "linkAula": "https://youtu.be/lZ_h5CbrB1Y?list=PLWPMTUGUSx2c",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -786,6 +801,8 @@ const cursos = [
     "linkAula": "https://youtu.be/OiDQODvdk_A?list=PLR3jvXc_VNbA",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -843,6 +860,8 @@ const cursos = [
     "linkAula": "https://youtu.be/NLBnAgKvN4E?list=PLR3jvXc_VNbA",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -900,6 +919,8 @@ const cursos = [
     "linkAula": "https://youtu.be/VRSRT-jPLBw?list=PLR3jvXc_VNbA",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -957,6 +978,8 @@ const cursos = [
     "linkAula": "https://youtu.be/32iz1UCHJD8?list=PLR3jvXc_VNbA",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1014,6 +1037,8 @@ const cursos = [
     "linkAula": "https://youtu.be/FxyqQ1uug1c?list=PLR3jvXc_VNbA",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1071,6 +1096,8 @@ const cursos = [
     "linkAula": "https://youtu.be/g5ruh589Isc?list=PLR3jvXc_VNbA",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1128,6 +1155,8 @@ const cursos = [
     "linkAula": "https://youtu.be/_CKaecVloZk?list=PLR3jvXc_VNbA",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -1185,6 +1214,8 @@ const cursos = [
     "linkAula": "https://youtu.be/C_wiZW-bQ8Q?list=PLR3jvXc_VNbA",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1242,6 +1273,8 @@ const cursos = [
     "linkAula": "https://youtu.be/RTyRCr0jwqM?list=PLR3jvXc_VNbA",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -1299,6 +1332,8 @@ const cursos = [
     "linkAula": "https://youtu.be/bxE4aBzWNH8?list=PLR3jvXc_VNbA",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -1356,6 +1391,8 @@ const cursos = [
     "linkAula": "https://youtu.be/A78oxq6mCDI?list=PLN2YYm73inys",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -1413,6 +1450,8 @@ const cursos = [
     "linkAula": "https://youtu.be/csPEx_Oqifc?list=PLN2YYm73inys",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -1470,6 +1509,8 @@ const cursos = [
     "linkAula": "https://youtu.be/FE3LlJu-p_8?list=PLN2YYm73inys",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 4,
     "i18n": {
       "material": {
@@ -1527,6 +1568,8 @@ const cursos = [
     "linkAula": "https://youtu.be/Gszqhnx6FeU?list=PLN2YYm73inys",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -1584,6 +1627,8 @@ const cursos = [
     "linkAula": "https://youtu.be/ntl83J0ElTA?list=PLN2YYm73inys",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -1641,6 +1686,8 @@ const cursos = [
     "linkAula": "https://youtu.be/90spCp0uDpU?list=PLN2YYm73inys",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1698,6 +1745,8 @@ const cursos = [
     "linkAula": "https://youtu.be/KROiYrD0pWE?list=PLN2YYm73inys",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -1755,6 +1804,8 @@ const cursos = [
     "linkAula": "https://youtu.be/GPEj7rAKPt0?list=PLN2YYm73inys",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -1812,6 +1863,8 @@ const cursos = [
     "linkAula": "https://youtu.be/aIW_6w4PhBs?list=PLN2YYm73inys",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1869,6 +1922,8 @@ const cursos = [
     "linkAula": "https://youtu.be/ghNLuTRTOfU?list=PLN2YYm73inys",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -1926,6 +1981,8 @@ const cursos = [
     "linkAula": "https://youtu.be/h6IHJHRFmzU?list=PLexBcnhBP9Lc",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1983,6 +2040,8 @@ const cursos = [
     "linkAula": "https://youtu.be/ey443ehIJ9o?list=PLexBcnhBP9Lc",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -2040,6 +2099,8 @@ const cursos = [
     "linkAula": "https://youtu.be/jkhJFYgcOUM?list=PLexBcnhBP9Lc",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -2097,6 +2158,8 @@ const cursos = [
     "linkAula": "https://youtu.be/WWtgeuMZfT8?list=PLexBcnhBP9Lc",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -2154,6 +2217,8 @@ const cursos = [
     "linkAula": "https://youtu.be/-XNsrmHKo8I?list=PLexBcnhBP9Lc",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -2211,6 +2276,8 @@ const cursos = [
     "linkAula": "https://youtu.be/hAhi_uq2McQ?list=PLexBcnhBP9Lc",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -2268,6 +2335,8 @@ const cursos = [
     "linkAula": "https://youtu.be/xpkVDRmRafs?list=PLexBcnhBP9Lc",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -2325,6 +2394,8 @@ const cursos = [
     "linkAula": "https://youtu.be/qfoPn5SjGkc?list=PLexBcnhBP9Lc",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -2382,6 +2453,8 @@ const cursos = [
     "linkAula": "https://youtu.be/v_Wdl3updvw?list=PLexBcnhBP9Lc",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -2439,6 +2512,8 @@ const cursos = [
     "linkAula": "https://youtu.be/DxG5ZUroFEY?list=PLexBcnhBP9Lc",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -2496,6 +2571,8 @@ const cursos = [
     "linkAula": "https://youtu.be/nb28quXCJQA?list=PLexBcnhBP9Lc",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -2553,6 +2630,8 @@ const cursos = [
     "linkAula": "https://youtu.be/hAGefq8UTYg?list=PLexBcnhBP9Lc",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -2610,6 +2689,8 @@ const cursos = [
     "linkAula": "https://youtu.be/1Pcbw-h0xGY?list=PLexBcnhBP9Lc",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -2667,6 +2748,8 @@ const cursos = [
     "linkAula": "https://youtu.be/vHU3UrLxKyI?list=PLexBcnhBP9Lc",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -2724,6 +2807,8 @@ const cursos = [
     "linkAula": "https://youtu.be/bdUCCRy5F0U?list=PLexBcnhBP9Lc",
     "linkMusica": "",
     "linkPdf": "",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -2776,12 +2861,14 @@ const cursos = [
     "aula": "Aula 1",
     "nome": "Big Bang e surgimento do Sistema Solar",
     "descricao": "Apresenta a teoria do Big Bang e relaciona a formação do Universo ao surgimento do Sistema Solar.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -2819,9 +2906,9 @@ const cursos = [
         "es": "Presenta la teoría del Big Bang y relaciona la formación del Universo al surgimiento del Sistema Solar."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -2833,12 +2920,14 @@ const cursos = [
     "aula": "Aula 2",
     "nome": "O Sistema Solar",
     "descricao": "Apresenta os principais astros do Sistema Solar e suas características gerais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -2876,9 +2965,9 @@ const cursos = [
         "es": "Presenta los principales astros del Sistema Solar y sus características generales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -2890,12 +2979,14 @@ const cursos = [
     "aula": "Aula 3",
     "nome": "A Terra primitiva",
     "descricao": "Explica as principais características da Terra primitiva e as mudanças ocorridas ao longo do tempo.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -2933,9 +3024,9 @@ const cursos = [
         "es": "Explica las principales características de la Tierra primitiva y las cambios ocorridas a lo largo del tiempo."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -2947,12 +3038,14 @@ const cursos = [
     "aula": "Aula 4",
     "nome": "Tempo histórico × Tempo geológico × Tempo cronológico",
     "descricao": "Compara diferentes formas de medir e compreender o tempo histórico, geológico e cronológico.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -2990,9 +3083,9 @@ const cursos = [
         "es": "Compara diferentes formas de medir y comprender el tiempo histórico, geológico y cronológico."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -3004,12 +3097,14 @@ const cursos = [
     "aula": "Aula 5",
     "nome": "Tempo geológico",
     "descricao": "Apresenta a escala do tempo geológico e sua importância para compreender a história da Terra.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -3047,9 +3142,9 @@ const cursos = [
         "es": "Presenta la escala del tiempo geológico y su importancia para comprender la historia de la Tierra."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -3061,12 +3156,14 @@ const cursos = [
     "aula": "Aula 6",
     "nome": "Gravidade",
     "descricao": "Explica a ação da gravidade e sua influência sobre os corpos e os astros.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -3104,9 +3201,9 @@ const cursos = [
         "es": "Explica la acción de la gravedad y su influencia sobre los cuerpos y los astros."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -3118,12 +3215,14 @@ const cursos = [
     "aula": "Aula 7",
     "nome": "Evidências da esfericidade da Terra",
     "descricao": "Apresenta evidências que demonstram a forma aproximadamente esférica da Terra.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -3161,9 +3260,9 @@ const cursos = [
         "es": "Presenta evidencias que demuestran la forma aproximadamente esférica de la Tierra."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -3175,12 +3274,14 @@ const cursos = [
     "aula": "Aula 8",
     "nome": "Movimento de rotação",
     "descricao": "Explica o movimento de rotação da Terra e sua relação com os dias e as noites.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -3218,9 +3319,9 @@ const cursos = [
         "es": "Explica el movimiento de rotación de la Tierra y su relación con los días y las noches."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -3232,12 +3333,14 @@ const cursos = [
     "aula": "Aula 9",
     "nome": "Movimento de translação",
     "descricao": "Explica o movimento de translação da Terra ao redor do Sol e sua duração.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -3275,9 +3378,9 @@ const cursos = [
         "es": "Explica el movimiento de traslación de la Tierra al redor del Sol y su duración."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -3289,12 +3392,14 @@ const cursos = [
     "aula": "Aula 10",
     "nome": "Movimento aparente do Sol",
     "descricao": "Relaciona o movimento aparente do Sol no céu ao movimento de rotação da Terra.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -3332,9 +3437,9 @@ const cursos = [
         "es": "Relaciona el movimiento aparente del Sol en el cielo al movimiento de rotación de la Tierra."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -3346,12 +3451,14 @@ const cursos = [
     "aula": "Aula 11",
     "nome": "Relógio de sol - Aula prática - Parte I",
     "descricao": "Inicia a construção e a observação de um relógio de sol em uma atividade prática.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -3389,9 +3496,9 @@ const cursos = [
         "es": "Inicia la construcción y la observación de un reloj de sol en una actividad práctica."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -3403,12 +3510,14 @@ const cursos = [
     "aula": "Aula 12",
     "nome": "Relógio de sol - Aula prática - Parte 2",
     "descricao": "Continua a atividade prática com o relógio de sol e analisa os resultados observados.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -3446,9 +3555,9 @@ const cursos = [
         "es": "Continúa la actividad práctica con el reloj de sol y Analiza los resultados observados."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -3460,12 +3569,14 @@ const cursos = [
     "aula": "Aula 13",
     "nome": "Movimentos da Lua",
     "descricao": "Apresenta os principais movimentos da Lua e sua relação com as fases lunares.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -3503,9 +3614,9 @@ const cursos = [
         "es": "Presenta los principales movimientos de la Luna y su relación con las fases lunares."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -3517,12 +3628,14 @@ const cursos = [
     "aula": "Aula 14",
     "nome": "Eclipse lunar e solar",
     "descricao": "Explica como ocorrem os eclipses lunar e solar a partir do alinhamento entre Sol, Terra e Lua.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -3560,9 +3673,9 @@ const cursos = [
         "es": "Explica cómo ocurren los eclipses lunar y solar la partir del alineación entre el Sol, la Tierra y la Luna."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -3574,12 +3687,14 @@ const cursos = [
     "aula": "Aula 15",
     "nome": "Estações do ano - solstício e equinócio",
     "descricao": "Relaciona as estações do ano aos movimentos da Terra, aos solstícios e aos equinócios.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -3617,9 +3732,9 @@ const cursos = [
         "es": "Relaciona las estaciones del año a los movimientos de la Tierra, a los solsticios y a los equinoccios."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -3631,12 +3746,14 @@ const cursos = [
     "aula": "Aula 16",
     "nome": "Estações do ano no Brasil",
     "descricao": "Analisa as características das estações do ano no Brasil e suas diferenças regionais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -3674,9 +3791,9 @@ const cursos = [
         "es": "Analiza las características de las estaciones del año en el Brasil y sus diferencias regionales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -3688,12 +3805,14 @@ const cursos = [
     "aula": "Aula 17",
     "nome": "Condições para a existência de vida na Terra",
     "descricao": "Apresenta fatores que tornam a Terra adequada para a existência e a manutenção da vida.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -3731,9 +3850,9 @@ const cursos = [
         "es": "Presenta factores que hacen la Tierra adecuada para la existencia y la mantenimiento de la vida."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -3745,12 +3864,14 @@ const cursos = [
     "aula": "Aula 18",
     "nome": "Modelo Terra-Sol-Lua - construindo o modelo",
     "descricao": "Propõe a construção de um modelo para representar as relações entre Terra, Sol e Lua.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -3788,9 +3909,9 @@ const cursos = [
         "es": "Propone la construcción de un modelo para representar las relaciones entre la Tierra, el Sol y la Luna."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -3802,12 +3923,14 @@ const cursos = [
     "aula": "Aula 19",
     "nome": "Aula prática - Modelo Terra-Sol-Lua - sistematização",
     "descricao": "Sistematiza os conhecimentos desenvolvidos durante a atividade prática com o modelo Terra-Sol-Lua.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -3845,9 +3968,9 @@ const cursos = [
         "es": "Sistematiza los conocimientos desarrollados durante la actividad práctica con el modelo Tierra-Sol-Luna."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -3859,12 +3982,14 @@ const cursos = [
     "aula": "Aula 20",
     "nome": "Retomada - Terra e Universo",
     "descricao": "Retoma os principais conceitos relacionados à formação do Universo, da Terra e do Sistema Solar.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -3902,9 +4027,9 @@ const cursos = [
         "es": "Repasa los principales conceptos relacionados con formación del Universo, de la Tierra y del Sistema Solar."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -3916,12 +4041,14 @@ const cursos = [
     "aula": "Aula 21",
     "nome": "Retomada - Sistema Terra - Sol - Lua",
     "descricao": "Revisa os movimentos e as relações entre Terra, Sol e Lua.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -3959,9 +4086,9 @@ const cursos = [
         "es": "Revisa los movimientos y las relaciones entre la Tierra, el Sol y la Luna."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -3973,12 +4100,14 @@ const cursos = [
     "aula": "Aula 1",
     "nome": "Camadas da Terra",
     "descricao": "Apresenta as principais camadas internas da Terra e suas características.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -4016,9 +4145,9 @@ const cursos = [
         "es": "Presenta las principales capas internas de la Tierra y sus características."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -4030,12 +4159,14 @@ const cursos = [
     "aula": "Aula 2",
     "nome": "Atmosfera",
     "descricao": "Estuda a composição, as camadas e a importância da atmosfera para a vida no planeta.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -4073,9 +4204,9 @@ const cursos = [
         "es": "Estudia la composición, las capas y la importancia de la atmósfera para la vida en el planeta."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -4087,12 +4218,14 @@ const cursos = [
     "aula": "Aula 3",
     "nome": "Hidrosfera: distribuição de água no planeta",
     "descricao": "Apresenta a distribuição da água no planeta entre oceanos, rios, lagos, geleiras e águas subterrâneas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -4130,9 +4263,9 @@ const cursos = [
         "es": "Presenta la distribución de la agua en el planeta entre océanos, ríos, lagos, glaciares y aguas subterráneas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -4144,12 +4277,14 @@ const cursos = [
     "aula": "Aula 4",
     "nome": "Estados de organização da matéria",
     "descricao": "Explora a organização da matéria e suas características nos diferentes estados físicos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -4187,9 +4322,9 @@ const cursos = [
         "es": "Explora la organización de la materia y sus características en los diferentes estados de la materia."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -4201,12 +4336,14 @@ const cursos = [
     "aula": "Aula 5",
     "nome": "Ciclo da água",
     "descricao": "Explica as etapas do ciclo da água e sua circulação contínua entre a superfície e a atmosfera.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -4244,9 +4381,9 @@ const cursos = [
         "es": "Explica las etapas del ciclo de la agua y su circulación continua entre la superficie y la atmósfera."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -4258,12 +4395,14 @@ const cursos = [
     "aula": "Aula 6",
     "nome": "Poluição da água",
     "descricao": "Analisa as principais causas da poluição da água e seus impactos sobre o ambiente e a saúde.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -4301,9 +4440,9 @@ const cursos = [
         "es": "Analiza las principales causas de la contaminación del agua y sus impactos sobre el ambiente y la salud."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -4315,12 +4454,14 @@ const cursos = [
     "aula": "Aula 7",
     "nome": "Biosfera",
     "descricao": "Apresenta a biosfera como o conjunto das regiões do planeta onde existe vida.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -4358,9 +4499,9 @@ const cursos = [
         "es": "Presenta la biosfera cómo el conjunto de las regiones del planeta onde existe vida."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -4372,12 +4513,14 @@ const cursos = [
     "aula": "Aula 8",
     "nome": "Produção de charge: o planeta Terra, a nossa casa",
     "descricao": "Propõe a produção de uma charge sobre a importância de cuidar do planeta Terra.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -4415,9 +4558,9 @@ const cursos = [
         "es": "Propone la producción de una viñeta sobre la importancia de cuidar del planeta Tierra."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -4429,12 +4572,14 @@ const cursos = [
     "aula": "Aula 9",
     "nome": "Litosfera: tipos de rochas",
     "descricao": "Apresenta as características das rochas magmáticas, sedimentares e metamórficas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -4472,9 +4617,9 @@ const cursos = [
         "es": "Presenta las características de las rocas ígneas, sedimentares y metamórficas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -4486,12 +4631,14 @@ const cursos = [
     "aula": "Aula 10",
     "nome": "Formação do solo",
     "descricao": "Explica como o solo se forma a partir da alteração das rochas e da ação de fatores ambientais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -4529,9 +4676,9 @@ const cursos = [
         "es": "Explica cómo el suelo si forma la partir de la alteración de las rocas y de la acción de factores ambientales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -4543,12 +4690,14 @@ const cursos = [
     "aula": "Aula 11",
     "nome": "Fossilização",
     "descricao": "Apresenta o processo de formação dos fósseis e sua importância para o estudo da história da vida.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -4586,9 +4735,9 @@ const cursos = [
         "es": "Presenta el proceso de formación de los fósiles y su importancia para el estudio de la historia de la vida."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -4600,12 +4749,14 @@ const cursos = [
     "aula": "Aula 12",
     "nome": "Minerais e minérios",
     "descricao": "Diferencia minerais e minérios e discute sua utilização pela sociedade.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -4643,9 +4794,9 @@ const cursos = [
         "es": "Diferencia minerales y menas y analiza su uso por la sociedad."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -4657,12 +4808,14 @@ const cursos = [
     "aula": "Aula 13",
     "nome": "Uso do solo e impactos das ações humanas",
     "descricao": "Analisa formas de uso do solo e os impactos ambientais provocados pelas atividades humanas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -4700,9 +4853,9 @@ const cursos = [
         "es": "Analiza formas de uso del suelo y los impactos ambientales causados por las actividades humanas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -4714,12 +4867,14 @@ const cursos = [
     "aula": "Aula 14",
     "nome": "Simulador de erosão",
     "descricao": "Utiliza uma simulação para observar os fatores que provocam a erosão e suas consequências para o solo.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -4757,9 +4912,9 @@ const cursos = [
         "es": "Utiliza una simulación para observar los factores que causan la erosión y sus consecuencias para el suelo."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -4771,12 +4926,14 @@ const cursos = [
     "aula": "Aula 15",
     "nome": "Substância pura simples e composta",
     "descricao": "Diferencia substâncias puras simples e compostas com base em sua constituição.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -4814,9 +4971,9 @@ const cursos = [
         "es": "Diferencia sustancias puras simples y compuestas basándose en su constitución."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -4828,12 +4985,14 @@ const cursos = [
     "aula": "Aula 16",
     "nome": "Misturas homogêneas e heterogêneas",
     "descricao": "Diferencia misturas homogêneas e heterogêneas pela quantidade de fases observadas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -4871,9 +5030,9 @@ const cursos = [
         "es": "Diferencia mezclas homogéneas y heterogéneas por la cantidad de fases observadas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -4885,12 +5044,14 @@ const cursos = [
     "aula": "Aula 17",
     "nome": "Transformações químicas e físicas",
     "descricao": "Compara transformações físicas e químicas por meio de exemplos do cotidiano.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -4928,9 +5089,9 @@ const cursos = [
         "es": "Compara transformaciones físicas y químicas mediante ejemplos del vida cotidiana."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -4942,12 +5103,14 @@ const cursos = [
     "aula": "Aula 18",
     "nome": "Métodos de separação de misturas homogêneas",
     "descricao": "Apresenta métodos utilizados para separar os componentes de misturas homogêneas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -4985,9 +5148,9 @@ const cursos = [
         "es": "Presenta métodos utilizados para separar los componentes de mezclas homogéneas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -4999,12 +5162,14 @@ const cursos = [
     "aula": "Aula 19",
     "nome": "Métodos de separação de misturas heterogêneas",
     "descricao": "Apresenta métodos utilizados para separar os componentes de misturas heterogêneas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -5042,9 +5207,9 @@ const cursos = [
         "es": "Presenta métodos utilizados para separar los componentes de mezclas heterogéneas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -5056,12 +5221,14 @@ const cursos = [
     "aula": "Aula 20",
     "nome": "Materiais sintéticos",
     "descricao": "Apresenta materiais sintéticos, suas formas de produção, aplicações e impactos ambientais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -5099,9 +5266,9 @@ const cursos = [
         "es": "Presenta materiales sintéticos, sus formas de producción, aplicaciones y impactos ambientales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -5113,12 +5280,14 @@ const cursos = [
     "aula": "Aula 21",
     "nome": "Simulador: estados de organização da matéria",
     "descricao": "Utiliza uma simulação para observar o comportamento das partículas nos diferentes estados da matéria.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -5156,9 +5325,9 @@ const cursos = [
         "es": "Utiliza una simulación para observar el comportamiento de las partículas en los diferentes estados de la materia."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -5170,12 +5339,14 @@ const cursos = [
     "aula": "Aula 23",
     "nome": "SP. ACE: OBA e OBAFOG",
     "descricao": "Apresenta atividades relacionadas à Olimpíada Brasileira de Astronomia e Astronáutica e à OBAFOG.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -5213,9 +5384,9 @@ const cursos = [
         "es": "Presenta actividades relacionadas con Olimpiada Brasileña de Astronomía y Astronáutica y a la OBAFOG."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -5227,12 +5398,14 @@ const cursos = [
     "aula": "Aula 1",
     "nome": "A célula como unidade básica da vida: teoria celular",
     "descricao": "Apresenta a célula como unidade básica dos seres vivos e os principais fundamentos da teoria celular.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -5270,9 +5443,9 @@ const cursos = [
         "es": "Presenta la célula cómo unidad básica de los seres vivos y los principales fundamentos de la teoría celular."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -5284,12 +5457,14 @@ const cursos = [
     "aula": "Aula 2",
     "nome": "Desenvolvimento da microscopia",
     "descricao": "Mostra como o desenvolvimento dos microscópios ampliou o conhecimento sobre as células e os seres microscópicos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -5327,9 +5502,9 @@ const cursos = [
         "es": "Muestra cómo el desarrollo de los microscopios amplió el conocimiento sobre las células y los seres microscópicos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -5341,12 +5516,14 @@ const cursos = [
     "aula": "Aula 3",
     "nome": "Introdução à estrutura celular",
     "descricao": "Apresenta as principais estruturas das células e suas funções básicas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -5384,9 +5561,9 @@ const cursos = [
         "es": "Presenta las principales estructuras de las células y sus funciones básicas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -5398,12 +5575,14 @@ const cursos = [
     "aula": "Aula 4",
     "nome": "Seres eucariontes e procariontes",
     "descricao": "Compara seres eucariontes e procariontes, destacando as diferenças na organização de suas células.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -5441,9 +5620,9 @@ const cursos = [
         "es": "Compara seres eucariotas y procariotas, destacando las diferencias en la organización de sus células."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -5455,12 +5634,14 @@ const cursos = [
     "aula": "Aula 5",
     "nome": "Célula animal",
     "descricao": "Apresenta as principais estruturas da célula animal e suas funções.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -5498,9 +5679,9 @@ const cursos = [
         "es": "Presenta las principales estructuras de la célula animal y sus funciones."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -5512,12 +5693,14 @@ const cursos = [
     "aula": "Aula 6",
     "nome": "Célula vegetal",
     "descricao": "Apresenta as principais estruturas da célula vegetal e suas diferenças em relação à célula animal.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -5555,9 +5738,9 @@ const cursos = [
         "es": "Presenta las principales estructuras de la célula vegetal y sus diferencias en relación a la célula animal."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -5569,12 +5752,14 @@ const cursos = [
     "aula": "Aula 7",
     "nome": "Construção de modelo celular – Parte 1",
     "descricao": "Inicia a construção de um modelo celular para representar suas principais estruturas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -5612,9 +5797,9 @@ const cursos = [
         "es": "Inicia la construcción de un modelo celular para representar sus principales estructuras."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -5626,12 +5811,14 @@ const cursos = [
     "aula": "Aula 8",
     "nome": "Construção de modelo celular – Parte 2",
     "descricao": "Conclui a construção do modelo celular e relaciona cada estrutura representada à sua função.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -5669,9 +5856,9 @@ const cursos = [
         "es": "Concluye la construcción del modelo celular y relaciona cada estructura representada a la su función."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -5683,12 +5870,14 @@ const cursos = [
     "aula": "Aula 9",
     "nome": "Bactérias",
     "descricao": "Apresenta as características das bactérias, sua estrutura, seus modos de vida e sua importância.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -5726,9 +5915,9 @@ const cursos = [
         "es": "Presenta las características de las bacterias, su estructura, sus modos de vida y su importancia."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -5740,12 +5929,14 @@ const cursos = [
     "aula": "Aula 10",
     "nome": "Fungos",
     "descricao": "Apresenta as características dos fungos, seus modos de vida e sua importância para os seres humanos e o ambiente.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -5783,9 +5974,9 @@ const cursos = [
         "es": "Presenta las características de los hongos, sus modos de vida y su importancia para los seres humanos y el ambiente."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -5797,12 +5988,14 @@ const cursos = [
     "aula": "Aula 11",
     "nome": "Protozoários",
     "descricao": "Apresenta as características dos protozoários, seus ambientes e sua relação com a saúde.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -5840,9 +6033,9 @@ const cursos = [
         "es": "Presenta las características de los protozoos, sus ambientes y su relación con la salud."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -5854,12 +6047,14 @@ const cursos = [
     "aula": "Aula 12",
     "nome": "Vírus",
     "descricao": "Apresenta as características dos vírus, sua forma de reprodução e sua relação com os seres vivos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -5897,9 +6092,9 @@ const cursos = [
         "es": "Presenta las características de los virus, su forma de reproducción y su relación con los seres vivos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -5911,12 +6106,14 @@ const cursos = [
     "aula": "Aula 13",
     "nome": "Doenças causadas por bactérias, fungos e protozoários",
     "descricao": "Apresenta doenças causadas por bactérias, fungos e protozoários, além de formas de prevenção.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -5954,9 +6151,9 @@ const cursos = [
         "es": "Presenta enfermedades causadas por bacterias, hongos y protozoos, además de formas de prevención."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -5968,12 +6165,14 @@ const cursos = [
     "aula": "Aula 14",
     "nome": "Saneamento básico e saúde",
     "descricao": "Relaciona saneamento básico, prevenção de doenças, qualidade de vida e saúde da população.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -6011,9 +6210,9 @@ const cursos = [
         "es": "Relaciona saneamiento básico, prevención de enfermedades, calidad de vida y salud de la población."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -6025,12 +6224,14 @@ const cursos = [
     "aula": "Aula 15",
     "nome": "Níveis de organização dos seres vivos",
     "descricao": "Apresenta os níveis de organização dos seres vivos, da célula ao organismo.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -6068,9 +6269,9 @@ const cursos = [
         "es": "Presenta los niveles de organización de los seres vivos, desde la célula hasta el organismo."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -6082,12 +6283,14 @@ const cursos = [
     "aula": "Aula 16",
     "nome": "Tecidos e órgãos",
     "descricao": "Explica como as células formam tecidos e como os tecidos se organizam em órgãos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -6125,9 +6328,9 @@ const cursos = [
         "es": "Explica cómo las células forman tejidos y cómo los tejidos si organizam en órganos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -6139,12 +6342,14 @@ const cursos = [
     "aula": "Aula 17",
     "nome": "Retomada Biologia Celular",
     "descricao": "Retoma os principais conceitos sobre teoria celular, tipos de células e estruturas celulares.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -6182,9 +6387,9 @@ const cursos = [
         "es": "Repasa los principales conceptos sobre teoría celular, tipos de células y estructuras celulares."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -6196,12 +6401,14 @@ const cursos = [
     "aula": "Aula 18",
     "nome": "Retomada Meio ambiente e Saúde",
     "descricao": "Retoma os principais conceitos sobre microrganismos, saneamento básico, prevenção de doenças e saúde.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -6239,9 +6446,9 @@ const cursos = [
         "es": "Repasa los principales conceptos sobre microorganismos, saneamiento básico, prevención de enfermedades y salud."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -6253,12 +6460,14 @@ const cursos = [
     "aula": "Aula 1",
     "nome": "Placas tectônicas",
     "descricao": "Apresenta as placas tectônicas, seus movimentos e sua relação com transformações na superfície terrestre.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -6296,9 +6505,9 @@ const cursos = [
         "es": "Presenta las placas tectónicas, sus movimientos y su relación con transformaciones en la superficie terrestre."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -6310,12 +6519,14 @@ const cursos = [
     "aula": "Aula 2",
     "nome": "Deriva continental",
     "descricao": "Explica a teoria da deriva continental e as evidências de que os continentes se deslocaram ao longo do tempo.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -6353,9 +6564,9 @@ const cursos = [
         "es": "Explica la teoría de la deriva continental y las evidencias de que los continentes si se desplazaron a lo largo del tiempo."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -6367,12 +6578,14 @@ const cursos = [
     "aula": "Aula 3",
     "nome": "Eventos naturais da litosfera",
     "descricao": "Apresenta eventos naturais da litosfera, como terremotos, vulcanismo e formação de relevos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -6410,9 +6623,9 @@ const cursos = [
         "es": "Presenta eventos naturales de la litosfera, cómo terremotos, vulcanismo y formación de relevos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -6424,12 +6637,14 @@ const cursos = [
     "aula": "Aula 4",
     "nome": "Vulcanismo",
     "descricao": "Explica como ocorre o vulcanismo e relaciona esse fenômeno aos movimentos das placas tectônicas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -6467,9 +6682,9 @@ const cursos = [
         "es": "Explica cómo ocurre el vulcanismo y relaciona este fenómeno a los movimientos de las placas tectónicas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -6481,12 +6696,14 @@ const cursos = [
     "aula": "Aula 5",
     "nome": "Terremotos e tsunamis",
     "descricao": "Apresenta as causas dos terremotos e tsunamis e seus impactos sobre o ambiente e a sociedade.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -6524,9 +6741,9 @@ const cursos = [
         "es": "Presenta las causas de los terremotos y tsunamis y sus impactos sobre el ambiente y la sociedad."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -6538,12 +6755,14 @@ const cursos = [
     "aula": "Aula 6",
     "nome": "Aula prática - Eventos naturais da litosfera",
     "descricao": "Propõe uma atividade prática para compreender os movimentos da litosfera e seus eventos naturais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -6581,9 +6800,9 @@ const cursos = [
         "es": "Propone una actividad práctica para comprender los movimientos de la litosfera y sus eventos naturales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -6595,12 +6814,14 @@ const cursos = [
     "aula": "Aula 7",
     "nome": "Atmosfera da Terra",
     "descricao": "Apresenta a composição, as camadas e a importância da atmosfera terrestre para a manutenção da vida.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -6638,9 +6859,9 @@ const cursos = [
         "es": "Presenta la composición, las capas y la importancia de la atmósfera terrestre para el mantenimiento de la vida."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -6652,12 +6873,14 @@ const cursos = [
     "aula": "Aula 8",
     "nome": "Camada de ozônio",
     "descricao": "Explica a função da camada de ozônio e sua importância na proteção contra a radiação ultravioleta.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -6695,9 +6918,9 @@ const cursos = [
         "es": "Explica la función de la capa de ozono y su importancia en la protección contra la radiación ultravioleta."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -6709,12 +6932,14 @@ const cursos = [
     "aula": "Aula 9",
     "nome": "Pressão atmosférica",
     "descricao": "Apresenta o conceito de pressão atmosférica e sua relação com altitude, clima e fenômenos meteorológicos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -6752,9 +6977,9 @@ const cursos = [
         "es": "Presenta el concepto de presión atmosférica y su relación con altitud, clima y fenómenos meteorológicos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -6766,12 +6991,14 @@ const cursos = [
     "aula": "Aula 10",
     "nome": "Qualidade do ar",
     "descricao": "Discute os fatores que afetam a qualidade do ar e seus impactos sobre o ambiente e a saúde.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -6809,9 +7036,9 @@ const cursos = [
         "es": "Analiza los factores que afectan la calidad del aire y sus impactos sobre el ambiente y la salud."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -6823,12 +7050,14 @@ const cursos = [
     "aula": "Aula 11",
     "nome": "Doenças respiratórias",
     "descricao": "Apresenta doenças respiratórias e relaciona sua ocorrência à poluição do ar e a outros fatores ambientais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -6866,9 +7095,9 @@ const cursos = [
         "es": "Presenta enfermedades respiratorias y relaciona su aparición a la contaminación del aire y otros factores ambientales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -6880,12 +7109,14 @@ const cursos = [
     "aula": "Aula 12",
     "nome": "Aula prática - Atmosfera",
     "descricao": "Propõe uma atividade prática para investigar propriedades e fenômenos relacionados à atmosfera.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -6923,9 +7154,9 @@ const cursos = [
         "es": "Propone una actividad práctica para investigar propiedades y fenómenos relacionados con atmósfera."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -6937,12 +7168,14 @@ const cursos = [
     "aula": "Aula 13",
     "nome": "Máquina simples - Força",
     "descricao": "Apresenta o conceito de força e sua aplicação no funcionamento das máquinas simples.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -6980,9 +7213,9 @@ const cursos = [
         "es": "Presenta el concepto de fuerza y su aplicación en el funcionamiento de las máquinas simples."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -6994,12 +7227,14 @@ const cursos = [
     "aula": "Aula 14",
     "nome": "Máquinas simples - Alavancas e plano inclinado",
     "descricao": "Explica o funcionamento das alavancas e dos planos inclinados e sua utilidade no cotidiano.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -7037,9 +7272,9 @@ const cursos = [
         "es": "Explica el funcionamiento de las palancas y de los planos inclinados y su utilidad en el vida cotidiana."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -7051,12 +7286,14 @@ const cursos = [
     "aula": "Aula 15",
     "nome": "Máquinas simples - Roda, eixo e polia",
     "descricao": "Apresenta o funcionamento da roda, do eixo e da polia como exemplos de máquinas simples.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -7094,9 +7331,9 @@ const cursos = [
         "es": "Presenta el funcionamiento de la rueda, del eje y de la polea cómo ejemplos de máquinas simples."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -7108,12 +7345,14 @@ const cursos = [
     "aula": "Aula 16",
     "nome": "Calor e temperatura",
     "descricao": "Diferencia calor e temperatura e explica como essas grandezas estão relacionadas à energia térmica.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -7151,9 +7390,9 @@ const cursos = [
         "es": "Diferencia calor y temperatura y explica cómo estas magnitudes están relacionadas con la energía térmica."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -7165,12 +7404,14 @@ const cursos = [
     "aula": "Aula 17",
     "nome": "Propagação de calor",
     "descricao": "Apresenta as formas de propagação do calor: condução, convecção e radiação.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -7208,9 +7449,9 @@ const cursos = [
         "es": "Presenta las formas de transferencia de calor: conducción, convección y radiación."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -7222,12 +7463,14 @@ const cursos = [
     "aula": "Aula 18",
     "nome": "Equilíbrio termodinâmico e escalas de temperaturas",
     "descricao": "Explica o equilíbrio termodinâmico e apresenta as principais escalas usadas para medir a temperatura.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -7265,9 +7508,9 @@ const cursos = [
         "es": "Explica el equilibrio termodinámico y Presenta las principales escalas usadas para medir la temperatura."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -7279,12 +7522,14 @@ const cursos = [
     "aula": "Aula 19",
     "nome": "Máquinas térmicas no cotidiano",
     "descricao": "Apresenta o funcionamento das máquinas térmicas e identifica exemplos presentes no cotidiano.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -7322,9 +7567,9 @@ const cursos = [
         "es": "Presenta el funcionamiento de las máquinas térmicas e identifica ejemplos presentes en el vida cotidiana."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -7336,12 +7581,14 @@ const cursos = [
     "aula": "Aula 20",
     "nome": "Máquinas elétricas",
     "descricao": "Apresenta máquinas que utilizam energia elétrica e explica transformações de energia em seu funcionamento.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -7379,9 +7626,9 @@ const cursos = [
         "es": "Presenta máquinas que utilizam energía eléctrica y explica transformaciones de energía en su funcionamiento."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -7393,12 +7640,14 @@ const cursos = [
     "aula": "Aula 21",
     "nome": "Desenvolvimento tecnológico",
     "descricao": "Discute como o desenvolvimento tecnológico transforma a sociedade, o trabalho e a relação com o ambiente.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -7436,9 +7685,9 @@ const cursos = [
         "es": "Analiza cómo el desarrollo tecnológico transforma la sociedad, el trabajo y la relación con el ambiente."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -7450,12 +7699,14 @@ const cursos = [
     "aula": "Aula 1",
     "nome": "Combustíveis fósseis",
     "descricao": "Apresenta a origem, os usos e os impactos ambientais provocados pela utilização dos combustíveis fósseis.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -7493,9 +7744,9 @@ const cursos = [
         "es": "Presenta la origen, los usos y los impactos ambientales causados por la uso de los combustibles fósiles."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -7507,12 +7758,14 @@ const cursos = [
     "aula": "Aula 2",
     "nome": "Desmatamento e queimadas",
     "descricao": "Analisa as causas e as consequências do desmatamento e das queimadas para os ecossistemas e para a sociedade.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -7550,9 +7803,9 @@ const cursos = [
         "es": "Analiza las causas y las consecuencias del deforestación y de las incendios forestales para los ecosistemas y para la sociedad."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -7564,12 +7817,14 @@ const cursos = [
     "aula": "Aula 3",
     "nome": "Efeito estufa",
     "descricao": "Explica o efeito estufa como fenômeno natural e relaciona sua intensificação às atividades humanas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -7607,9 +7862,9 @@ const cursos = [
         "es": "Explica el efecto invernadero cómo fenómeno natural y relaciona su intensificación a las actividades humanas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -7621,12 +7876,14 @@ const cursos = [
     "aula": "Aula 4",
     "nome": "Mudanças climáticas",
     "descricao": "Apresenta as causas, as evidências e as consequências das mudanças climáticas no planeta.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -7664,9 +7921,9 @@ const cursos = [
         "es": "Presenta las causas, las evidencias y las consecuencias de las cambio climático en el planeta."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -7678,12 +7935,14 @@ const cursos = [
     "aula": "Aula 5",
     "nome": "Eventos climáticos extremos",
     "descricao": "Relaciona as mudanças climáticas ao aumento da frequência e da intensidade de eventos climáticos extremos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -7721,9 +7980,9 @@ const cursos = [
         "es": "Relaciona las cambio climático al aumento de la frecuencia y de la intensidad de eventos climáticos extremos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -7735,12 +7994,14 @@ const cursos = [
     "aula": "Aula 6",
     "nome": "Campanha de conscientização ambiental",
     "descricao": "Propõe a elaboração de uma campanha para informar e mobilizar a comunidade sobre problemas ambientais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -7778,9 +8039,9 @@ const cursos = [
         "es": "Propone la elaboración de una campaña para informar y mobilizar la comunidad sobre problemas ambientales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -7792,12 +8053,14 @@ const cursos = [
     "aula": "Aula 7",
     "nome": "Sustentabilidade",
     "descricao": "Apresenta o conceito de sustentabilidade e sua relação com o uso responsável dos recursos naturais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -7835,9 +8098,9 @@ const cursos = [
         "es": "Presenta el concepto de sostenibilidad y su relación con el uso responsable de los recursos naturales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -7849,12 +8112,14 @@ const cursos = [
     "aula": "Aula 8",
     "nome": "Objetivos do desenvolvimento sustentável",
     "descricao": "Apresenta os Objetivos de Desenvolvimento Sustentável e sua importância para enfrentar desafios sociais e ambientais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -7892,9 +8157,9 @@ const cursos = [
         "es": "Presenta los Objetivos de Desarrollo Sostenible y su importancia para afrontar desafíos sociales y ambientales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -7906,12 +8171,14 @@ const cursos = [
     "aula": "Aula 9",
     "nome": "Agenda 2030",
     "descricao": "Explica a proposta da Agenda 2030 e sua relação com os Objetivos de Desenvolvimento Sustentável.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -7949,9 +8216,9 @@ const cursos = [
         "es": "Explica la propuesta de la Agenda 2030 y su relación con los Objetivos de Desarrollo Sostenible."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -7963,12 +8230,14 @@ const cursos = [
     "aula": "Aula 10",
     "nome": "Plano de intervenção sustentável",
     "descricao": "Orienta a elaboração de um plano de intervenção com ações sustentáveis aplicáveis à escola ou à comunidade.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -8006,9 +8275,9 @@ const cursos = [
         "es": "Orienta la elaboración de un plan de intervención con acciones sostenibles aplicables a escuela o a la comunidad."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -8020,12 +8289,14 @@ const cursos = [
     "aula": "Aula 11",
     "nome": "Diversidade da vida - microrganismos",
     "descricao": "Apresenta a diversidade dos microrganismos e sua presença em diferentes ambientes.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -8063,9 +8334,9 @@ const cursos = [
         "es": "Presenta la diversidad de microorganismos y su presencia en diferentes ambientes."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -8077,12 +8348,14 @@ const cursos = [
     "aula": "Aula 12",
     "nome": "Doenças causadas por microrganismos",
     "descricao": "Identifica doenças causadas por microrganismos e discute formas de prevenção e cuidado com a saúde.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -8120,9 +8393,9 @@ const cursos = [
         "es": "Identifica enfermedades causadas por microorganismos y analiza formas de prevención y cuidado con la salud."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -8134,12 +8407,14 @@ const cursos = [
     "aula": "Aula 13",
     "nome": "Diversidade de invertebrados",
     "descricao": "Apresenta os principais grupos de animais invertebrados e suas características.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -8177,9 +8452,9 @@ const cursos = [
         "es": "Presenta los principales grupos de animales invertebrados y sus características."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -8191,12 +8466,14 @@ const cursos = [
     "aula": "Aula 14",
     "nome": "Invertebrados no cotidiano",
     "descricao": "Relaciona os animais invertebrados a situações do cotidiano, à saúde, à alimentação e ao equilíbrio ambiental.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -8234,9 +8511,9 @@ const cursos = [
         "es": "Relaciona los animales invertebrados la situaciones del vida cotidiana, para la salud, a la alimentación y al equilibrio ambiental."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -8248,12 +8525,14 @@ const cursos = [
     "aula": "Aula 15",
     "nome": "Relação entre os diferentes vertebrados",
     "descricao": "Compara os diferentes grupos de vertebrados e identifica semelhanças e diferenças entre eles.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -8291,9 +8570,9 @@ const cursos = [
         "es": "Compara los diferentes grupos de vertebrados e identifica semejanzas y diferencias entre ellos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -8305,12 +8584,14 @@ const cursos = [
     "aula": "Aula 16",
     "nome": "Diversidade de vertebrados",
     "descricao": "Apresenta a diversidade dos vertebrados e suas adaptações aos diferentes ambientes.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -8348,9 +8629,9 @@ const cursos = [
         "es": "Presenta la diversidad de los vertebrados y sus adaptaciones a los diferentes ambientes."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -8362,12 +8643,14 @@ const cursos = [
     "aula": "Aula 17",
     "nome": "Diversidade das plantas",
     "descricao": "Apresenta os principais grupos de plantas e suas características gerais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -8405,9 +8688,9 @@ const cursos = [
         "es": "Presenta los principales grupos de plantas y sus características generales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -8419,12 +8702,14 @@ const cursos = [
     "aula": "Aula 18",
     "nome": "Importância ecológica das plantas",
     "descricao": "Explica a importância das plantas para os ecossistemas, para os seres vivos e para o equilíbrio ambiental.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -8462,9 +8747,9 @@ const cursos = [
         "es": "Explica la importancia de las plantas para los ecosistemas, para los seres vivos y para el equilibrio ambiental."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -8476,12 +8761,14 @@ const cursos = [
     "aula": "Aula 19",
     "nome": "Investigação da biodiversidade vegetal local",
     "descricao": "Propõe a observação e o registro da diversidade de plantas existente na escola ou em seu entorno.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -8519,9 +8806,9 @@ const cursos = [
         "es": "Propone la observación y el registro de la diversidad de plantas existente en la escuela o en sus alrededores."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -8533,12 +8820,14 @@ const cursos = [
     "aula": "Aula 20",
     "nome": "Retomada - sustentabilidade",
     "descricao": "Retoma os principais conceitos relacionados à sustentabilidade, à Agenda 2030 e às ações de intervenção.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -8576,9 +8865,9 @@ const cursos = [
         "es": "Repasa los principales conceptos relacionados con sostenibilidad, a la Agenda 2030 y a las acciones de intervención."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -8590,12 +8879,14 @@ const cursos = [
     "aula": "Aula 21",
     "nome": "Retomada - biodiversidade",
     "descricao": "Revisa os conceitos relacionados à diversidade de microrganismos, animais e plantas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -8633,9 +8924,9 @@ const cursos = [
         "es": "Revisa los conceptos relacionados con diversidad de microorganismos, animales y plantas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -8647,12 +8938,14 @@ const cursos = [
     "aula": "Aula 23",
     "nome": "SP. ACE - OBA e OBAFOG",
     "descricao": "Apresenta atividades relacionadas à Olimpíada Brasileira de Astronomia e Astronáutica e à OBAFOG.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -8690,9 +8983,9 @@ const cursos = [
         "es": "Presenta actividades relacionadas con Olimpiada Brasileña de Astronomía y Astronáutica y a la OBAFOG."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -8708,7 +9001,9 @@ const cursos = [
     "status": "DISPONÍVEL",
     "linkAula": "https://youtu.be/DNzOo4BYtmY?list=PLdcJwfpw3J4A",
     "linkMusica": "",
-    "linkPdf": "",
+    "linkPdf": "https://drive.google.com/file/d/1XPaHScitwvWPHrIBBQNbLJZXXZHdQ6V4/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLMiTpb87C8CY",
+    "linkAplicativo": "",
     "duracaoMinutos": 16,
     "i18n": {
       "material": {
@@ -8765,7 +9060,9 @@ const cursos = [
     "status": "DISPONÍVEL",
     "linkAula": "https://youtu.be/xmIhfqpxPXs?list=PLdcJwfpw3J4A",
     "linkMusica": "",
-    "linkPdf": "",
+    "linkPdf": "https://drive.google.com/file/d/1YURfGZ4ns8X5E9qMg3JG1tn-ePyp5ug9/view?usp=sharing",
+	"linkAprofundamento": "https://youtu.be/bShwn-z0-wg?list=PLXXIkklJqmKm8ynmzHcQUeKvk9tq6VrpJ",
+    "linkAplicativo": "",
     "duracaoMinutos": 14,
     "i18n": {
       "material": {
@@ -8822,7 +9119,9 @@ const cursos = [
     "status": "DISPONÍVEL",
     "linkAula": "https://youtu.be/QQlvs8iCBvs?list=PLdcJwfpw3J4A",
     "linkMusica": "",
-    "linkPdf": "",
+    "linkPdf": "https://drive.google.com/file/d/1N-f1jQIa0qDPFFxFSpB5joUsRgMoAYcM/view?usp=sharing",
+	"linkAprofundamento": "https://youtu.be/e8xD16e3rAk?list=PLXXIkklJqmKm8ynmzHcQUeKvk9tq6VrpJ",
+    "linkAplicativo": "",
     "duracaoMinutos": 13,
     "i18n": {
       "material": {
@@ -8875,12 +9174,14 @@ const cursos = [
     "aula": "Aula 4",
     "nome": "Cerrado",
     "descricao": "Apresenta as características do Cerrado, sua biodiversidade, vegetação e importância ecológica.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
-    "linkAula": "",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/AahNU9aeBoY?list=PLdcJwfpw3J4A",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1qSpqdUrLFUVxC-zd3VOcx3MAm99pFbXQ/view?usp=sharing",
+	"linkAprofundamento": "https://youtu.be/788WH2ctu90?list=PLXXIkklJqmKm8ynmzHcQUeKvk9tq6VrpJ",
+    "linkAplicativo": "",
+    "duracaoMinutos": 13,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -8918,9 +9219,9 @@ const cursos = [
         "es": "Presenta las características del Cerrado, su biodiversidad, vegetación y importancia ecológica."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -8932,12 +9233,14 @@ const cursos = [
     "aula": "Aula 5",
     "nome": "Os desafios da preservação do Cerrado",
     "descricao": "Discute os impactos das atividades humanas e os desafios envolvidos na conservação do Cerrado.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
-    "linkAula": "",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/aTGBOaKGyDk?list=PLdcJwfpw3J4A",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1hO_9j9BD7onM-adQkp4sVzfAUuMLu0Ey/view?usp=sharing",
+	"linkAprofundamento": "https://youtu.be/J86C1KT5x4Q?list=PLXXIkklJqmKm8ynmzHcQUeKvk9tq6VrpJ",
+    "linkAplicativo": "",
+    "duracaoMinutos": 14,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -8975,9 +9278,9 @@ const cursos = [
         "es": "Analiza los impactos de las actividades humanas y los desafíos implicados en la conservación del Cerrado."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -8989,12 +9292,14 @@ const cursos = [
     "aula": "Aula 6",
     "nome": "Aula prática - Investigação da biodiversidade local",
     "descricao": "Propõe uma investigação prática para observar, registrar e analisar a biodiversidade presente no ambiente local.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
-    "linkAula": "",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/kIcL536huHk?list=PLdcJwfpw3J4A",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1zLwNaLIeYIyATViUlfy4UjmG_e1Ao4RJ/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLA928Os7eRuI",
+    "linkAplicativo": "",
+    "duracaoMinutos": 11,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -9032,9 +9337,9 @@ const cursos = [
         "es": "Propone una investigación práctica para observar, registrar y analizar la biodiversidad presente en el entorno local."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -9046,12 +9351,14 @@ const cursos = [
     "aula": "Aula 7",
     "nome": "Amazônia",
     "descricao": "Apresenta as principais características da Amazônia, sua biodiversidade e sua importância para o equilíbrio ambiental.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1J5Xnq2aFQ_f_ZtuZjHw0OcLyQw-RKgm7/view?usp=sharing",
+	"linkAprofundamento": "https://youtu.be/sVdsHjsAR-s?list=PLXXIkklJqmKm8ynmzHcQUeKvk9tq6VrpJ",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -9089,9 +9396,9 @@ const cursos = [
         "es": "Presenta las principales características de la Amazonía, su biodiversidad y su importancia para el equilibrio ambiental."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -9103,12 +9410,14 @@ const cursos = [
     "aula": "Aula 8",
     "nome": "Desafios na conservação da Amazônia",
     "descricao": "Analisa ameaças como desmatamento, queimadas e exploração de recursos, relacionando-as à conservação da Amazônia.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1niEqqX5uhaxGFUtO_yy8K7MnoA6MsyLb/view?usp=sharing",
+	"linkAprofundamento": "https://youtu.be/xN8nfKReO5A?list=PLXXIkklJqmKm8ynmzHcQUeKvk9tq6VrpJ",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -9146,9 +9455,9 @@ const cursos = [
         "es": "Analiza amenazas cómo deforestación, incendios forestales y explotación de recursos, relacionando-las a la conservación de la Amazonía."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -9160,12 +9469,14 @@ const cursos = [
     "aula": "Aula 9",
     "nome": "Pantanal",
     "descricao": "Estuda as características do Pantanal, sua dinâmica de cheias e secas e sua rica biodiversidade.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1AqpEldDsBJW1x9BYtERD_cEJLWJDb-4C/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLAC4O1tL2SbM",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -9203,9 +9514,9 @@ const cursos = [
         "es": "Estudia las características del Pantanal, su dinámica de inundaciones y sequías y su rica biodiversidad."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -9217,12 +9528,14 @@ const cursos = [
     "aula": "Aula 10",
     "nome": "Pampa ou Campos Sulinos",
     "descricao": "Apresenta as características do Pampa, sua vegetação, fauna e importância ambiental.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1sOTn-lFw7s77XWUgW2WDIBVAgCweSHu0/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLHqg-Lw_d-Rc",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -9260,9 +9573,9 @@ const cursos = [
         "es": "Presenta las características del Pampa, su vegetación, fauna y importancia ambiental."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -9274,12 +9587,14 @@ const cursos = [
     "aula": "Aula 11",
     "nome": "Caatinga",
     "descricao": "Estuda as características da Caatinga, suas adaptações ao clima seco e sua biodiversidade.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1vKWSlhPZj2bMObxNwAZZ1BQQ3vlv1fVO/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLcV5dcG9mCmU",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -9317,9 +9632,9 @@ const cursos = [
         "es": "Estudia las características de la Caatinga, sus adaptaciones al clima seco y su biodiversidad."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -9331,12 +9646,14 @@ const cursos = [
     "aula": "Aula 12",
     "nome": "Construindo uma campanha de conscientização ambiental",
     "descricao": "Orienta a criação de uma campanha de conscientização voltada à preservação ambiental e ao cuidado com os biomas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1ZcauA5pYD14bXIzcwGhQsFxYrXHVkX7Z/view?usp=sharing",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -9374,9 +9691,9 @@ const cursos = [
         "es": "Orienta la creación de una campaña de sensibilización dirigida a preservación ambiental y al cuidado con los biomas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -9388,12 +9705,14 @@ const cursos = [
     "aula": "Aula 13",
     "nome": "Unidades de conservação",
     "descricao": "Explica o que são unidades de conservação e como elas contribuem para a proteção da biodiversidade.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1UphoTKjWv3GjUqbkz9sJ_SRbmZCboevE/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLO_JkWX2P5f8",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -9431,9 +9750,9 @@ const cursos = [
         "es": "Explica el que son áreas protegidas y cómo ellas contribuyen para la protección de la biodiversidad."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -9445,12 +9764,14 @@ const cursos = [
     "aula": "Aula 14",
     "nome": "Agricultura",
     "descricao": "Apresenta práticas agrícolas e discute sua relação com o uso do solo, a produção de alimentos e os impactos ambientais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1PZEsVWoNUtnYwQG8EWQ1V7WIH41pPRcC/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLIS-hkcGScs4",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -9488,9 +9809,9 @@ const cursos = [
         "es": "Presenta prácticas agrícolas y discuty su relación con el uso del suelo, la producción de alimentos y los impactos ambientales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -9502,12 +9823,14 @@ const cursos = [
     "aula": "Aula 15",
     "nome": "Júri simulado sobre produção de alimentos e uso do solo",
     "descricao": "Propõe um júri simulado para analisar diferentes pontos de vista sobre produção de alimentos, uso do solo e impactos ambientais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/15spGdw1MrngDZednY9i2etG8KVpDxgwH/view?usp=sharing",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -9545,9 +9868,9 @@ const cursos = [
         "es": "Propone un juicio simulado para analizar diferentes pontos de vista sobre producción de alimentos, uso del suelo y impactos ambientales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -9559,12 +9882,14 @@ const cursos = [
     "aula": "Aula 16",
     "nome": "Saúde única",
     "descricao": "Apresenta o conceito de saúde única, relacionando a saúde humana, a saúde animal e a saúde ambiental.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1IU6BazL6mZy5j8rzaA8ZNrP_cwCVzo9p/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLDN3xXIGzf6s",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -9602,9 +9927,9 @@ const cursos = [
         "es": "Presenta el concepto de Una Salud, relacionando la salud humana, la salud animal y la salud ambiental."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -9616,12 +9941,14 @@ const cursos = [
     "aula": "Aula 17",
     "nome": "Retomada - Unidades de conservação e biomas",
     "descricao": "Retoma os principais conceitos sobre biomas brasileiros, biodiversidade e unidades de conservação.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1b-NoobQXhcgvnw_DA4KT_nvSZI9MdvW5/view?usp=sharing",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -9659,9 +9986,9 @@ const cursos = [
         "es": "Repasa los principales conceptos sobre biomas brasileños, biodiversidad y áreas protegidas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -9673,12 +10000,14 @@ const cursos = [
     "aula": "Aula 18",
     "nome": "Retomada - Agricultura, impactos ambientais e saúde única",
     "descricao": "Revisa as relações entre agricultura, uso do solo, impactos ambientais e o conceito de saúde única.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/19-JwbLGgc82-nlVWDSbwSxnBAGcJKR87/view?usp=sharing",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -9716,9 +10045,9 @@ const cursos = [
         "es": "Revisa las relaciones entre agricultura, uso del suelo, impactos ambientales y el concepto de Una Salud."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -9730,12 +10059,14 @@ const cursos = [
     "aula": "Aula 1",
     "nome": "Adolescência",
     "descricao": "Apresenta a adolescência como uma fase de mudanças físicas, emocionais, sociais e comportamentais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -9773,9 +10104,9 @@ const cursos = [
         "es": "Presenta la adolescencia cómo una fase de cambios físicas, emocionales, sociales y conductuales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -9787,12 +10118,14 @@ const cursos = [
     "aula": "Aula 2",
     "nome": "Puberdade",
     "descricao": "Explica as principais transformações corporais e hormonais que ocorrem durante a puberdade.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -9830,9 +10163,9 @@ const cursos = [
         "es": "Explica las principales transformaciones corporales y hormonales que ocurren durante la pubertad."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -9844,12 +10177,14 @@ const cursos = [
     "aula": "Aula 3",
     "nome": "Desenvolvimento dos sistemas nervoso e endócrino",
     "descricao": "Relaciona o desenvolvimento dos sistemas nervoso e endócrino às mudanças que acontecem na adolescência.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -9887,9 +10222,9 @@ const cursos = [
         "es": "Relaciona el desarrollo de los sistemas nervioso y endocrino a las cambios que ocurren en la adolescencia."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -9901,12 +10236,14 @@ const cursos = [
     "aula": "Aula 4",
     "nome": "Reprodução assexuada",
     "descricao": "Apresenta as características da reprodução assexuada e exemplos desse processo em diferentes seres vivos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -9944,9 +10281,9 @@ const cursos = [
         "es": "Presenta las características de la reproducción asexual y ejemplos de este proceso en diferentes seres vivos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -9958,12 +10295,14 @@ const cursos = [
     "aula": "Aula 5",
     "nome": "Reprodução sexuada",
     "descricao": "Explica como ocorre a reprodução sexuada e sua importância para a diversidade genética.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -10001,9 +10340,9 @@ const cursos = [
         "es": "Explica cómo ocurre la reproducción sexual y su importancia para la diversidad genética."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -10015,12 +10354,14 @@ const cursos = [
     "aula": "Aula 6",
     "nome": "Cuidado parental e sucesso reprodutivo",
     "descricao": "Relaciona o cuidado com os filhotes ao aumento das chances de sobrevivência e sucesso reprodutivo.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -10058,9 +10399,9 @@ const cursos = [
         "es": "Relaciona el cuidado con los crías al aumento de las posibilidades de supervivencia y éxito reproductivo."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -10072,12 +10413,14 @@ const cursos = [
     "aula": "Aula 7",
     "nome": "Estratégia de reprodução das plantas",
     "descricao": "Apresenta diferentes estratégias reprodutivas utilizadas pelas plantas para garantir sua continuidade.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -10115,9 +10458,9 @@ const cursos = [
         "es": "Presenta diferentes estrategias reproductivas utilizadas por las plantas para garantizar su continuidade."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -10129,12 +10472,14 @@ const cursos = [
     "aula": "Aula 8",
     "nome": "Reprodução das gimnospermas e angiospermas",
     "descricao": "Compara a reprodução das gimnospermas e das angiospermas, destacando sementes, flores e frutos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -10172,9 +10517,9 @@ const cursos = [
         "es": "Compara la reproducción de las gimnospermas y de las angiospermas, destacando semillas, flores y frutos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -10186,12 +10531,14 @@ const cursos = [
     "aula": "Aula 9",
     "nome": "Aula prática - o papel dos polinizadores",
     "descricao": "Investiga a importância dos polinizadores para a reprodução das plantas e para a produção de alimentos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -10229,9 +10576,9 @@ const cursos = [
         "es": "Investiga la importancia de los polinizadores para la reproducción de las plantas y para la producción de alimentos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -10243,12 +10590,14 @@ const cursos = [
     "aula": "Aula 10",
     "nome": "Saúde reprodutiva - sistema genital",
     "descricao": "Apresenta os principais órgãos do sistema genital e sua relação com a saúde reprodutiva.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -10286,9 +10635,9 @@ const cursos = [
         "es": "Presenta los principales órganos del sistema reproductor y su relación con la salud reproductiva."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -10300,12 +10649,14 @@ const cursos = [
     "aula": "Aula 11",
     "nome": "Prevenção e autocuidado",
     "descricao": "Discute atitudes de prevenção, higiene, respeito ao próprio corpo e cuidados com a saúde.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -10343,9 +10694,9 @@ const cursos = [
         "es": "Analiza actitudes de prevención, higiene, respeto al propio cuerpo y cuidados con la salud."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -10357,12 +10708,14 @@ const cursos = [
     "aula": "Aula 12",
     "nome": "Infecções sexualmente transmissíveis (ISTs)",
     "descricao": "Apresenta as principais infecções sexualmente transmissíveis, formas de transmissão e prevenção.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -10400,9 +10753,9 @@ const cursos = [
         "es": "Presenta las principales infecciones de transmisión sexual, formas de transmisión y prevención."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -10414,12 +10767,14 @@ const cursos = [
     "aula": "Aula 13",
     "nome": "HPV",
     "descricao": "Explica o que é o HPV, suas formas de transmissão, prevenção e a importância da vacinação.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -10457,9 +10812,9 @@ const cursos = [
         "es": "Explica el que é el HPV, sus formas de transmisión, prevención y la importancia de la vacunación."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -10471,12 +10826,14 @@ const cursos = [
     "aula": "Aula 14",
     "nome": "Sífilis",
     "descricao": "Apresenta as formas de transmissão, os sinais, a prevenção e o tratamento da sífilis.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -10514,9 +10871,9 @@ const cursos = [
         "es": "Presenta las formas de transmisión, los sinais, la prevención y el tratamiento de la sífilis."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -10528,12 +10885,14 @@ const cursos = [
     "aula": "Aula 15",
     "nome": "HIV-Aids",
     "descricao": "Diferencia HIV e Aids e explica formas de transmissão, prevenção e tratamento.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -10571,9 +10930,9 @@ const cursos = [
         "es": "Diferencia HIV y Sida y explica formas de transmisión, prevención y tratamiento."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -10585,12 +10944,14 @@ const cursos = [
     "aula": "Aula 16",
     "nome": "Métodos contraceptivos",
     "descricao": "Apresenta diferentes métodos contraceptivos, seus usos e sua relação com a prevenção da gravidez.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -10628,9 +10989,9 @@ const cursos = [
         "es": "Presenta diferentes métodos anticonceptivos, sus usos y su relación con la prevención de la embarazo."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -10642,12 +11003,14 @@ const cursos = [
     "aula": "Aula 17",
     "nome": "Aula prática - projeto de vida - parte 1",
     "descricao": "Propõe uma reflexão inicial sobre escolhas, objetivos pessoais, responsabilidades e projeto de vida.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -10685,9 +11048,9 @@ const cursos = [
         "es": "Propone una reflexión inicial sobre decisiones, objetivos pessoais, responsabilidades y proyecto de vida."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -10699,12 +11062,14 @@ const cursos = [
     "aula": "Aula 18",
     "nome": "Aula prática - projeto de vida - parte 2",
     "descricao": "Dá continuidade à construção do projeto de vida, considerando metas, escolhas e consequências.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -10742,9 +11107,9 @@ const cursos = [
         "es": "Continúa la construcción del proyecto de vida, considerando metas, decisiones y consecuencias."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -10756,12 +11121,14 @@ const cursos = [
     "aula": "Aula 19",
     "nome": "Vulnerabilidade",
     "descricao": "Discute situações de vulnerabilidade e fatores que podem aumentar riscos à saúde e ao bem-estar.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -10799,9 +11166,9 @@ const cursos = [
         "es": "Analiza situaciones de vulnerabilidad y factores que pueden aumentar riesgos para la salud y al bienestar."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -10813,12 +11180,14 @@ const cursos = [
     "aula": "Aula 20",
     "nome": "Diferentes manifestações da sexualidade humana",
     "descricao": "Aborda a sexualidade humana de forma respeitosa, considerando aspectos biológicos, emocionais e sociais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -10856,9 +11225,9 @@ const cursos = [
         "es": "Aborda la sexualidad humana de forma respetuosa, considerando aspectos biológicos, emocionales y sociales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -10870,12 +11239,14 @@ const cursos = [
     "aula": "Aula 21",
     "nome": "O que são drogas",
     "descricao": "Explica o conceito de drogas e diferencia substâncias lícitas, ilícitas, estimulantes, depressoras e perturbadoras.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -10913,9 +11284,9 @@ const cursos = [
         "es": "Explica el concepto de drogas y Diferencia sustancias legales, ilegales, estimulantes, depresoras y alucinógenas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -10927,12 +11298,14 @@ const cursos = [
     "aula": "Aula 22",
     "nome": "Efeitos das drogas no organismo",
     "descricao": "Analisa como diferentes drogas atuam no sistema nervoso e afetam o organismo e o comportamento.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -10970,9 +11343,9 @@ const cursos = [
         "es": "Analiza cómo diferentes drogas actúan en el sistema nervioso y afectan el organismo y el comportamiento."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -10984,12 +11357,14 @@ const cursos = [
     "aula": "Aula 23",
     "nome": "Tabagismo e alcoolismo",
     "descricao": "Discute os efeitos do tabaco e do álcool no organismo e os riscos associados ao consumo dessas substâncias.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -11027,9 +11402,9 @@ const cursos = [
         "es": "Analiza los efectos del tabaco y del alcohol en el organismo y los riesgos asociados al consumo de estas sustancias."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -11041,12 +11416,14 @@ const cursos = [
     "aula": "Aula 24",
     "nome": "Aula prática - prevenção ao uso de drogas",
     "descricao": "Propõe estratégias de prevenção ao uso de drogas e reflexão sobre escolhas saudáveis.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -11084,9 +11461,9 @@ const cursos = [
         "es": "Propone estrategias de prevención al consumo de drogas y reflexión sobre decisiones saludables."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -11098,12 +11475,14 @@ const cursos = [
     "aula": "Aula 25",
     "nome": "Retomada - adolescência e puberdade",
     "descricao": "Retoma os principais conceitos relacionados à adolescência, à puberdade e às mudanças corporais e emocionais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -11141,9 +11520,9 @@ const cursos = [
         "es": "Repasa los principales conceptos relacionados con adolescencia, a la pubertad y a las cambios corporales y emocionales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -11155,12 +11534,14 @@ const cursos = [
     "aula": "Aula 26",
     "nome": "Retomada - reprodução",
     "descricao": "Revisa os principais conceitos sobre reprodução assexuada, sexuada e estratégias reprodutivas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -11198,9 +11579,9 @@ const cursos = [
         "es": "Revisa los principales conceptos sobre reproducción asexual, sexual y estrategias reproductivas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -11212,12 +11593,14 @@ const cursos = [
     "aula": "Aula 27",
     "nome": "Retomada - IST e gravidez na adolescência",
     "descricao": "Revisa formas de prevenção das ISTs, métodos contraceptivos e questões relacionadas à gravidez na adolescência.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -11255,9 +11638,9 @@ const cursos = [
         "es": "Revisa formas de prevención de las ITS, métodos anticonceptivos y cuestiones relacionadas con embarazo adolescente."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -11269,12 +11652,14 @@ const cursos = [
     "aula": "Aula 28",
     "nome": "Retomada - drogas",
     "descricao": "Retoma os conceitos sobre tipos de drogas, efeitos no organismo, prevenção e riscos à saúde.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -11312,9 +11697,9 @@ const cursos = [
         "es": "Repasa los conceptos sobre tipos de drogas, efectos en el organismo, prevención y riesgos para la salud."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -11326,12 +11711,14 @@ const cursos = [
     "aula": "Aula 1",
     "nome": "Macronutrientes",
     "descricao": "Apresenta os principais macronutrientes, suas funções no organismo e sua importância para uma alimentação equilibrada.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -11369,9 +11756,9 @@ const cursos = [
         "es": "Presenta los principales macronutrientes, sus funciones en el organismo y su importancia para una alimentación equilibrada."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -11383,12 +11770,14 @@ const cursos = [
     "aula": "Aula 2",
     "nome": "Micronutrientes",
     "descricao": "Explica o papel das vitaminas e dos sais minerais no funcionamento do organismo e na manutenção da saúde.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -11426,9 +11815,9 @@ const cursos = [
         "es": "Explica el papel de las vitaminas y de los sales minerales en el funcionamiento del organismo y en el mantenimiento de la salud."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -11440,12 +11829,14 @@ const cursos = [
     "aula": "Aula 3",
     "nome": "Guia Alimentar da População Brasileira",
     "descricao": "Apresenta as orientações do Guia Alimentar da População Brasileira para escolhas alimentares mais saudáveis.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -11483,9 +11874,9 @@ const cursos = [
         "es": "Presenta las orientaciones del Guía Alimentaria para la Población Brasileña para decisiones alimentarios más saludables."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -11497,12 +11888,14 @@ const cursos = [
     "aula": "Aula 4",
     "nome": "Segurança alimentar e vulnerabilidade",
     "descricao": "Discute o direito à alimentação adequada e os impactos da vulnerabilidade social sobre a segurança alimentar.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -11540,9 +11933,9 @@ const cursos = [
         "es": "Analiza el derecho a la alimentación adecuada y los impactos de la vulnerabilidad social sobre la seguridad alimentaria."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -11554,12 +11947,14 @@ const cursos = [
     "aula": "Aula 5",
     "nome": "Leitura de rótulos",
     "descricao": "Ensina a interpretar informações nutricionais, ingredientes e advertências presentes nos rótulos dos alimentos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -11597,9 +11992,9 @@ const cursos = [
         "es": "Enseña la interpretar información nutricionales, ingredientes y advertencias presentes en los etiquetas de los alimentos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -11611,12 +12006,14 @@ const cursos = [
     "aula": "Aula 6",
     "nome": "O sistema digestório",
     "descricao": "Apresenta os principais órgãos do sistema digestório e suas funções no processamento dos alimentos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -11654,9 +12051,9 @@ const cursos = [
         "es": "Presenta los principales órganos del sistema digestivo y sus funciones en el processamento de los alimentos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -11668,12 +12065,14 @@ const cursos = [
     "aula": "Aula 7",
     "nome": "O processo de digestão",
     "descricao": "Explica as etapas da digestão, desde a ingestão dos alimentos até a absorção dos nutrientes.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -11711,9 +12110,9 @@ const cursos = [
         "es": "Explica las etapas de la digestión, desde la ingestión de los alimentos hasta la absorción de los nutrientes."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -11725,12 +12124,14 @@ const cursos = [
     "aula": "Aula 8",
     "nome": "Montagem de cardápio",
     "descricao": "Propõe a elaboração de um cardápio equilibrado com base nas necessidades nutricionais e em hábitos alimentares saudáveis.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -11768,9 +12169,9 @@ const cursos = [
         "es": "Propone la elaboración de un menú equilibrado con base en las necesidades nutricionales y en hábitos alimentarios saludables."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -11782,12 +12183,14 @@ const cursos = [
     "aula": "Aula 9",
     "nome": "O sistema respiratório",
     "descricao": "Apresenta os órgãos do sistema respiratório e sua função nas trocas gasosas do organismo.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -11825,9 +12228,9 @@ const cursos = [
         "es": "Presenta los órganos del sistema respiratorio y su función en las intercambio gaseoso del organismo."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -11839,12 +12242,14 @@ const cursos = [
     "aula": "Aula 10",
     "nome": "Expiração e inspiração",
     "descricao": "Explica os movimentos de inspiração e expiração e a participação do diafragma na ventilação pulmonar.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -11882,9 +12287,9 @@ const cursos = [
         "es": "Explica los movimientos de inspiración y espiración y la participación del diafragma en la ventilación pulmonar."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -11896,12 +12301,14 @@ const cursos = [
     "aula": "Aula 11",
     "nome": "Poluição atmosférica",
     "descricao": "Analisa as principais fontes de poluição do ar e seus impactos sobre o ambiente e a saúde humana.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -11939,9 +12346,9 @@ const cursos = [
         "es": "Analiza las principales fuentes de contaminación del aire y sus impactos sobre el ambiente y la salud humana."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -11953,12 +12360,14 @@ const cursos = [
     "aula": "Aula 12",
     "nome": "Saúde do sistema respiratório",
     "descricao": "Apresenta cuidados e hábitos que ajudam a prevenir doenças e preservar a saúde do sistema respiratório.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -11996,9 +12405,9 @@ const cursos = [
         "es": "Presenta cuidados y hábitos que ayudan la prevenir enfermedades y preservar la salud del sistema respiratorio."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -12010,12 +12419,14 @@ const cursos = [
     "aula": "Aula 13",
     "nome": "Construção de um modelo de sistema respiratório - Parte 1",
     "descricao": "Inicia a construção de um modelo didático para representar o funcionamento do sistema respiratório.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -12053,9 +12464,9 @@ const cursos = [
         "es": "Inicia la construcción de un modelo didáctico para representar el funcionamiento del sistema respiratorio."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -12067,12 +12478,14 @@ const cursos = [
     "aula": "Aula 14",
     "nome": "Construção de um modelo de sistema respiratório - Parte 2",
     "descricao": "Conclui e analisa o modelo didático, relacionando seus componentes aos movimentos respiratórios.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -12110,9 +12523,9 @@ const cursos = [
         "es": "Concluye y Analiza el modelo didáctico, relacionando sus componentes a los movimientos respiratorios."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -12124,12 +12537,14 @@ const cursos = [
     "aula": "Aula 15",
     "nome": "O sistema cardiovascular - coração",
     "descricao": "Apresenta a estrutura e o funcionamento do coração e sua função no bombeamento do sangue.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -12167,9 +12582,9 @@ const cursos = [
         "es": "Presenta la estructura y el funcionamiento del corazón y su función en el bombeo del sangre."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -12181,12 +12596,14 @@ const cursos = [
     "aula": "Aula 16",
     "nome": "O sistema cardiovascular - sangue",
     "descricao": "Explica a composição do sangue e as funções de seus principais componentes no organismo.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -12224,9 +12641,9 @@ const cursos = [
         "es": "Explica la composición del sangre y las funciones de sus principales componentes en el organismo."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -12238,12 +12655,14 @@ const cursos = [
     "aula": "Aula 17",
     "nome": "O sistema cardiovascular - vasos",
     "descricao": "Apresenta artérias, veias e capilares e explica sua participação na circulação sanguínea.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -12281,9 +12700,9 @@ const cursos = [
         "es": "Presenta arterias, venas y capilares y explica su participación en la circulación sanguínea."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -12295,12 +12714,14 @@ const cursos = [
     "aula": "Aula 18",
     "nome": "O sistema imune",
     "descricao": "Apresenta os principais componentes do sistema imune e sua função na defesa do organismo.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -12338,9 +12759,9 @@ const cursos = [
         "es": "Presenta los principales componentes del sistema inmunitario y su función en la defensa del organismo."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -12352,12 +12773,14 @@ const cursos = [
     "aula": "Aula 19",
     "nome": "O funcionamento do sistema imune",
     "descricao": "Explica como o organismo reconhece e combate agentes causadores de doenças.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -12395,9 +12818,9 @@ const cursos = [
         "es": "Explica cómo el organismo reconoce y combate agentes causantes de enfermedades."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -12409,12 +12832,14 @@ const cursos = [
     "aula": "Aula 20",
     "nome": "Saúde do sistema cardiovascular",
     "descricao": "Discute hábitos e cuidados importantes para prevenir doenças e manter a saúde cardiovascular.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -12452,9 +12877,9 @@ const cursos = [
         "es": "Analiza hábitos y cuidados importantes para prevenir enfermedades y manter la salud cardiovascular."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -12466,12 +12891,14 @@ const cursos = [
     "aula": "Aula 21",
     "nome": "Doenças Crônicas Não Transmissíveis - DCNT",
     "descricao": "Apresenta as principais doenças crônicas não transmissíveis, seus fatores de risco e formas de prevenção.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -12509,9 +12936,9 @@ const cursos = [
         "es": "Presenta las principales enfermedades crónicas no transmisibles, sus factores de risco y formas de prevención."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -12523,12 +12950,14 @@ const cursos = [
     "aula": "Aula 22",
     "nome": "Pressão arterial",
     "descricao": "Explica o que é pressão arterial, como ela é medida e sua relação com a saúde cardiovascular.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -12566,9 +12995,9 @@ const cursos = [
         "es": "Explica el que é presión arterial, cómo ella é medida y su relación con la salud cardiovascular."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -12580,12 +13009,14 @@ const cursos = [
     "aula": "Aula 23",
     "nome": "Campanha sobre doenças crônicas não transmissíveis - Parte 1",
     "descricao": "Inicia o planejamento de uma campanha de conscientização sobre prevenção e controle das doenças crônicas não transmissíveis.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -12623,9 +13054,9 @@ const cursos = [
         "es": "Inicia el planificación de una campaña de sensibilización sobre prevención y control de las enfermedades crónicas no transmisibles."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -12637,12 +13068,14 @@ const cursos = [
     "aula": "Aula 24",
     "nome": "Campanha sobre doenças crônicas não transmissíveis - Parte 2",
     "descricao": "Conclui a produção e a apresentação da campanha de conscientização sobre doenças crônicas não transmissíveis.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -12680,9 +13113,9 @@ const cursos = [
         "es": "Concluye la producción y la presentación de la campaña de sensibilización sobre enfermedades crónicas no transmisibles."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -12694,12 +13127,14 @@ const cursos = [
     "aula": "Aula 25",
     "nome": "Retomada - nutrição",
     "descricao": "Retoma os principais conceitos sobre nutrientes, alimentação equilibrada e segurança alimentar.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -12737,9 +13172,9 @@ const cursos = [
         "es": "Repasa los principales conceptos sobre nutrientes, alimentación equilibrada y seguridad alimentaria."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -12751,12 +13186,14 @@ const cursos = [
     "aula": "Aula 26",
     "nome": "Retomada - sistema digestório",
     "descricao": "Revisa os órgãos do sistema digestório e as principais etapas do processo de digestão.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -12794,9 +13231,9 @@ const cursos = [
         "es": "Revisa los órganos del sistema digestivo y las principales etapas del proceso de digestión."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -12808,12 +13245,14 @@ const cursos = [
     "aula": "Aula 27",
     "nome": "Retomada - sistema respiratório",
     "descricao": "Revisa a estrutura, o funcionamento e os cuidados relacionados ao sistema respiratório.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -12851,9 +13290,9 @@ const cursos = [
         "es": "Revisa la estructura, el funcionamiento y los cuidados relacionados con sistema respiratorio."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -12865,12 +13304,14 @@ const cursos = [
     "aula": "Aula 28",
     "nome": "Retomada - sistema cardiovascular",
     "descricao": "Retoma os principais conceitos sobre coração, sangue, vasos sanguíneos e saúde cardiovascular.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -12908,9 +13349,9 @@ const cursos = [
         "es": "Repasa los principales conceptos sobre corazón, sangre, vasos sanguíneos y salud cardiovascular."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -12922,12 +13363,14 @@ const cursos = [
     "aula": "Aula 30",
     "nome": "SP. ACE - OBA e OBAFOG",
     "descricao": "Apresenta atividades relacionadas à OBA e à OBAFOG no contexto das ações do SP. ACE.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -12965,9 +13408,9 @@ const cursos = [
         "es": "Presenta actividades relacionadas con OBA y a la OBAFOG en el contexto de las acciones del SP. ACE."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -12982,6 +13425,9 @@ const cursos = [
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
     "linkAula": "https://youtu.be/MB6SG13mArI?list=PLE--1VpbVGyk",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLacPlXQNChnE",
+	"linkPdf": "https://drive.google.com/file/d/1-asqbhDsmAo6naUiQu3PbSAGKWRWOcyo/view?usp=sharing",
+    "linkAplicativo": "",
     "duracaoMinutos": 17,
     "i18n": {
       "material": {
@@ -13037,6 +13483,9 @@ const cursos = [
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
     "linkAula": "https://youtu.be/2eW3kD_Kpw0?list=PLE--1VpbVGyk",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLZ2te4E4-J6s",
+    "linkAplicativo": "",
+	"linkPdf": "https://drive.google.com/file/d/1Tw3ZNDCpoi_BYzS0ZQMPgUMyrYn5hfY1/view?usp=sharing",
     "duracaoMinutos": 11,
     "i18n": {
       "material": {
@@ -13092,6 +13541,9 @@ const cursos = [
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
     "linkAula": "https://youtu.be/PrJfEM9WEx0?list=PLE--1VpbVGyk",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLM5gd5R8yjjc",
+    "linkAplicativo": "",
+	"linkPdf": "https://drive.google.com/file/d/17dKEUo1G6Ja05O1sPund3XXbnc4u3OR4/view?usp=sharing",
     "duracaoMinutos": 12,
     "i18n": {
       "material": {
@@ -13147,6 +13599,9 @@ const cursos = [
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
     "linkAula": "https://youtu.be/0EV-6AIlAcY?list=PLE--1VpbVGyk",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLJSFKqF0ft6g",
+    "linkAplicativo": "",
+	"linkPdf":"https://drive.google.com/file/d/1KXJvZmP5m3kX6IGvSPwRSQyNz10hTrsp/view?usp=sharing",
     "duracaoMinutos": 12,
     "i18n": {
       "material": {
@@ -13199,12 +13654,14 @@ const cursos = [
     "aula": "Aula 5",
     "nome": "Movimentos da Lua",
     "descricao": "Apresenta os movimentos realizados pela Lua e sua relação com a Terra e o Sol.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1MIitGI53TBv7R3qmHykLNxzWsGO9AjLW/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLH_UxQk5_v-U",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -13242,9 +13699,9 @@ const cursos = [
         "es": "Presenta los movimientos realizados por la Luna y su relación con la Tierra y el Sol."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -13256,12 +13713,14 @@ const cursos = [
     "aula": "Aula 6",
     "nome": "Fases da Lua",
     "descricao": "Explica como as posições relativas entre Sol, Terra e Lua originam as fases lunares.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1KySBPeo-pvBUWuoH8Gnzwu1SLeUoveZZ/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLHfPgE9yWiwI",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -13299,9 +13758,9 @@ const cursos = [
         "es": "Explica cómo las posiciones relativas entre el Sol, la Tierra y la Luna originan las fases lunares."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -13313,12 +13772,14 @@ const cursos = [
     "aula": "Aula 7",
     "nome": "Eclipses lunar e solar",
     "descricao": "Compara eclipses solares e lunares e explica as condições necessárias para que ocorram.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1OmQ69r649yfwTsvFXjzKzOEhOokM0TEQ/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLYhaBRBHDHnM",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -13356,9 +13817,9 @@ const cursos = [
         "es": "Compara eclipses solares y lunares y explica las condiciones necesarias para que ocorram."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -13370,12 +13831,14 @@ const cursos = [
     "aula": "Aula 8",
     "nome": "Caixa lunar",
     "descricao": "Propõe uma atividade prática para representar e compreender as fases da Lua.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1XaW8lCECsKD7jC05FM75wUAGYgrAsiJL/view?usp=sharing",
+	"linkAprofundamento": "https://youtu.be/y2rbw7uc0BM",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -13413,9 +13876,9 @@ const cursos = [
         "es": "Propone una actividad práctica para representar y comprender las fases de la Luna."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -13427,12 +13890,14 @@ const cursos = [
     "aula": "Aula 9",
     "nome": "Clima e tempo",
     "descricao": "Diferencia os conceitos de tempo atmosférico e clima e relaciona cada um às condições ambientais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1haWUaDCDWWSGCVvg_IXxwgXIxnJo4kd0/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLQGsr5qXB-Z0",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -13470,9 +13935,9 @@ const cursos = [
         "es": "Diferencia los conceptos de tiempo atmosférico y clima y relaciona cada un a las condiciones ambientales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -13484,12 +13949,14 @@ const cursos = [
     "aula": "Aula 10",
     "nome": "Previsão do tempo",
     "descricao": "Apresenta os dados e instrumentos utilizados para acompanhar as condições atmosféricas e elaborar previsões.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1oeVTzkLW-ivezIaXDuyOE8siYkVXLQdB/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLIiiWaxqKTbA",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -13527,9 +13994,9 @@ const cursos = [
         "es": "Presenta los datos y instrumentos utilizados para seguir las condiciones atmosféricas y elaborar pronósticos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -13541,12 +14008,14 @@ const cursos = [
     "aula": "Aula 11",
     "nome": "Estação meteorológica",
     "descricao": "Explica o funcionamento de uma estação meteorológica e os principais instrumentos usados na coleta de dados.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1Je7ShMBi-R7x9txv9iXzuilbwIcWlSOp/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLPYUv_OMOpa4",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -13584,9 +14053,9 @@ const cursos = [
         "es": "Explica el funcionamiento de una estación meteorológica y los principales instrumentos usados en la recogida de datos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -13598,12 +14067,14 @@ const cursos = [
     "aula": "Aula 12",
     "nome": "Simulando uma previsão do tempo",
     "descricao": "Propõe a análise de dados atmosféricos para simular a elaboração de uma previsão do tempo.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/19ykH1zg91vQ0SlSyxmzewA1x8CXHXsot/view?usp=sharing",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -13641,9 +14112,9 @@ const cursos = [
         "es": "Propone la análisis de datos atmosféricos para simular la elaboración de una pronóstico del tiempo."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -13655,12 +14126,14 @@ const cursos = [
     "aula": "Aula 13",
     "nome": "Divulgação da previsão do tempo",
     "descricao": "Orienta a organização e a comunicação de uma previsão do tempo de forma clara e acessível.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1XPPJF1dFaWY0l_KZMlZIpqzu--K8_4GF/view?usp=sharing",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -13698,9 +14171,9 @@ const cursos = [
         "es": "Orienta la organización y la comunicación de una pronóstico del tiempo de forma clara y accesible."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -13712,12 +14185,14 @@ const cursos = [
     "aula": "Aula 14",
     "nome": "Circulação atmosférica",
     "descricao": "Explica o movimento das massas de ar e sua influência sobre o clima e o tempo.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1Ku4E-4GdA0OgbzJPYxEO0i2IQfepmxzc/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLEI_x8jZsZeA",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -13755,9 +14230,9 @@ const cursos = [
         "es": "Explica el movimiento de las masas de aire y su influencia sobre el clima y el tiempo."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -13769,12 +14244,14 @@ const cursos = [
     "aula": "Aula 15",
     "nome": "Circulação oceânica",
     "descricao": "Apresenta o movimento das correntes oceânicas e sua influência na distribuição de calor pelo planeta.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1xbC2sJhfvJeaLDwPFIEt3uEAmpEFR8hn/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLKRfmI1MQngY",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -13812,9 +14289,9 @@ const cursos = [
         "es": "Presenta el movimiento de las corrientes oceánicas y su influencia en la distribución de calor por el planeta."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -13826,12 +14303,14 @@ const cursos = [
     "aula": "Aula 16",
     "nome": "Climas do planeta",
     "descricao": "Compara diferentes tipos de clima e os fatores que influenciam sua distribuição pelo planeta.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1DiTGWqyqLxdtxfTd8TuVzpMimnP22s20/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLKt0AGJlb45w",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -13869,9 +14348,9 @@ const cursos = [
         "es": "Compara diferentes tipos de clima y los factores que influyen su distribución por el planeta."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -13883,12 +14362,14 @@ const cursos = [
     "aula": "Aula 17",
     "nome": "El Niño e La Niña",
     "descricao": "Explica os fenômenos El Niño e La Niña e seus efeitos sobre o clima em diferentes regiões.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1tjrVoc_tcU8r3mbHkgnRdQ9StVEjmx8a/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLAVCt924-RIo",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -13926,9 +14407,9 @@ const cursos = [
         "es": "Explica los fenómenos El Niño y La Niña y sus efectos sobre el clima en diferentes regiones."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -13940,12 +14421,14 @@ const cursos = [
     "aula": "Aula 18",
     "nome": "Mudanças climáticas",
     "descricao": "Analisa causas e consequências das mudanças climáticas e sua relação com as atividades humanas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/16Sz46cPnliwj0f8-oZP5vtyYAequpxbp/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLO72Iz2yqF80",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -13983,9 +14466,9 @@ const cursos = [
         "es": "Analiza causas y consecuencias de las cambio climático y su relación con las actividades humanas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -13997,12 +14480,14 @@ const cursos = [
     "aula": "Aula 19",
     "nome": "Aquecimento global",
     "descricao": "Explica o aumento da temperatura média do planeta e seus principais impactos ambientais e sociais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1rUrovb3Wpvlsdq5-NHAIaiAgz87hXHz0/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLRNwGUtYaKuM",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -14040,9 +14525,9 @@ const cursos = [
         "es": "Explica el aumento de la temperatura media del planeta y sus principales impactos ambientales y sociales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -14054,12 +14539,14 @@ const cursos = [
     "aula": "Aula 20",
     "nome": "Equilíbrio ambiental",
     "descricao": "Relaciona o equilíbrio dos ecossistemas às interações entre fatores naturais e ações humanas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1fo3XWr3BQ34F6-VY4298RG2lPs2h8omX/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLP243abPU0RU",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -14097,9 +14584,9 @@ const cursos = [
         "es": "Relaciona el equilibrio de los ecosistemas a las interacciones entre factores naturales y acciones humanas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -14111,12 +14598,14 @@ const cursos = [
     "aula": "Aula 21",
     "nome": "Retomada - estações do ano",
     "descricao": "Retoma os conceitos sobre os movimentos da Terra e a formação das estações do ano.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1h34Y6vfRMN1MQumNkS37iDb6TALczG78/view?usp=sharing",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -14154,9 +14643,9 @@ const cursos = [
         "es": "Repasa los conceptos sobre los movimientos de la Tierra y la formación de las estaciones del año."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -14168,12 +14657,14 @@ const cursos = [
     "aula": "Aula 22",
     "nome": "Retomada - sistema Sol-Terra-Lua",
     "descricao": "Revisa os movimentos, as fases da Lua e os fenômenos relacionados ao sistema Sol-Terra-Lua.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1iF34zFhMXAjVc9CqxVcta9QcOhcAxv4V/view?usp=sharing",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -14211,9 +14702,9 @@ const cursos = [
         "es": "Revisa los movimientos, las fases de la Luna y los fenómenos relacionados con sistema Sol-Tierra-Luna."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -14225,12 +14716,14 @@ const cursos = [
     "aula": "Aula 23",
     "nome": "Retomada - previsão do tempo",
     "descricao": "Retoma os conceitos de tempo atmosférico, instrumentos meteorológicos e elaboração de previsões.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1eLlsBBqOv8fMlieMn2741-MRFgAjb68g/view?usp=sharing",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -14268,9 +14761,9 @@ const cursos = [
         "es": "Repasa los conceptos de tiempo atmosférico, instrumentos meteorológicos y elaboración de pronósticos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -14282,12 +14775,14 @@ const cursos = [
     "aula": "Aula 24",
     "nome": "Retomada - climas do planeta",
     "descricao": "Revisa os principais tipos de clima, seus fatores de formação e fenômenos climáticos associados.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/170nQrsAmdEJ5w6tkndVIWdrHdv3J4C2t/view?usp=sharing",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -14325,9 +14820,9 @@ const cursos = [
         "es": "Revisa los principales tipos de clima, sus factores de formación y fenómenos climáticos asociados."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -14339,12 +14834,14 @@ const cursos = [
     "aula": "Aula 1",
     "nome": "O que é Ciência",
     "descricao": "Apresenta o conceito de Ciência, sua importância e sua relação com a construção do conhecimento.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -14382,9 +14879,9 @@ const cursos = [
         "es": "Presenta el concepto de Ciencia, su importancia y su relación con la construcción del conocimiento."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -14396,12 +14893,14 @@ const cursos = [
     "aula": "Aula 2",
     "nome": "Etapas do processo de investigação científica",
     "descricao": "Explica as principais etapas da investigação científica, desde a observação até a análise dos resultados.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -14439,9 +14938,9 @@ const cursos = [
         "es": "Explica las principales etapas de la investigación científica, desde la observación hasta el análisis de los resultados."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -14453,12 +14952,14 @@ const cursos = [
     "aula": "Aula 3",
     "nome": "Acesso à informação científica",
     "descricao": "Orienta sobre a busca, a leitura e a avaliação de fontes confiáveis de informação científica.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -14496,9 +14997,9 @@ const cursos = [
         "es": "Orienta sobre la búsqueda, la lectura y la evaluación de fuentes confiables de información científica."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -14510,12 +15011,14 @@ const cursos = [
     "aula": "Aula 4",
     "nome": "Aula prática - Desinformação na área das Ciências da Natureza",
     "descricao": "Propõe uma atividade prática para identificar desinformação e verificar a confiabilidade de conteúdos científicos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -14553,9 +15056,9 @@ const cursos = [
         "es": "Propone una actividad práctica para identificar desinformación y verificar la fiabilidad de contenidos científicos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -14567,12 +15070,14 @@ const cursos = [
     "aula": "Aula 5",
     "nome": "Átomos - conceitos e modelos: atomistas e Dalton",
     "descricao": "Apresenta os primeiros conceitos sobre átomos e os modelos propostos pelos atomistas e por Dalton.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -14610,9 +15115,9 @@ const cursos = [
         "es": "Presenta los primeros conceptos sobre átomos y los modelos propostos por los atomistas y por Dalton."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -14624,12 +15129,14 @@ const cursos = [
     "aula": "Aula 6",
     "nome": "Átomos - o desenvolvimento dos modelos",
     "descricao": "Mostra a evolução dos modelos atômicos e como novas evidências modificaram a compreensão da estrutura da matéria.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -14667,9 +15174,9 @@ const cursos = [
         "es": "Muestra la evolución de los modelos atómicos y cómo nuevas evidencias modificaron la comprensión de la estructura de la materia."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -14681,12 +15188,14 @@ const cursos = [
     "aula": "Aula 7",
     "nome": "Mudança de estado físico da matéria - organização das partículas",
     "descricao": "Relaciona as mudanças de estado físico à organização e ao movimento das partículas da matéria.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -14724,9 +15233,9 @@ const cursos = [
         "es": "Relaciona las cambios de estado a la organización y al movimiento de las partículas de la materia."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -14738,12 +15247,14 @@ const cursos = [
     "aula": "Aula 8",
     "nome": "Temperatura de fusão e ebulição das substâncias",
     "descricao": "Explica as temperaturas de fusão e ebulição e sua relação com as propriedades das substâncias.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -14781,9 +15292,9 @@ const cursos = [
         "es": "Explica las temperaturas de fusión y ebullición y su relación con las propiedades de las sustancias."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -14795,12 +15306,14 @@ const cursos = [
     "aula": "Aula 9",
     "nome": "Aula no simulador PhET e exercícios",
     "descricao": "Utiliza uma simulação do PhET e exercícios para explorar a organização das partículas e as mudanças de estado físico.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -14838,9 +15351,9 @@ const cursos = [
         "es": "Utiliza una simulación del PhET y ejercicios para explorar la organización de las partículas y las cambios de estado."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -14852,12 +15365,14 @@ const cursos = [
     "aula": "Aula 10",
     "nome": "Organização dos elementos químicos - classificação periódica",
     "descricao": "Apresenta a organização dos elementos químicos e os princípios da classificação periódica.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -14895,9 +15410,9 @@ const cursos = [
         "es": "Presenta la organización de los elementos químicos y los principios de la clasificación periódica."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -14909,12 +15424,14 @@ const cursos = [
     "aula": "Aula 11",
     "nome": "Estrutura da matéria - grupos da classificação periódica",
     "descricao": "Relaciona a estrutura da matéria aos principais grupos da classificação periódica.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -14952,9 +15469,9 @@ const cursos = [
         "es": "Relaciona la estructura de la materia a los principales grupos de la clasificación periódica."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -14966,12 +15483,14 @@ const cursos = [
     "aula": "Aula 12",
     "nome": "Combinação dos elementos químicos - substâncias simples e compostas",
     "descricao": "Diferencia substâncias simples e compostas a partir da combinação dos elementos químicos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -15009,9 +15528,9 @@ const cursos = [
         "es": "Diferencia sustancias simples y compuestas la partir de la combinación de los elementos químicos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -15023,12 +15542,14 @@ const cursos = [
     "aula": "Aula 13",
     "nome": "Reações químicas - reagentes e produtos",
     "descricao": "Apresenta os conceitos de reagentes e produtos e identifica transformações químicas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -15066,9 +15587,9 @@ const cursos = [
         "es": "Presenta los conceptos de reactivos y productos e identifica transformaciones químicas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -15080,12 +15601,14 @@ const cursos = [
     "aula": "Aula 14",
     "nome": "Lei de conservação das massas - Lavoisier",
     "descricao": "Explica a Lei de Conservação das Massas e sua aplicação nas reações químicas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -15123,9 +15646,9 @@ const cursos = [
         "es": "Explica la Ley de Conservación de la Masa y su aplicación en las reacciones químicas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -15137,12 +15660,14 @@ const cursos = [
     "aula": "Aula 15",
     "nome": "Lei das proporções definidas - Proust",
     "descricao": "Apresenta a Lei das Proporções Definidas e sua relação com a formação das substâncias.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -15180,9 +15705,9 @@ const cursos = [
         "es": "Presenta la Ley de las Proporciones Definidas y su relación con la formación de las sustancias."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -15194,12 +15719,14 @@ const cursos = [
     "aula": "Aula 16",
     "nome": "Reações químicas",
     "descricao": "Aprofunda o estudo das reações químicas, seus indícios e suas representações.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -15237,9 +15764,9 @@ const cursos = [
         "es": "Profundiza el estudio de las reacciones químicas, sus indicios y sus representaciones."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -15251,12 +15778,14 @@ const cursos = [
     "aula": "Aula 17",
     "nome": "Ondas eletromagnéticas e mecânicas",
     "descricao": "Diferencia ondas mecânicas e eletromagnéticas e apresenta exemplos de sua propagação.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -15294,9 +15823,9 @@ const cursos = [
         "es": "Diferencia ondas mecánicas y electromagnéticas y Presenta ejemplos de su propagación."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -15308,12 +15837,14 @@ const cursos = [
     "aula": "Aula 18",
     "nome": "Características das ondas - amplitude e comprimento de onda",
     "descricao": "Explica as características das ondas, com destaque para amplitude e comprimento de onda.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -15351,9 +15882,9 @@ const cursos = [
         "es": "Explica las características de las ondas, destacando amplitud y longitud de onda."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -15365,12 +15896,14 @@ const cursos = [
     "aula": "Aula 19",
     "nome": "Características das ondas - frequência, velocidade e período",
     "descricao": "Relaciona frequência, velocidade e período às características e ao comportamento das ondas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -15408,9 +15941,9 @@ const cursos = [
         "es": "Relaciona frecuencia, velocidad y período a las características y al comportamiento de las ondas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -15422,12 +15955,14 @@ const cursos = [
     "aula": "Aula 20",
     "nome": "Interação das ondas - reflexão, refração e difração",
     "descricao": "Apresenta os fenômenos de reflexão, refração e difração das ondas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -15465,9 +16000,9 @@ const cursos = [
         "es": "Presenta los fenómenos de reflexión, refracción y difracción de las ondas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -15479,12 +16014,14 @@ const cursos = [
     "aula": "Aula 21",
     "nome": "Onda sonora - propagação do som",
     "descricao": "Explica como o som se propaga e relaciona sua transmissão aos diferentes meios materiais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -15522,9 +16059,9 @@ const cursos = [
         "es": "Explica cómo el sonido si propaga y relaciona su transmisión a los diferentes medios materiales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -15536,12 +16073,14 @@ const cursos = [
     "aula": "Aula 22",
     "nome": "Propriedades da luz - cores primárias da luz e a cor dos objetos",
     "descricao": "Explica as cores primárias da luz e como a interação da luz com os objetos determina as cores percebidas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -15579,9 +16118,9 @@ const cursos = [
         "es": "Explica las colores primarios de la luz y cómo la interacción de la luz con los objetos determina las colores percibidas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -15593,12 +16132,14 @@ const cursos = [
     "aula": "Aula 23",
     "nome": "Aula prática - Propriedades da luz",
     "descricao": "Propõe uma atividade prática para observar fenômenos e propriedades relacionados à luz.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -15636,9 +16177,9 @@ const cursos = [
         "es": "Propone una actividad práctica para observar fenómenos y propiedades relacionados con luz."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -15650,12 +16191,14 @@ const cursos = [
     "aula": "Aula 24",
     "nome": "Espectro eletromagnético",
     "descricao": "Apresenta as principais faixas do espectro eletromagnético e suas aplicações no cotidiano.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -15693,9 +16236,9 @@ const cursos = [
         "es": "Presenta las principales bandas del espectro electromagnético y sus aplicaciones en el vida cotidiana."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -15707,12 +16250,14 @@ const cursos = [
     "aula": "Aula 1",
     "nome": "Célula, a unidade estrutural da vida",
     "descricao": "Apresenta a célula como unidade estrutural e funcional dos seres vivos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -15750,9 +16295,9 @@ const cursos = [
         "es": "Presenta la célula cómo unidad estructural y funcional de los seres vivos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -15764,12 +16309,14 @@ const cursos = [
     "aula": "Aula 2",
     "nome": "O que é o DNA",
     "descricao": "Explica o que é o DNA e sua função no armazenamento das informações genéticas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -15807,9 +16354,9 @@ const cursos = [
         "es": "Explica el que é el ADN y su función en el almacenamiento de las información genética."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -15821,12 +16368,14 @@ const cursos = [
     "aula": "Aula 3",
     "nome": "Genes e cromossomos",
     "descricao": "Relaciona genes, DNA e cromossomos na organização do material genético.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -15864,9 +16413,9 @@ const cursos = [
         "es": "Relaciona genes, ADN y cromosomas en la organización del material genético."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -15878,12 +16427,14 @@ const cursos = [
     "aula": "Aula 4",
     "nome": "Divisão celular (mitose)",
     "descricao": "Apresenta a mitose e sua importância para o crescimento, a renovação e a reparação dos tecidos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -15921,9 +16472,9 @@ const cursos = [
         "es": "Presenta la mitosis y su importancia para el crecimiento, la renovación y la reparación de los tejidos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -15935,12 +16486,14 @@ const cursos = [
     "aula": "Aula 5",
     "nome": "Divisão celular (meiose) - etapas da meiose",
     "descricao": "Explica as etapas da meiose e sua importância para a formação dos gametas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -15978,9 +16531,9 @@ const cursos = [
         "es": "Explica las etapas de la meiosis y su importancia para la formación de los gametos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -15992,12 +16545,14 @@ const cursos = [
     "aula": "Aula 6",
     "nome": "Diferenças entre meiose e mitose",
     "descricao": "Compara mitose e meiose quanto ao número de divisões, células formadas e função biológica.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -16035,9 +16590,9 @@ const cursos = [
         "es": "Compara mitosis y meiosis quanto al número de divisiones, células formadas y función biológica."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -16049,12 +16604,14 @@ const cursos = [
     "aula": "Aula 7",
     "nome": "Experimento - extração de DNA",
     "descricao": "Propõe uma atividade prática de extração de DNA com materiais simples.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -16092,9 +16649,9 @@ const cursos = [
         "es": "Propone una actividad práctica de extracción de ADN con materiales sencillos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -16106,12 +16663,14 @@ const cursos = [
     "aula": "Aula 8",
     "nome": "Danos ao material genético pela radiação ionizante",
     "descricao": "Analisa como a radiação ionizante pode causar alterações e danos ao material genético.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -16149,9 +16708,9 @@ const cursos = [
         "es": "Analiza cómo la radiación ionizante puede causar cambios y daños al material genético."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -16163,12 +16722,14 @@ const cursos = [
     "aula": "Aula 9",
     "nome": "A importância da radiação na área da saúde",
     "descricao": "Apresenta aplicações da radiação na prevenção, no diagnóstico e no tratamento de doenças.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -16206,9 +16767,9 @@ const cursos = [
         "es": "Presenta aplicaciones de la radiación en la prevención, en el diagnóstico y en el tratamiento de enfermedades."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -16220,12 +16781,14 @@ const cursos = [
     "aula": "Aula 10",
     "nome": "Bases da Hereditariedade - o DNA e os genes",
     "descricao": "Relaciona DNA e genes à transmissão das características hereditárias.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -16263,9 +16826,9 @@ const cursos = [
         "es": "Relaciona ADN y genes a la transmisión de las características hereditarias."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -16277,12 +16840,14 @@ const cursos = [
     "aula": "Aula 11",
     "nome": "Primeira Lei de Mendel",
     "descricao": "Apresenta a Primeira Lei de Mendel e a separação dos fatores hereditários.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -16320,9 +16885,9 @@ const cursos = [
         "es": "Presenta la Primera Ley de Mendel y la separación de los factores hereditarios."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -16334,12 +16899,14 @@ const cursos = [
     "aula": "Aula 12",
     "nome": "Segunda Lei de Mendel",
     "descricao": "Apresenta a Segunda Lei de Mendel e a segregação independente dos fatores hereditários.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -16377,9 +16944,9 @@ const cursos = [
         "es": "Presenta la Segunda Ley de Mendel y la segregación independiente de los factores hereditarios."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -16391,12 +16958,14 @@ const cursos = [
     "aula": "Aula 13",
     "nome": "Hereditariedade - codominância e dominância incompleta",
     "descricao": "Diferencia codominância e dominância incompleta por meio de exemplos de herança genética.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -16434,9 +17003,9 @@ const cursos = [
         "es": "Diferencia codominancia y dominancia incompleta mediante ejemplos de herencia genética."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -16448,12 +17017,14 @@ const cursos = [
     "aula": "Aula 14",
     "nome": "Conhecendo e interpretando os heredogramas",
     "descricao": "Apresenta os símbolos e as regras básicas para leitura e interpretação de heredogramas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -16491,9 +17062,9 @@ const cursos = [
         "es": "Presenta los símbolos y las reglas básicas para lectura y interpretación de pedigríes."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -16505,12 +17076,14 @@ const cursos = [
     "aula": "Aula 15",
     "nome": "Aula prática - solucionando exercícios de heredograma",
     "descricao": "Propõe a resolução prática de exercícios de análise e interpretação de heredogramas.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -16548,9 +17121,9 @@ const cursos = [
         "es": "Propone la resolución práctica de ejercicios de análisis y interpretación de pedigríes."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -16562,12 +17135,14 @@ const cursos = [
     "aula": "Aula 16",
     "nome": "Genética e Biotecnologia",
     "descricao": "Relaciona os conhecimentos de genética às aplicações da biotecnologia.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -16605,9 +17180,9 @@ const cursos = [
         "es": "Relaciona los conocimientos de genética a las aplicaciones de la biotecnología."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -16619,12 +17194,14 @@ const cursos = [
     "aula": "Aula 17",
     "nome": "Biotecnologia aplicada à produção de alimentos e na saúde - organismos geneticamente",
     "descricao": "Apresenta aplicações da biotecnologia na produção de alimentos e na área da saúde.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -16662,9 +17239,9 @@ const cursos = [
         "es": "Presenta aplicaciones de la biotecnología en la producción de alimentos y en la ámbito de la salud."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -16676,12 +17253,14 @@ const cursos = [
     "aula": "Aula 18",
     "nome": "Biotecnologia - clonagem e suas aplicações",
     "descricao": "Explica o processo de clonagem e algumas de suas possíveis aplicações.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -16719,9 +17298,9 @@ const cursos = [
         "es": "Explica el proceso de clonación y algunas de sus posibles aplicaciones."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -16733,12 +17312,14 @@ const cursos = [
     "aula": "Aula 19",
     "nome": "Bioética e biossegurança - caso dos Organismos Geneticamente Modificados (OGMs)",
     "descricao": "Discute aspectos de bioética e biossegurança relacionados aos organismos geneticamente modificados.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -16776,9 +17357,9 @@ const cursos = [
         "es": "Analiza aspectos de bioética y bioseguridad relacionados cons Organismos Genéticamente Modificados."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -16790,12 +17371,14 @@ const cursos = [
     "aula": "Aula 20",
     "nome": "Juri Simulado - Pesquisas em Biotecnologia",
     "descricao": "Propõe um júri simulado para discutir argumentos favoráveis e contrários às pesquisas em biotecnologia.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -16833,9 +17416,9 @@ const cursos = [
         "es": "Propone un juicio simulado para debatir argumentos a favor y en contra de las investigaciones en biotecnología."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -16847,12 +17430,14 @@ const cursos = [
     "aula": "Aula 21",
     "nome": "Aula prática - Juri Simulado - Ação e Conclusão",
     "descricao": "Desenvolve a etapa prática do júri simulado e a construção das conclusões do debate.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -16890,9 +17475,9 @@ const cursos = [
         "es": "Desarrolla la etapa práctica del juicio simulado y la construcción de las conclusiones del debate."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -16904,12 +17489,14 @@ const cursos = [
     "aula": "Aula 22",
     "nome": "História das ideias evolutivas",
     "descricao": "Apresenta a construção histórica das principais ideias sobre a evolução dos seres vivos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -16947,9 +17534,9 @@ const cursos = [
         "es": "Presenta la construcción histórica de las principales ideas sobre la evolución de los seres vivos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -16961,12 +17548,14 @@ const cursos = [
     "aula": "Aula 23",
     "nome": "Seleção Natural",
     "descricao": "Explica a seleção natural como mecanismo de mudança das populações ao longo do tempo.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -17004,9 +17593,9 @@ const cursos = [
         "es": "Explica la selección natural cómo mecanismo de cambio de las poblaciones a lo largo del tiempo."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -17018,12 +17607,14 @@ const cursos = [
     "aula": "Aula 24",
     "nome": "Interpretação de cladogramas",
     "descricao": "Ensina a interpretar cladogramas e reconhecer relações de parentesco evolutivo.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -17061,9 +17652,9 @@ const cursos = [
         "es": "Enseña la interpretar cladogramas y reconocer relaciones de parentesco evolutivo."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -17075,12 +17666,14 @@ const cursos = [
     "aula": "Aula 25",
     "nome": "Hereditariedade, evolução e biodiversidade",
     "descricao": "Relaciona hereditariedade, evolução e biodiversidade na compreensão da diversidade dos seres vivos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -17118,9 +17711,9 @@ const cursos = [
         "es": "Relaciona herencia, evolución y biodiversidad en la comprensión de la diversidad de los seres vivos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -17132,12 +17725,14 @@ const cursos = [
     "aula": "Aula 26",
     "nome": "Retomada - genes e DNA",
     "descricao": "Retoma os principais conceitos relacionados a genes, DNA e cromossomos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -17175,9 +17770,9 @@ const cursos = [
         "es": "Repasa los principales conceptos relacionados la genes, ADN y cromosomas."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -17189,12 +17784,14 @@ const cursos = [
     "aula": "Aula 27",
     "nome": "Retomada - Leis de Mendel",
     "descricao": "Revisa os principais conceitos da Primeira e da Segunda Lei de Mendel.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -17232,9 +17829,9 @@ const cursos = [
         "es": "Revisa los principales conceptos de la Primeira y de la Segunda Ley de Mendel."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -17246,12 +17843,14 @@ const cursos = [
     "aula": "Aula 28",
     "nome": "Retomada - biotecnologia",
     "descricao": "Retoma conceitos e aplicações relacionados à genética e à biotecnologia.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -17289,9 +17888,9 @@ const cursos = [
         "es": "Repasa conceptos y aplicaciones relacionados con genética y a la biotecnología."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -17303,12 +17902,14 @@ const cursos = [
     "aula": "Aula 30",
     "nome": "SP. ACE - OBA e OBAFOG",
     "descricao": "Aborda atividades relacionadas à OBA e à OBAFOG no contexto do componente curricular.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
     "linkPdf": "",
-    "duracaoMinutos": 0,
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -17346,9 +17947,9 @@ const cursos = [
         "es": "Aborda actividades relacionadas con OBA y a la OBAFOG en el contexto del componente curricular."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -17364,7 +17965,9 @@ const cursos = [
     "status": "DISPONÍVEL",
     "linkAula": "https://youtu.be/LB89XVyisDI?list=PLc8Rdyjdtq34",
     "linkMusica": "",
-    "linkPdf": "https://drive.google.com/file/d/1gTJTVwMjgy8ijJISCOKrmGC22Cm8e1cC/view?usp=sharing",
+    "linkPdf": "https://drive.google.com/file/d/1drHh45zD7ODhhL3c-7Ep1SYUqxBStj_6/view?usp=sharing",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
     "duracaoMinutos": 20,
     "i18n": {
       "material": {
@@ -17420,6 +18023,9 @@ const cursos = [
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
     "linkAula": "https://youtu.be/9lX8zxiNjgM?list=PLc8Rdyjdtq34",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "linkPdf": "https://drive.google.com/file/d/1_LYv4WqZUPc4GWSgaTTd32EAt9WsFkjB/view?usp=sharing",
     "duracaoMinutos": 12,
     "i18n": {
       "material": {
@@ -17475,6 +18081,9 @@ const cursos = [
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
     "linkAula": "https://youtu.be/8EqNR_H3hv8?list=PLc8Rdyjdtq34",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "linkPdf": "https://drive.google.com/file/d/1K2HEb3fSnGQegNPK9bo2zvSgXeNicHCf/view?usp=sharing",
     "duracaoMinutos": 14,
     "i18n": {
       "material": {
@@ -17530,6 +18139,9 @@ const cursos = [
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
     "linkAula": "https://youtu.be/tzMCrVhv6VA?list=PLc8Rdyjdtq34",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "linkPdf": "https://drive.google.com/file/d/1YmH1I78wu6SQtUZ0Ear8M9NA0MH0uKTW/view?usp=sharing",
     "duracaoMinutos": 16,
     "i18n": {
       "material": {
@@ -17582,12 +18194,14 @@ const cursos = [
     "aula": "Aula 5",
     "nome": "Preservação da biodiversidade - impacto humano",
     "descricao": "Analisa os impactos das atividades humanas sobre a biodiversidade e a importância de ações de preservação.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1yvLSHpmaxGh4Ezp7Byb2SecyF3ldN6R5/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLZU-jvblYMvc",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -17625,9 +18239,9 @@ const cursos = [
         "es": "Analiza los impactos de las actividades humanas sobre la biodiversidad y la importancia de acciones de preservación."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -17639,12 +18253,14 @@ const cursos = [
     "aula": "Aula 6",
     "nome": "Unidade de conservação - importância para a preservação da biodiversidade",
     "descricao": "Explica o papel das unidades de conservação na proteção dos ecossistemas, das espécies e dos recursos naturais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1uipdyt6DA2cVtz1HbAkUODEgymHXUfHL/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLO_JkWX2P5f8",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -17682,9 +18298,9 @@ const cursos = [
         "es": "Explica el papel de las áreas protegidas en la protección de los ecosistemas, de las especies y de los recursos naturales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -17696,12 +18312,14 @@ const cursos = [
     "aula": "Aula 7",
     "nome": "Aula desafio - RPG - conhecendo a situação-problema",
     "descricao": "Apresenta uma situação-problema em formato de RPG para iniciar a análise de desafios relacionados à preservação ambiental.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1LptKVyuXRY9sM7xeeqDQKJ0WzXSvlY3U/view?usp=sharing",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -17739,9 +18357,9 @@ const cursos = [
         "es": "Presenta una situación problema en formato de RPG para iniciar la análisis de desafíos relacionados con preservación ambiental."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -17753,12 +18371,14 @@ const cursos = [
     "aula": "Aula 8",
     "nome": "Aula desafio - RPG - construindo um plano de manejo",
     "descricao": "Propõe a construção de um plano de manejo para solucionar a situação-problema apresentada no RPG.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1xyxJYlfbsstI7dPV6TGUi4MBXULu0dy9/view?usp=sharing",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -17796,9 +18416,9 @@ const cursos = [
         "es": "Propone la construcción de un plan de manejo para resolver la situación problema presentada en el RPG."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -17810,12 +18430,14 @@ const cursos = [
     "aula": "Aula 9",
     "nome": "Bacias hidrográficas nacionais e hidrografia do estado de São Paulo",
     "descricao": "Apresenta as principais bacias hidrográficas brasileiras e as características da hidrografia do estado de São Paulo.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1Ja4Jmzat6VmnvgNlUn4rEvrYZgNBjbD0/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLST_VhjpeC4U",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -17853,9 +18475,9 @@ const cursos = [
         "es": "Presenta las principales cuencas hidrográficas brasileñas y las características de la hidrografía del estado de Son Paulo."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -17867,12 +18489,14 @@ const cursos = [
     "aula": "Aula 10",
     "nome": "Poluição da água - causas e impactos",
     "descricao": "Identifica as principais causas da poluição da água e seus impactos ambientais, sociais e na saúde humana.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1PMxPcPpQs8cWCxkmUXaKlcYrpsKMhFfl/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLLjlsbHRUm84",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -17910,9 +18534,9 @@ const cursos = [
         "es": "Identifica las principales causas de la contaminación del agua y sus impactos ambientales, sociales y en la salud humana."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -17924,12 +18548,14 @@ const cursos = [
     "aula": "Aula 11",
     "nome": "Tratamento de água - estação de tratamento, saneamento básico e direito à saúde",
     "descricao": "Explica as etapas do tratamento da água e relaciona saneamento básico, qualidade de vida e direito à saúde.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1gFnIt_OGSRxw5Q2Vcns7kk4-b_ZP7zMQ/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLCxsb0aqxZsc",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -17967,9 +18593,9 @@ const cursos = [
         "es": "Explica las etapas del tratamiento del agua y relaciona saneamiento básico, calidad de vida y derecho para la salud."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -17981,12 +18607,14 @@ const cursos = [
     "aula": "Aula 12",
     "nome": "Aula desafio - Conhecendo questões acerca da gestão de recursos hídricos - Parte 1",
     "descricao": "Inicia a análise de questões e conflitos relacionados ao uso, à distribuição e à gestão dos recursos hídricos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/18yK5VYbqqbuE8uUdOfz20tlZicTdhGsP/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLTo-21-FPkZI",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -18024,9 +18652,9 @@ const cursos = [
         "es": "Inicia el análisis de cuestiones y conflictos relacionados con el uso, la distribución y la gestión de los recursos hídricos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -18038,12 +18666,14 @@ const cursos = [
     "aula": "Aula 13",
     "nome": "Aula desafio - Conhecendo questões acerca da gestão de recursos hídricos - Parte 2",
     "descricao": "Aprofunda a análise de problemas relacionados à gestão dos recursos hídricos e à busca de soluções sustentáveis.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1aLKLNhQg0pIqJ167C__rjge8nbaaACrG/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLTo-21-FPkZI",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -18081,9 +18711,9 @@ const cursos = [
         "es": "Profundiza la análisis de problemas relacionados con gestión de los recursos hídricos y a la búsqueda de soluciones sostenibles."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -18095,12 +18725,14 @@ const cursos = [
     "aula": "Aula 14",
     "nome": "Objetivos de desenvolvimento sustentável",
     "descricao": "Apresenta os Objetivos de Desenvolvimento Sustentável e sua importância para enfrentar desafios sociais e ambientais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1zbLRg3iu424vvdmJhwiVsLmQccNoZHkN/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLAvMMJyHZEaFnbAHb_0limdkGL5Z_HBIi",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -18138,9 +18770,9 @@ const cursos = [
         "es": "Presenta los Objetivos de Desarrollo Sostenible y su importancia para afrontar desafíos sociales y ambientales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -18152,12 +18784,14 @@ const cursos = [
     "aula": "Aula 15",
     "nome": "Pegada ecológica e consumo responsável",
     "descricao": "Relaciona hábitos de consumo à pegada ecológica e discute escolhas mais responsáveis para reduzir impactos ambientais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1S5EJ5O7XOKusM0aNI-xOF2hN0b9B3o6d/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLDrLv6S8mGG8",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -18195,9 +18829,9 @@ const cursos = [
         "es": "Relaciona hábitos de consumo a la huella ecológica y analiza decisiones más responsables para reducir impactos ambientales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -18209,12 +18843,14 @@ const cursos = [
     "aula": "Aula 16",
     "nome": "Economia circular e desenvolvimento sustentável",
     "descricao": "Explica os princípios da economia circular e sua contribuição para a redução de desperdícios e o desenvolvimento sustentável.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1syrFbM19IIXrLjSHUHdIUN52OarU2g_C/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLJjvihZc-L5M",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -18252,9 +18888,9 @@ const cursos = [
         "es": "Explica los principios de la economía circular y su contribución para la reducción de desperdicios y el desarrollo sostenible."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -18266,12 +18902,14 @@ const cursos = [
     "aula": "Aula 17",
     "nome": "Gestão de resíduos sólidos - logística reversa e Política Nacional de Resíduos Sólidos",
     "descricao": "Apresenta conceitos de gestão de resíduos sólidos, logística reversa e princípios da Política Nacional de Resíduos Sólidos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1JG-a2Djh6L83ruLRMJS81IDhEKaQZwuk/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLXojhhfffUTE",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -18309,9 +18947,9 @@ const cursos = [
         "es": "Presenta conceptos de gestión de residuos sólidos, logística inversa y principios de la Política Nacional de Residuos Sólidos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -18323,12 +18961,14 @@ const cursos = [
     "aula": "Aula 18",
     "nome": "Coleta seletiva e reciclagem de materiais",
     "descricao": "Explica a importância da coleta seletiva, da separação correta dos resíduos e da reciclagem de materiais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1_P0uKVW3wJ3z60r9q2sYRK8x6_m3ltM7/view?usp=sharing",
+	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLeZkghTTbwWU",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -18366,9 +19006,9 @@ const cursos = [
         "es": "Explica la importancia de la recogida selectiva, de la separación correcta de los residuos y de la reciclaje de materiales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -18380,12 +19020,14 @@ const cursos = [
     "aula": "Aula 19",
     "nome": "Identificação de problemas ambientais na comunidade escolar",
     "descricao": "Propõe a observação e a identificação de problemas ambientais presentes na escola e em seu entorno.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1ijZAfMBHK2W-tEgPHW2duSJQ5BdgSkPy/view?usp=sharing",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -18423,9 +19065,9 @@ const cursos = [
         "es": "Propone la observación y la identificación de problemas ambientales presentes en la escuela y en sus alrededores."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -18437,12 +19079,14 @@ const cursos = [
     "aula": "Aula 20",
     "nome": "Ações sustentáveis na comunidade - planejamento de iniciativas e plano de ação",
     "descricao": "Orienta o planejamento de iniciativas sustentáveis e a elaboração de um plano de ação para a comunidade.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/18HyYZzC3tYFi-oPHIdYi34bBN0lL0ZJF/view?usp=sharing",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -18480,9 +19124,9 @@ const cursos = [
         "es": "Orienta el planificación de iniciativas sostenibles y la elaboración de un plan de acción para la comunidad."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -18494,12 +19138,14 @@ const cursos = [
     "aula": "Aula 21",
     "nome": "Retomada - evolução e biodiversidade",
     "descricao": "Retoma os principais conceitos relacionados à evolução dos seres vivos e à formação da biodiversidade.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1xsaRj40ed2UKaFN7lX7qxIR8NmHM1maz/view?usp=sharing",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -18537,9 +19183,9 @@ const cursos = [
         "es": "Repasa los principales conceptos relacionados con evolución de los seres vivos y a la formación de la biodiversidad."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -18551,12 +19197,14 @@ const cursos = [
     "aula": "Aula 22",
     "nome": "Retomada - Unidades de conservação",
     "descricao": "Revisa a importância das unidades de conservação para a proteção da biodiversidade e dos recursos naturais.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/19daFW7Xt6tBgZmo6cPV3ZbEiYEDohsvT/view?usp=sharing",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -18594,9 +19242,9 @@ const cursos = [
         "es": "Revisa la importancia de las áreas protegidas para la protección de la biodiversidad y de los recursos naturales."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -18608,12 +19256,14 @@ const cursos = [
     "aula": "Aula 23",
     "nome": "Retomada - Recursos hídricos",
     "descricao": "Retoma conceitos sobre bacias hidrográficas, poluição, tratamento da água e gestão dos recursos hídricos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1IPVhuFPyilbctL5wW_XW1z2b0A21hFX2/view?usp=sharing",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -18651,9 +19301,9 @@ const cursos = [
         "es": "Repasa conceptos sobre cuencas hidrográficas, contaminación, tratamiento del agua y gestión de los recursos hídricos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   },
@@ -18665,12 +19315,14 @@ const cursos = [
     "aula": "Aula 24",
     "nome": "Retomada - Sustentabilidade e consumo consciente",
     "descricao": "Revisa conceitos relacionados à sustentabilidade, ao consumo responsável, à economia circular e à gestão de resíduos.",
-    "quantidadeAulas": 0,
-    "status": "BACKLOG",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
     "linkAula": "",
     "linkMusica": "",
-    "linkPdf": "",
-    "duracaoMinutos": 0,
+    "linkPdf": "https://drive.google.com/file/d/1Gs-fWy1YBDjIsrCnCRVYmtzj_KcDAsL9/view?usp=sharing",
+	"linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 15,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -18708,9 +19360,9 @@ const cursos = [
         "es": "Revisa conceptos relacionados con sostenibilidad, al consumo responsable, a la economía circular y a la gestión de residuos."
       },
       "status": {
-        "pt": "BACKLOG",
-        "en": "BACKLOG",
-        "es": "PENDIENTE"
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
       }
     }
   }
