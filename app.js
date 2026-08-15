@@ -909,10 +909,34 @@ function renderCursos(lista) {
             t("resources.pdfAria", { title: titulo.textContent })
         });
 
+      const botaoAprofundamento =
+        criarBotaoMaterial({
+          texto: t("resources.deepen"),
+          link: curso.linkAprofundamento,
+          classeExtra: "btn-aprofundamento",
+          ariaLabel:
+            t("resources.deepenAria", {
+              title: titulo.textContent
+            })
+        });
+
+      const botaoAplicativo =
+        criarBotaoMaterial({
+          texto: t("resources.app"),
+          link: curso.linkAplicativo,
+          classeExtra: "btn-aplicativo",
+          ariaLabel:
+            t("resources.appAria", {
+              title: titulo.textContent
+            })
+        });
+
       [
         botaoVideo,
         botaoMusica,
-        botaoPdf
+        botaoPdf,
+        botaoAprofundamento,
+        botaoAplicativo
       ]
         .filter(Boolean)
         .forEach(
