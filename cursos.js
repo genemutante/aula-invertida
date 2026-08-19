@@ -791,6 +791,367 @@ const cursos = [
   
   
 
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 1",
+    "nome": "CORREÇÃO DA TAREFA 1",
+    "descricao": "QUESTÃO 1",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/cUdFdbIjqkA?list=PLPv2JxsPWmWM",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 1",
+        "en": "Assignment 1",
+        "es": "Tarea 1"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 1",
+        "en": "ASSIGNMENT 1 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 1"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 1",
+        "en": "QUESTION 1",
+        "es": "PREGUNTA 1"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 1",
+    "nome": "CORREÇÃO DA TAREFA 1",
+    "descricao": "QUESTÃO 2",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/vwHuBdwIMm4?list=PLPv2JxsPWmWM",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 3,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 1",
+        "en": "Assignment 1",
+        "es": "Tarea 1"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 1",
+        "en": "ASSIGNMENT 1 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 1"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 2",
+        "en": "QUESTION 2",
+        "es": "PREGUNTA 2"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 1",
+    "nome": "CORREÇÃO DA TAREFA 1",
+    "descricao": "QUESTÃO 3",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/xN599dNlVuU?list=PLPv2JxsPWmWM",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 3,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 1",
+        "en": "Assignment 1",
+        "es": "Tarea 1"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 1",
+        "en": "ASSIGNMENT 1 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 1"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 3",
+        "en": "QUESTION 3",
+        "es": "PREGUNTA 3"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 1",
+    "nome": "CORREÇÃO DA TAREFA 1",
+    "descricao": "QUESTÃO 4",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/l05zv_XJEN8?list=PLPv2JxsPWmWM",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 3,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 1",
+        "en": "Assignment 1",
+        "es": "Tarea 1"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 1",
+        "en": "ASSIGNMENT 1 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 1"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 4",
+        "en": "QUESTION 4",
+        "es": "PREGUNTA 4"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 1",
+    "nome": "CORREÇÃO DA TAREFA 1",
+    "descricao": "QUESTÃO 5",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/CpZApHEuAO0?list=PLPv2JxsPWmWM",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 1",
+        "en": "Assignment 1",
+        "es": "Tarea 1"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 1",
+        "en": "ASSIGNMENT 1 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 1"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 5",
+        "en": "QUESTION 5",
+        "es": "PREGUNTA 5"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 1",
+    "nome": "CORREÇÃO DA TAREFA 1",
+    "descricao": "QUESTÃO 6",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/lmZQCqZgWxc?list=PLPv2JxsPWmWM",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 3,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 1",
+        "en": "Assignment 1",
+        "es": "Tarea 1"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 1",
+        "en": "ASSIGNMENT 1 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 1"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 6",
+        "en": "QUESTION 6",
+        "es": "PREGUNTA 6"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+ 
+  
+  
+  
+  
+  
+
 {
   "material": "Correção da Tarefa",
   "disciplina": "Ciências",
