@@ -78,7 +78,23 @@ const cursos = [
   }
 },
 
+
+
+   // 7 ANO 1BIM  TAREFA 1
+			
+   // 7 ANO 1BIM  TAREFA 2
+			
+   // 7 ANO 1BIM  TAREFA 3
+			
+   // 7 ANO 1BIM  TAREFA 4
+			
+   // 7 ANO 1BIM  TAREFA 5
+			
+   // 7 ANO 1BIM  TAREFA 6  
    
+			
+
+// 7 ANO 2BIM  TAREFA 1
   {
     "material": "Correção da Tarefa",
     "disciplina": "Ciências",
@@ -434,6 +450,8 @@ const cursos = [
       }
     }
   },
+  
+  // 7 ANO 2BIM  TAREFA 2
   {
     "material": "Correção da Tarefa",
     "disciplina": "Ciências",
@@ -789,7 +807,19 @@ const cursos = [
     }
   },
   
+
+  // 7 ANO 2BIM  TAREFA 3
   
+  // 7 ANO 2BIM  TAREFA 4
+  
+  // 7 ANO 2BIM  TAREFA 5
+  
+  // 7 ANO 2BIM  TAREFA 6
+  
+  
+  
+  
+  // 7 ANO 3BIM  TAREFA 1
 
   {
     "material": "Correção da Tarefa",
@@ -1147,11 +1177,1129 @@ const cursos = [
   },
  
   
+   // 7 ANO 3BIM  TAREFA 2
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 2",
+    "nome": "CORREÇÃO DA TAREFA 2",
+    "descricao": "QUESTÃO 1",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 2",
+        "en": "Assignment 2",
+        "es": "Tarea 2"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 2",
+        "en": "ASSIGNMENT 2 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 2"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 1",
+        "en": "QUESTION 1",
+        "es": "PREGUNTA 1"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 2",
+    "nome": "CORREÇÃO DA TAREFA 2",
+    "descricao": "QUESTÃO 2",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 2",
+        "en": "Assignment 2",
+        "es": "Tarea 2"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 2",
+        "en": "ASSIGNMENT 2 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 2"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 2",
+        "en": "QUESTION 2",
+        "es": "PREGUNTA 2"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 2",
+    "nome": "CORREÇÃO DA TAREFA 2",
+    "descricao": "QUESTÃO 3",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 2",
+        "en": "Assignment 2",
+        "es": "Tarea 2"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 2",
+        "en": "ASSIGNMENT 2 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 2"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 3",
+        "en": "QUESTION 3",
+        "es": "PREGUNTA 3"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 2",
+    "nome": "CORREÇÃO DA TAREFA 2",
+    "descricao": "QUESTÃO 4",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 2",
+        "en": "Assignment 2",
+        "es": "Tarea 2"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 2",
+        "en": "ASSIGNMENT 2 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 2"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 4",
+        "en": "QUESTION 4",
+        "es": "PREGUNTA 4"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 2",
+    "nome": "CORREÇÃO DA TAREFA 2",
+    "descricao": "QUESTÃO 5",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 2",
+        "en": "Assignment 2",
+        "es": "Tarea 2"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 2",
+        "en": "ASSIGNMENT 2 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 2"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 5",
+        "en": "QUESTION 5",
+        "es": "PREGUNTA 5"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 2",
+    "nome": "CORREÇÃO DA TAREFA 2",
+    "descricao": "QUESTÃO 6",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 2",
+        "en": "Assignment 2",
+        "es": "Tarea 2"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 2",
+        "en": "ASSIGNMENT 2 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 2"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 6",
+        "en": "QUESTION 6",
+        "es": "PREGUNTA 6"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+   
+   // 7 ANO 3BIM  TAREFA 3
+   
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 3",
+    "nome": "CORREÇÃO DA TAREFA 3",
+    "descricao": "QUESTÃO 1",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 3",
+        "en": "Assignment 3",
+        "es": "Tarea 3"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 3",
+        "en": "ASSIGNMENT 3 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 3"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 1",
+        "en": "QUESTION 1",
+        "es": "PREGUNTA 1"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 3",
+    "nome": "CORREÇÃO DA TAREFA 3",
+    "descricao": "QUESTÃO 2",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 3",
+        "en": "Assignment 3",
+        "es": "Tarea 3"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 3",
+        "en": "ASSIGNMENT 3 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 3"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 2",
+        "en": "QUESTION 2",
+        "es": "PREGUNTA 2"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 3",
+    "nome": "CORREÇÃO DA TAREFA 3",
+    "descricao": "QUESTÃO 3",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 3",
+        "en": "Assignment 3",
+        "es": "Tarea 3"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 3",
+        "en": "ASSIGNMENT 3 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 3"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 3",
+        "en": "QUESTION 3",
+        "es": "PREGUNTA 3"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 3",
+    "nome": "CORREÇÃO DA TAREFA 3",
+    "descricao": "QUESTÃO 4",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 3",
+        "en": "Assignment 3",
+        "es": "Tarea 3"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 3",
+        "en": "ASSIGNMENT 3 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 3"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 4",
+        "en": "QUESTION 4",
+        "es": "PREGUNTA 4"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 3",
+    "nome": "CORREÇÃO DA TAREFA 3",
+    "descricao": "QUESTÃO 5",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 3",
+        "en": "Assignment 3",
+        "es": "Tarea 3"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 3",
+        "en": "ASSIGNMENT 3 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 3"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 5",
+        "en": "QUESTION 5",
+        "es": "PREGUNTA 5"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 3",
+    "nome": "CORREÇÃO DA TAREFA 3",
+    "descricao": "QUESTÃO 6",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 3",
+        "en": "Assignment 3",
+        "es": "Tarea 3"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 3",
+        "en": "ASSIGNMENT 3 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 3"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 6",
+        "en": "QUESTION 6",
+        "es": "PREGUNTA 6"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
   
   
-  
-  
+   // 7 ANO 3BIM  TAREFA 4
 
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 4",
+    "nome": "CORREÇÃO DA TAREFA 4",
+    "descricao": "QUESTÃO 1",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 4",
+        "en": "Assignment 4",
+        "es": "Tarea 4"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 4",
+        "en": "ASSIGNMENT 4 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 4"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 1",
+        "en": "QUESTION 1",
+        "es": "PREGUNTA 1"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 4",
+    "nome": "CORREÇÃO DA TAREFA 4",
+    "descricao": "QUESTÃO 2",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 4",
+        "en": "Assignment 4",
+        "es": "Tarea 4"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 4",
+        "en": "ASSIGNMENT 4 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 4"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 2",
+        "en": "QUESTION 2",
+        "es": "PREGUNTA 2"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 4",
+    "nome": "CORREÇÃO DA TAREFA 4",
+    "descricao": "QUESTÃO 3",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 4",
+        "en": "Assignment 4",
+        "es": "Tarea 4"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 4",
+        "en": "ASSIGNMENT 4 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 4"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 3",
+        "en": "QUESTION 3",
+        "es": "PREGUNTA 3"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 4",
+    "nome": "CORREÇÃO DA TAREFA 4",
+    "descricao": "QUESTÃO 4",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 4",
+        "en": "Assignment 4",
+        "es": "Tarea 4"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 4",
+        "en": "ASSIGNMENT 4 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 4"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 4",
+        "en": "QUESTION 4",
+        "es": "PREGUNTA 4"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 4",
+    "nome": "CORREÇÃO DA TAREFA 4",
+    "descricao": "QUESTÃO 5",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 4",
+        "en": "Assignment 4",
+        "es": "Tarea 4"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 4",
+        "en": "ASSIGNMENT 4 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 4"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 5",
+        "en": "QUESTION 5",
+        "es": "PREGUNTA 5"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 4",
+    "nome": "CORREÇÃO DA TAREFA 4",
+    "descricao": "QUESTÃO 6",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 4",
+        "en": "Assignment 4",
+        "es": "Tarea 4"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 4",
+        "en": "ASSIGNMENT 4 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 4"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 6",
+        "en": "QUESTION 6",
+        "es": "PREGUNTA 6"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+   
+   
+   
+   
+   // 7 ANO 4BIM  TAREFA 1
+			
+   // 7 ANO 4BIM  TAREFA 2
+			
+   // 7 ANO 4BIM  TAREFA 3
+			
+   // 7 ANO 4BIM  TAREFA 4
+			
+   // 7 ANO 4BIM  TAREFA 5
+			
+   // 7 ANO 4BIM  TAREFA 6  
+   
+   
+   
+
+
+
+
+
+   // 8 ANO 1BIM  TAREFA 1
+   
+   // 8 ANO 1BIM  TAREFA 2
+   
+   // 8 ANO 1BIM  TAREFA 3
+   
+   // 8 ANO 1BIM  TAREFA 4
+   
+   // 8 ANO 1BIM  TAREFA 5
+   
+   // 8 ANO 1BIM  TAREFA 6
+
+
+
+   // 8 ANO 2BIM  TAREFA 1
+			
+   // 8 ANO 2BIM  TAREFA 2
+			
+   // 8 ANO 2BIM  TAREFA 3
+			
+   // 8 ANO 2BIM  TAREFA 4
+			
+   // 8 ANO 2BIM  TAREFA 5
+			
+   // 8 ANO 2BIM  TAREFA 6
+
+
+   
+  
+   // 8 ANO 3BIM  TAREFA 1
 {
   "material": "Correção da Tarefa",
   "disciplina": "Ciências",
@@ -1507,14 +2655,3647 @@ const cursos = [
   }
 },
   
+   // 8 ANO 3BIM  TAREFA 2
+
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 2",
+    "nome": "CORREÇÃO  DA TAREFA 2",
+    "descricao": "QUESTÃO 1",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 2",
+        "en": "Assignment 2",
+        "es": "Tarea 2"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 2",
+        "en": "ASSIGNMENT 2 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 2"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 1",
+        "en": "QUESTION 1",
+        "es": "PREGUNTA 1"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 2",
+    "nome": "CORREÇÃO  DA TAREFA 2",
+    "descricao": "QUESTÃO 2",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 2",
+        "en": "Assignment 2",
+        "es": "Tarea 2"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 2",
+        "en": "ASSIGNMENT 2 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 2"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 2",
+        "en": "QUESTION 2",
+        "es": "PREGUNTA 2"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 2",
+    "nome": "CORREÇÃO  DA TAREFA 2",
+    "descricao": "QUESTÃO 3",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 2",
+        "en": "Assignment 2",
+        "es": "Tarea 2"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 2",
+        "en": "ASSIGNMENT 2 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 2"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 3",
+        "en": "QUESTION 3",
+        "es": "PREGUNTA 3"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 2",
+    "nome": "CORREÇÃO  DA TAREFA 2",
+    "descricao": "QUESTÃO 4",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 2",
+        "en": "Assignment 2",
+        "es": "Tarea 2"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 2",
+        "en": "ASSIGNMENT 2 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 2"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 4",
+        "en": "QUESTION 4",
+        "es": "PREGUNTA 4"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 2",
+    "nome": "CORREÇÃO  DA TAREFA 2",
+    "descricao": "QUESTÃO 5",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 2",
+        "en": "Assignment 2",
+        "es": "Tarea 2"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 2",
+        "en": "ASSIGNMENT 2 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 2"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 5",
+        "en": "QUESTION 5",
+        "es": "PREGUNTA 5"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 2",
+    "nome": "CORREÇÃO  DA TAREFA 2",
+    "descricao": "QUESTÃO 6",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 2",
+        "en": "Assignment 2",
+        "es": "Tarea 2"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 2",
+        "en": "ASSIGNMENT 2 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 2"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 6",
+        "en": "QUESTION 6",
+        "es": "PREGUNTA 6"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+
+  
+   // 8 ANO 3BIM  TAREFA 3
+
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 3",
+    "nome": "CORREÇÃO  DA TAREFA 3",
+    "descricao": "QUESTÃO 1",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 3",
+        "en": "Assignment 3",
+        "es": "Tarea 3"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 3",
+        "en": "ASSIGNMENT 3 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 3"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 1",
+        "en": "QUESTION 1",
+        "es": "PREGUNTA 1"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 3",
+    "nome": "CORREÇÃO  DA TAREFA 3",
+    "descricao": "QUESTÃO 2",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 3",
+        "en": "Assignment 3",
+        "es": "Tarea 3"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 3",
+        "en": "ASSIGNMENT 3 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 3"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 2",
+        "en": "QUESTION 2",
+        "es": "PREGUNTA 2"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 3",
+    "nome": "CORREÇÃO  DA TAREFA 3",
+    "descricao": "QUESTÃO 3",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 3",
+        "en": "Assignment 3",
+        "es": "Tarea 3"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 3",
+        "en": "ASSIGNMENT 3 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 3"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 3",
+        "en": "QUESTION 3",
+        "es": "PREGUNTA 3"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 3",
+    "nome": "CORREÇÃO  DA TAREFA 3",
+    "descricao": "QUESTÃO 4",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 3",
+        "en": "Assignment 3",
+        "es": "Tarea 3"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 3",
+        "en": "ASSIGNMENT 3 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 3"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 4",
+        "en": "QUESTION 4",
+        "es": "PREGUNTA 4"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 3",
+    "nome": "CORREÇÃO  DA TAREFA 3",
+    "descricao": "QUESTÃO 5",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 3",
+        "en": "Assignment 3",
+        "es": "Tarea 3"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 3",
+        "en": "ASSIGNMENT 3 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 3"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 5",
+        "en": "QUESTION 5",
+        "es": "PREGUNTA 5"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 3",
+    "nome": "CORREÇÃO  DA TAREFA 3",
+    "descricao": "QUESTÃO 6",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 3",
+        "en": "Assignment 3",
+        "es": "Tarea 3"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 3",
+        "en": "ASSIGNMENT 3 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 3"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 6",
+        "en": "QUESTION 6",
+        "es": "PREGUNTA 6"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+
+  
+   // 8 ANO 3BIM  TAREFA 4
+
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 4",
+    "nome": "CORREÇÃO  DA TAREFA 4",
+    "descricao": "QUESTÃO 1",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 4",
+        "en": "Assignment 4",
+        "es": "Tarea 4"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 4",
+        "en": "ASSIGNMENT 4 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 4"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 1",
+        "en": "QUESTION 1",
+        "es": "PREGUNTA 1"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 4",
+    "nome": "CORREÇÃO  DA TAREFA 4",
+    "descricao": "QUESTÃO 2",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 4",
+        "en": "Assignment 4",
+        "es": "Tarea 4"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 4",
+        "en": "ASSIGNMENT 4 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 4"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 2",
+        "en": "QUESTION 2",
+        "es": "PREGUNTA 2"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 4",
+    "nome": "CORREÇÃO  DA TAREFA 4",
+    "descricao": "QUESTÃO 3",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 4",
+        "en": "Assignment 4",
+        "es": "Tarea 4"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 4",
+        "en": "ASSIGNMENT 4 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 4"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 3",
+        "en": "QUESTION 3",
+        "es": "PREGUNTA 3"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 4",
+    "nome": "CORREÇÃO  DA TAREFA 4",
+    "descricao": "QUESTÃO 4",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 4",
+        "en": "Assignment 4",
+        "es": "Tarea 4"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 4",
+        "en": "ASSIGNMENT 4 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 4"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 4",
+        "en": "QUESTION 4",
+        "es": "PREGUNTA 4"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 4",
+    "nome": "CORREÇÃO  DA TAREFA 4",
+    "descricao": "QUESTÃO 5",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 4",
+        "en": "Assignment 4",
+        "es": "Tarea 4"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 4",
+        "en": "ASSIGNMENT 4 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 4"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 5",
+        "en": "QUESTION 5",
+        "es": "PREGUNTA 5"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 4",
+    "nome": "CORREÇÃO  DA TAREFA 4",
+    "descricao": "QUESTÃO 6",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 4",
+        "en": "Assignment 4",
+        "es": "Tarea 4"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 4",
+        "en": "ASSIGNMENT 4 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 4"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 6",
+        "en": "QUESTION 6",
+        "es": "PREGUNTA 6"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+	
+   // 8 ANO 3BIM  TAREFA 5
+
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 5",
+    "nome": "CORREÇÃO  DA TAREFA 5",
+    "descricao": "QUESTÃO 1",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 5",
+        "en": "Assignment 5",
+        "es": "Tarea 5"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 5",
+        "en": "ASSIGNMENT 5 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 5"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 1",
+        "en": "QUESTION 1",
+        "es": "PREGUNTA 1"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 5",
+    "nome": "CORREÇÃO  DA TAREFA 5",
+    "descricao": "QUESTÃO 2",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 5",
+        "en": "Assignment 5",
+        "es": "Tarea 5"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 5",
+        "en": "ASSIGNMENT 5 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 5"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 2",
+        "en": "QUESTION 2",
+        "es": "PREGUNTA 2"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 5",
+    "nome": "CORREÇÃO  DA TAREFA 5",
+    "descricao": "QUESTÃO 3",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 5",
+        "en": "Assignment 5",
+        "es": "Tarea 5"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 5",
+        "en": "ASSIGNMENT 5 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 5"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 3",
+        "en": "QUESTION 3",
+        "es": "PREGUNTA 3"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 5",
+    "nome": "CORREÇÃO  DA TAREFA 5",
+    "descricao": "QUESTÃO 4",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 5",
+        "en": "Assignment 5",
+        "es": "Tarea 5"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 5",
+        "en": "ASSIGNMENT 5 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 5"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 4",
+        "en": "QUESTION 4",
+        "es": "PREGUNTA 4"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 5",
+    "nome": "CORREÇÃO  DA TAREFA 5",
+    "descricao": "QUESTÃO 5",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 5",
+        "en": "Assignment 5",
+        "es": "Tarea 5"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 5",
+        "en": "ASSIGNMENT 5 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 5"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 5",
+        "en": "QUESTION 5",
+        "es": "PREGUNTA 5"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 5",
+    "nome": "CORREÇÃO  DA TAREFA 5",
+    "descricao": "QUESTÃO 6",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 5",
+        "en": "Assignment 5",
+        "es": "Tarea 5"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 5",
+        "en": "ASSIGNMENT 5 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 5"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 6",
+        "en": "QUESTION 6",
+        "es": "PREGUNTA 6"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+
+   // 8 ANO 3BIM  TAREFA 6
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 6",
+    "nome": "CORREÇÃO  DA TAREFA 6",
+    "descricao": "QUESTÃO 1",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 6",
+        "en": "Assignment 6",
+        "es": "Tarea 6"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 6",
+        "en": "ASSIGNMENT 6 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 6"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 1",
+        "en": "QUESTION 1",
+        "es": "PREGUNTA 1"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 6",
+    "nome": "CORREÇÃO  DA TAREFA 6",
+    "descricao": "QUESTÃO 2",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 6",
+        "en": "Assignment 6",
+        "es": "Tarea 6"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 6",
+        "en": "ASSIGNMENT 6 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 6"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 2",
+        "en": "QUESTION 2",
+        "es": "PREGUNTA 2"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 6",
+    "nome": "CORREÇÃO  DA TAREFA 6",
+    "descricao": "QUESTÃO 3",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 6",
+        "en": "Assignment 6",
+        "es": "Tarea 6"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 6",
+        "en": "ASSIGNMENT 6 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 6"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 3",
+        "en": "QUESTION 3",
+        "es": "PREGUNTA 3"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 6",
+    "nome": "CORREÇÃO  DA TAREFA 6",
+    "descricao": "QUESTÃO 4",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 6",
+        "en": "Assignment 6",
+        "es": "Tarea 6"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 6",
+        "en": "ASSIGNMENT 6 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 6"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 4",
+        "en": "QUESTION 4",
+        "es": "PREGUNTA 4"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 6",
+    "nome": "CORREÇÃO  DA TAREFA 6",
+    "descricao": "QUESTÃO 5",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 6",
+        "en": "Assignment 6",
+        "es": "Tarea 6"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 6",
+        "en": "ASSIGNMENT 6 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 6"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 5",
+        "en": "QUESTION 5",
+        "es": "PREGUNTA 5"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "8º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 6",
+    "nome": "CORREÇÃO  DA TAREFA 6",
+    "descricao": "QUESTÃO 6",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "8º Ano",
+        "en": "Grade 8",
+        "es": "8º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 6",
+        "en": "Assignment 6",
+        "es": "Tarea 6"
+      },
+      "nome": {
+        "pt": "CORREÇÃO  DA TAREFA 6",
+        "en": "ASSIGNMENT 6 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 6"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 6",
+        "en": "QUESTION 6",
+        "es": "PREGUNTA 6"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+
+
+   // 8 ANO 4BIM  TAREFA 1
+   
+   // 8 ANO 4BIM  TAREFA 2
+			
+   // 8 ANO 4BIM  TAREFA 3
+			
+   // 8 ANO 4BIM  TAREFA 4
+			
+   // 8 ANO 4BIM  TAREFA 5
+			
+   // 8 ANO 4BIM  TAREFA 6
+			
+
+
+
+   
+  
+  
+   // 9 ANO 1BIM  TAREFA 1
+			
+   // 9 ANO 1BIM  TAREFA 2
+			
+   // 9 ANO 1BIM  TAREFA 3
+			
+   // 9 ANO 1BIM  TAREFA 4
+			
+   // 9 ANO 1BIM  TAREFA 5
+			
+   // 9 ANO 1BIM  TAREFA 6  
   
   
   
   
+   // 9 ANO 2BIM  TAREFA 1
+	
+   // 9 ANO 2BIM  TAREFA 2
+
+   // 9 ANO 2BIM  TAREFA 3
+			
+   // 9 ANO 2BIM  TAREFA 4
+			
+   // 9 ANO 2BIM  TAREFA 5
+		
+   // 9 ANO 2BIM  TAREFA 6 
   
   
   
   
+// 9 ANO 3BIM  TAREFA 1 
+  
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 1",
+    "nome": "CORREÇÃO DA TAREFA 1",
+    "descricao": "QUESTÃO 1",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/Ta6GbeJJ4os?list=PLUUOd90BYurs",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 4,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 1",
+        "en": "Assignment 1",
+        "es": "Tarea 1"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 1",
+        "en": "ASSIGNMENT 1 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 1"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 1",
+        "en": "QUESTION 1",
+        "es": "PREGUNTA 1"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 1",
+    "nome": "CORREÇÃO DA TAREFA 1",
+    "descricao": "QUESTÃO 2",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/OREMNff0hSY?list=PLUUOd90BYurs",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 4,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 1",
+        "en": "Assignment 1",
+        "es": "Tarea 1"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 1",
+        "en": "ASSIGNMENT 1 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 1"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 2",
+        "en": "QUESTION 2",
+        "es": "PREGUNTA 2"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 1",
+    "nome": "CORREÇÃO DA TAREFA 1",
+    "descricao": "QUESTÃO 3",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/zDX8xOSC-oI?list=PLUUOd90BYurs",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 4,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 1",
+        "en": "Assignment 1",
+        "es": "Tarea 1"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 1",
+        "en": "ASSIGNMENT 1 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 1"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 3",
+        "en": "QUESTION 3",
+        "es": "PREGUNTA 3"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 1",
+    "nome": "CORREÇÃO DA TAREFA 1",
+    "descricao": "QUESTÃO 4",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/4U833oZ9pQo?list=PLUUOd90BYurs",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 4,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 1",
+        "en": "Assignment 1",
+        "es": "Tarea 1"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 1",
+        "en": "ASSIGNMENT 1 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 1"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 4",
+        "en": "QUESTION 4",
+        "es": "PREGUNTA 4"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 1",
+    "nome": "CORREÇÃO DA TAREFA 1",
+    "descricao": "QUESTÃO 5",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/4Ffxf9NYR7A?list=PLUUOd90BYurs",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 4,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 1",
+        "en": "Assignment 1",
+        "es": "Tarea 1"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 1",
+        "en": "ASSIGNMENT 1 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 1"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 5",
+        "en": "QUESTION 5",
+        "es": "PREGUNTA 5"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 1",
+    "nome": "CORREÇÃO DA TAREFA 1",
+    "descricao": "QUESTÃO 6",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/AoOOr6iP1EY?list=PLUUOd90BYurs",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 3,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 1",
+        "en": "Assignment 1",
+        "es": "Tarea 1"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 1",
+        "en": "ASSIGNMENT 1 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 1"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 6",
+        "en": "QUESTION 6",
+        "es": "PREGUNTA 6"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+
+  
+  
+// 9 ANO 3BIM  TAREFA 2 
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 2",
+    "nome": "CORREÇÃO DA TAREFA 2",
+    "descricao": "QUESTÃO 1",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 2",
+        "en": "Assignment 2",
+        "es": "Tarea 2"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 2",
+        "en": "ASSIGNMENT 2 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 2"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 1",
+        "en": "QUESTION 1",
+        "es": "PREGUNTA 1"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 2",
+    "nome": "CORREÇÃO DA TAREFA 2",
+    "descricao": "QUESTÃO 2",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 2",
+        "en": "Assignment 2",
+        "es": "Tarea 2"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 2",
+        "en": "ASSIGNMENT 2 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 2"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 2",
+        "en": "QUESTION 2",
+        "es": "PREGUNTA 2"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 2",
+    "nome": "CORREÇÃO DA TAREFA 2",
+    "descricao": "QUESTÃO 3",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 2",
+        "en": "Assignment 2",
+        "es": "Tarea 2"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 2",
+        "en": "ASSIGNMENT 2 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 2"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 3",
+        "en": "QUESTION 3",
+        "es": "PREGUNTA 3"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 2",
+    "nome": "CORREÇÃO DA TAREFA 2",
+    "descricao": "QUESTÃO 4",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 2",
+        "en": "Assignment 2",
+        "es": "Tarea 2"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 2",
+        "en": "ASSIGNMENT 2 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 2"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 4",
+        "en": "QUESTION 4",
+        "es": "PREGUNTA 4"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 2",
+    "nome": "CORREÇÃO DA TAREFA 2",
+    "descricao": "QUESTÃO 5",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 2",
+        "en": "Assignment 2",
+        "es": "Tarea 2"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 2",
+        "en": "ASSIGNMENT 2 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 2"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 5",
+        "en": "QUESTION 5",
+        "es": "PREGUNTA 5"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 2",
+    "nome": "CORREÇÃO DA TAREFA 2",
+    "descricao": "QUESTÃO 6",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 2",
+        "en": "Assignment 2",
+        "es": "Tarea 2"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 2",
+        "en": "ASSIGNMENT 2 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 2"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 6",
+        "en": "QUESTION 6",
+        "es": "PREGUNTA 6"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+
+// 9 ANO 3BIM  TAREFA 3 
+  
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 3",
+    "nome": "CORREÇÃO DA TAREFA 3",
+    "descricao": "QUESTÃO 1",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 3",
+        "en": "Assignment 3",
+        "es": "Tarea 3"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 3",
+        "en": "ASSIGNMENT 3 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 3"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 1",
+        "en": "QUESTION 1",
+        "es": "PREGUNTA 1"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 3",
+    "nome": "CORREÇÃO DA TAREFA 3",
+    "descricao": "QUESTÃO 2",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 3",
+        "en": "Assignment 3",
+        "es": "Tarea 3"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 3",
+        "en": "ASSIGNMENT 3 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 3"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 2",
+        "en": "QUESTION 2",
+        "es": "PREGUNTA 2"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 3",
+    "nome": "CORREÇÃO DA TAREFA 3",
+    "descricao": "QUESTÃO 3",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 3",
+        "en": "Assignment 3",
+        "es": "Tarea 3"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 3",
+        "en": "ASSIGNMENT 3 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 3"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 3",
+        "en": "QUESTION 3",
+        "es": "PREGUNTA 3"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 3",
+    "nome": "CORREÇÃO DA TAREFA 3",
+    "descricao": "QUESTÃO 4",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 3",
+        "en": "Assignment 3",
+        "es": "Tarea 3"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 3",
+        "en": "ASSIGNMENT 3 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 3"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 4",
+        "en": "QUESTION 4",
+        "es": "PREGUNTA 4"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 3",
+    "nome": "CORREÇÃO DA TAREFA 3",
+    "descricao": "QUESTÃO 5",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 3",
+        "en": "Assignment 3",
+        "es": "Tarea 3"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 3",
+        "en": "ASSIGNMENT 3 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 3"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 5",
+        "en": "QUESTION 5",
+        "es": "PREGUNTA 5"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 3",
+    "nome": "CORREÇÃO DA TAREFA 3",
+    "descricao": "QUESTÃO 6",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 3",
+        "en": "Assignment 3",
+        "es": "Tarea 3"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 3",
+        "en": "ASSIGNMENT 3 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 3"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 6",
+        "en": "QUESTION 6",
+        "es": "PREGUNTA 6"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  
+// 9 ANO 3BIM  TAREFA 4
+  
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 4",
+    "nome": "CORREÇÃO DA TAREFA 4",
+    "descricao": "QUESTÃO 1",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 4",
+        "en": "Assignment 4",
+        "es": "Tarea 4"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 4",
+        "en": "ASSIGNMENT 4 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 4"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 1",
+        "en": "QUESTION 1",
+        "es": "PREGUNTA 1"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 4",
+    "nome": "CORREÇÃO DA TAREFA 4",
+    "descricao": "QUESTÃO 2",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 4",
+        "en": "Assignment 4",
+        "es": "Tarea 4"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 4",
+        "en": "ASSIGNMENT 4 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 4"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 2",
+        "en": "QUESTION 2",
+        "es": "PREGUNTA 2"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 4",
+    "nome": "CORREÇÃO DA TAREFA 4",
+    "descricao": "QUESTÃO 3",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 4",
+        "en": "Assignment 4",
+        "es": "Tarea 4"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 4",
+        "en": "ASSIGNMENT 4 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 4"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 3",
+        "en": "QUESTION 3",
+        "es": "PREGUNTA 3"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 4",
+    "nome": "CORREÇÃO DA TAREFA 4",
+    "descricao": "QUESTÃO 4",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 4",
+        "en": "Assignment 4",
+        "es": "Tarea 4"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 4",
+        "en": "ASSIGNMENT 4 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 4"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 4",
+        "en": "QUESTION 4",
+        "es": "PREGUNTA 4"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 4",
+    "nome": "CORREÇÃO DA TAREFA 4",
+    "descricao": "QUESTÃO 5",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 4",
+        "en": "Assignment 4",
+        "es": "Tarea 4"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 4",
+        "en": "ASSIGNMENT 4 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 4"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 5",
+        "en": "QUESTION 5",
+        "es": "PREGUNTA 5"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 4",
+    "nome": "CORREÇÃO DA TAREFA 4",
+    "descricao": "QUESTÃO 6",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 4",
+        "en": "Assignment 4",
+        "es": "Tarea 4"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 4",
+        "en": "ASSIGNMENT 4 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 4"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 6",
+        "en": "QUESTION 6",
+        "es": "PREGUNTA 6"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  }, 
+  
+  
+  
+  // 9 ANO 3BIM  TAREFA 5
+  
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 5",
+    "nome": "CORREÇÃO DA TAREFA 5",
+    "descricao": "QUESTÃO 1",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 5",
+        "en": "Assignment 5",
+        "es": "Tarea 5"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 5",
+        "en": "ASSIGNMENT 5 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 5"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 1",
+        "en": "QUESTION 1",
+        "es": "PREGUNTA 1"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 5",
+    "nome": "CORREÇÃO DA TAREFA 5",
+    "descricao": "QUESTÃO 2",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 5",
+        "en": "Assignment 5",
+        "es": "Tarea 5"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 5",
+        "en": "ASSIGNMENT 5 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 5"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 2",
+        "en": "QUESTION 2",
+        "es": "PREGUNTA 2"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 5",
+    "nome": "CORREÇÃO DA TAREFA 5",
+    "descricao": "QUESTÃO 3",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 5",
+        "en": "Assignment 5",
+        "es": "Tarea 5"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 5",
+        "en": "ASSIGNMENT 5 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 5"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 3",
+        "en": "QUESTION 3",
+        "es": "PREGUNTA 3"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 5",
+    "nome": "CORREÇÃO DA TAREFA 5",
+    "descricao": "QUESTÃO 4",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 5",
+        "en": "Assignment 5",
+        "es": "Tarea 5"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 5",
+        "en": "ASSIGNMENT 5 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 5"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 4",
+        "en": "QUESTION 4",
+        "es": "PREGUNTA 4"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 5",
+    "nome": "CORREÇÃO DA TAREFA 5",
+    "descricao": "QUESTÃO 5",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 5",
+        "en": "Assignment 5",
+        "es": "Tarea 5"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 5",
+        "en": "ASSIGNMENT 5 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 5"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 5",
+        "en": "QUESTION 5",
+        "es": "PREGUNTA 5"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "9º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Tarefa 5",
+    "nome": "CORREÇÃO DA TAREFA 5",
+    "descricao": "QUESTÃO 6",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "duracaoMinutos": 2,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "9º Ano",
+        "en": "Grade 9",
+        "es": "9º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Tarefa 5",
+        "en": "Assignment 5",
+        "es": "Tarea 5"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA 5",
+        "en": "ASSIGNMENT 5 REVIEW",
+        "es": "CORRECCIÓN DE LA TAREA 5"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 6",
+        "en": "QUESTION 6",
+        "es": "PREGUNTA 6"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  
+ 
+   // 9 ANO 4BIM  TAREFA 1
+   
+   // 9 ANO 4BIM  TAREFA 2
+			
+   // 9 ANO 4BIM  TAREFA 3
+			
+   // 9 ANO 4BIM  TAREFA 4
+			
+   // 9 ANO 4BIM  TAREFA 5
+			
+   // 9 ANO 4BIM  TAREFA 6  
+  
+  
+  
+  
+  //------------------------
+
   
   
   
