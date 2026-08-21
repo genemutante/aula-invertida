@@ -19167,12 +19167,12 @@ const cursos = [
     "descricao": "Apresenta os movimentos realizados pela Lua e sua relação com a Terra e o Sol.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/LCw2kpHpCwE?list=PLE--1VpbVGyk",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1MIitGI53TBv7R3qmHykLNxzWsGO9AjLW/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLH_UxQk5_v-U",
     "linkAplicativo": "",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 10,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
