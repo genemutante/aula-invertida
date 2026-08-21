@@ -23707,7 +23707,7 @@ const cursos = [
     "descricao": "Analisa os impactos das atividades humanas sobre a biodiversidade e a importância de ações de preservação.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/NCQOIrXeyNY?list=PLc8Rdyjdtq34",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1yvLSHpmaxGh4Ezp7Byb2SecyF3ldN6R5/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLZU-jvblYMvc",
@@ -23766,12 +23766,12 @@ const cursos = [
     "descricao": "Explica o papel das unidades de conservação na proteção dos ecossistemas, das espécies e dos recursos naturais.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/vEXPNEKWjIc",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1uipdyt6DA2cVtz1HbAkUODEgymHXUfHL/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLO_JkWX2P5f8",
     "linkAplicativo": "",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 21,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
