@@ -23766,7 +23766,7 @@ const cursos = [
     "descricao": "Explica o papel das unidades de conservação na proteção dos ecossistemas, das espécies e dos recursos naturais.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "https://youtu.be/vEXPNEKWjIc",
+    "linkAula": "https://youtu.be/vEXPNEKWjIc?list=PLc8Rdyjdtq34",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1uipdyt6DA2cVtz1HbAkUODEgymHXUfHL/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLO_JkWX2P5f8",
