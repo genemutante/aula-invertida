@@ -14864,12 +14864,12 @@ const cursos = [
     "descricao": "Apresenta as principais características da Amazônia, sua biodiversidade e sua importância para o equilíbrio ambiental.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/NDiDma3zbk0?list=PLdcJwfpw3J4A",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1J5Xnq2aFQ_f_ZtuZjHw0OcLyQw-RKgm7/view?usp=sharing",
 	"linkAprofundamento": "https://youtu.be/sVdsHjsAR-s?list=PLXXIkklJqmKm8ynmzHcQUeKvk9tq6VrpJ",
     "linkAplicativo": "",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 16,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -14923,7 +14923,7 @@ const cursos = [
     "descricao": "Analisa ameaças como desmatamento, queimadas e exploração de recursos, relacionando-as à conservação da Amazônia.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/M_gJ4BwRiqg?list=PLdcJwfpw3J4A",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1niEqqX5uhaxGFUtO_yy8K7MnoA6MsyLb/view?usp=sharing",
 	"linkAprofundamento": "https://youtu.be/xN8nfKReO5A?list=PLXXIkklJqmKm8ynmzHcQUeKvk9tq6VrpJ",
@@ -14982,12 +14982,12 @@ const cursos = [
     "descricao": "Estuda as características do Pantanal, sua dinâmica de cheias e secas e sua rica biodiversidade.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/NPpDs2cjGFc?list=PLdcJwfpw3J4A",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1AqpEldDsBJW1x9BYtERD_cEJLWJDb-4C/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLAC4O1tL2SbM",
     "linkAplicativo": "",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 12,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
