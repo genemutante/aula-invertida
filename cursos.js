@@ -19226,12 +19226,12 @@ const cursos = [
     "descricao": "Explica como as posições relativas entre Sol, Terra e Lua originam as fases lunares.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/pA5yQiDhlvY?list=PLE--1VpbVGyk",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1KySBPeo-pvBUWuoH8Gnzwu1SLeUoveZZ/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLHfPgE9yWiwI",
     "linkAplicativo": "",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 12,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
