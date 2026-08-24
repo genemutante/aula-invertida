@@ -23943,12 +23943,12 @@ const cursos = [
     "descricao": "Apresenta as principais bacias hidrográficas brasileiras e as características da hidrografia do estado de São Paulo.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/hUdVBQmrLLk?list=PLc8Rdyjdtq34",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1Ja4Jmzat6VmnvgNlUn4rEvrYZgNBjbD0/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLST_VhjpeC4U",
     "linkAplicativo": "",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 19,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -24002,7 +24002,7 @@ const cursos = [
     "descricao": "Identifica as principais causas da poluição da água e seus impactos ambientais, sociais e na saúde humana.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/-HjDFGSpKzY?list=PLc8Rdyjdtq34",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1PMxPcPpQs8cWCxkmUXaKlcYrpsKMhFfl/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLLjlsbHRUm84",
