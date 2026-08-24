@@ -19285,12 +19285,12 @@ const cursos = [
     "descricao": "Compara eclipses solares e lunares e explica as condições necessárias para que ocorram.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/9ISrIjd8hlA",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1OmQ69r649yfwTsvFXjzKzOEhOokM0TEQ/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLYhaBRBHDHnM",
     "linkAplicativo": "",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 11,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
