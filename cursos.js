@@ -24061,12 +24061,12 @@ const cursos = [
     "descricao": "Explica as etapas do tratamento da água e relaciona saneamento básico, qualidade de vida e direito à saúde.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/037eV5FY9FY?list=PLc8Rdyjdtq34",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1gFnIt_OGSRxw5Q2Vcns7kk4-b_ZP7zMQ/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLCxsb0aqxZsc",
     "linkAplicativo": "",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 17,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -24120,12 +24120,12 @@ const cursos = [
     "descricao": "Inicia a análise de questões e conflitos relacionados ao uso, à distribuição e à gestão dos recursos hídricos.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/rMjDX4RJmps?list=PLc8Rdyjdtq34",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/18yK5VYbqqbuE8uUdOfz20tlZicTdhGsP/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLTo-21-FPkZI",
     "linkAplicativo": "",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 17,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -24179,12 +24179,12 @@ const cursos = [
     "descricao": "Aprofunda a análise de problemas relacionados à gestão dos recursos hídricos e à busca de soluções sustentáveis.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/gr8rWwapIR4?list=PLc8Rdyjdtq34",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1aLKLNhQg0pIqJ167C__rjge8nbaaACrG/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLTo-21-FPkZI",
     "linkAplicativo": "",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 13,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
