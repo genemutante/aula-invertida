@@ -23825,12 +23825,12 @@ const cursos = [
     "descricao": "Apresenta uma situação-problema em formato de RPG para iniciar a análise de desafios relacionados à preservação ambiental.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/oF2LhvkA6f8?list=PLc8Rdyjdtq34",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1LptKVyuXRY9sM7xeeqDQKJ0WzXSvlY3U/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 14,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -23884,12 +23884,12 @@ const cursos = [
     "descricao": "Propõe a construção de um plano de manejo para solucionar a situação-problema apresentada no RPG.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/19_WVRRNdY8?list=PLc8Rdyjdtq34",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1xyxJYlfbsstI7dPV6TGUi4MBXULu0dy9/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 18,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
