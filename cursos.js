@@ -24238,12 +24238,12 @@ const cursos = [
     "descricao": "Apresenta os Objetivos de Desenvolvimento Sustentável e sua importância para enfrentar desafios sociais e ambientais.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/aYLfc0zHg0Q?list=PLc8Rdyjdtq34",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1zbLRg3iu424vvdmJhwiVsLmQccNoZHkN/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLAvMMJyHZEaFnbAHb_0limdkGL5Z_HBIi",
     "linkAplicativo": "",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 26,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -24297,12 +24297,12 @@ const cursos = [
     "descricao": "Relaciona hábitos de consumo à pegada ecológica e discute escolhas mais responsáveis para reduzir impactos ambientais.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/SVwHYJr0gLc?list=PLc8Rdyjdtq34",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1S5EJ5O7XOKusM0aNI-xOF2hN0b9B3o6d/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLDrLv6S8mGG8",
     "linkAplicativo": "",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 14,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
