@@ -803,7 +803,7 @@ h3,
 
 .app-header h1 {
   color: var(--color-header-text);
-  font-size: clamp(1.35rem, 2vw, 1.7rem);
+  font-size: clamp(1.25rem, 1.7vw, 1.6rem);
   font-weight: 700;
   line-height: 1.15;
 }
@@ -2646,4 +2646,157 @@ html.tema-em-transicao *::after {
   background-position: center;
 
   border-radius: 50%;
+}
+/* =============================================================
+   CABEÇALHO — MANTER UMA ÚNICA LINHA NO DESKTOP
+   ============================================================= */
+
+@media (min-width: 1000px) {
+
+  .header-top {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+
+    gap: 12px;
+
+    flex-wrap: nowrap;
+  }
+
+  .brand-identity {
+    display: flex;
+    align-items: center;
+
+    flex-wrap: nowrap;
+    gap: 8px;
+
+    min-width: 0;
+  }
+
+  .app-header h1 {
+    flex: 0 0 auto;
+
+    white-space: nowrap;
+
+    font-size: clamp(
+      1.25rem,
+      1.7vw,
+      1.6rem
+    );
+  }
+
+  .version-pill {
+    flex: 0 1 auto;
+
+    min-width: 0;
+
+    white-space: nowrap;
+
+    font-size: 0.68rem;
+    padding: 5px 9px;
+  }
+
+  .author-pill {
+    flex: 0 0 auto;
+
+    white-space: nowrap;
+
+    font-size: 0.67rem;
+    padding: 5px 9px;
+  }
+
+  .header-preferencias {
+    flex: 0 0 auto;
+
+    white-space: nowrap;
+
+    gap: 8px;
+  }
+}
+
+/* =============================================================
+   CABEÇALHO DESKTOP — SEM QUEBRA DE LINHA
+   Deve permanecer no FINAL do styles.css
+   ============================================================= */
+
+@media (min-width: 1001px) {
+
+  .header-top {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) auto !important;
+    align-items: center !important;
+    gap: 12px !important;
+
+    width: 100% !important;
+  }
+
+  /* Lado esquerdo */
+  .brand-identity {
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+
+    gap: 8px !important;
+
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+
+  /* Título nunca quebra */
+  .app-header h1 {
+    flex: 0 0 auto !important;
+
+    white-space: nowrap !important;
+
+    font-size: 1.5rem !important;
+  }
+
+  /* A descrição é o elemento que pode encolher */
+.version-pill {
+  flex: 1 1 auto !important;
+
+  min-width: 0 !important;
+  max-width: none !important;
+
+  overflow: visible !important;
+  white-space: nowrap !important;
+  text-overflow: clip !important;
+
+  padding: 5px 9px !important;
+
+  font-size: 0.68rem !important;
+}
+
+  /* Autoria nunca quebra */
+  .author-pill {
+    flex: 0 0 auto !important;
+
+    white-space: nowrap !important;
+
+    padding: 5px 9px !important;
+
+    font-size: 0.67rem !important;
+  }
+
+  /* Lado direito */
+  .header-preferencias {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+
+    flex: 0 0 auto !important;
+    flex-wrap: nowrap !important;
+
+    width: auto !important;
+
+    gap: 8px !important;
+
+    white-space: nowrap !important;
+  }
+
+  .tema-controle,
+  .idioma-controle {
+    flex: 0 0 auto !important;
+    width: auto !important;
+  }
 }
