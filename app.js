@@ -930,13 +930,27 @@ function renderCursos(lista) {
               title: titulo.textContent
             })
         });
+		
+      const botaoAcessibilidade =
+        criarBotaoMaterial({
+          texto: t("resources.accessibility"),
+          link: curso.linkAcessibilidade,
+          classeExtra: "btn-acessibilidade",
+          ariaLabel:
+            t("resources.accessibilityAria", {
+              title: titulo.textContent
+            })
+        });		
+		
+		
 
       [
         botaoVideo,
         botaoMusica,
         botaoPdf,
         botaoAprofundamento,
-        botaoAplicativo
+        botaoAplicativo,
+		botaoAcessibilidade
       ]
         .filter(Boolean)
         .forEach(
