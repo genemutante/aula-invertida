@@ -110,6 +110,7 @@ const cursos = [
     "linkPdf": "https://perfil-disc.netlify.app/",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "linkPdf": "",
     "duracaoMinutos": 3,
     "i18n": {
@@ -170,6 +171,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -229,6 +231,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -288,6 +291,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -347,6 +351,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -406,6 +411,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -467,6 +473,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -526,6 +533,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -585,6 +593,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -644,6 +653,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -703,6 +713,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -762,6 +773,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -836,6 +848,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -895,6 +908,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -954,6 +968,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -1013,6 +1028,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -1072,6 +1088,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1131,6 +1148,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -1193,6 +1211,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1252,6 +1271,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1311,6 +1331,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1370,6 +1391,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1429,6 +1451,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1488,6 +1511,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1550,6 +1574,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1609,6 +1634,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1668,6 +1694,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1727,6 +1754,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1786,6 +1814,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1845,6 +1874,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1908,6 +1938,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -1967,6 +1998,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -2026,6 +2058,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -2085,6 +2118,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -2144,6 +2178,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -2203,6 +2238,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -2315,6 +2351,7 @@ const cursos = [
   "linkPdf": "",
   "linkAprofundamento": "",
   "linkAplicativo": "",
+	"linkAcessibilidade": "",
   "duracaoMinutos": 4,
   "i18n": {
     "material": {
@@ -2374,6 +2411,7 @@ const cursos = [
   "linkPdf": "",
   "linkAprofundamento": "",
   "linkAplicativo": "",
+	"linkAcessibilidade": "",
   "duracaoMinutos": 2,
   "i18n": {
     "material": {
@@ -2433,6 +2471,7 @@ const cursos = [
   "linkPdf": "",
   "linkAprofundamento": "",
   "linkAplicativo": "",
+	"linkAcessibilidade": "",
   "duracaoMinutos": 4,
   "i18n": {
     "material": {
@@ -2492,6 +2531,7 @@ const cursos = [
   "linkPdf": "",
   "linkAprofundamento": "",
   "linkAplicativo": "",
+	"linkAcessibilidade": "",
   "duracaoMinutos": 4,
   "i18n": {
     "material": {
@@ -2551,6 +2591,7 @@ const cursos = [
   "linkPdf": "",
   "linkAprofundamento": "",
   "linkAplicativo": "",
+	"linkAcessibilidade": "",
   "duracaoMinutos": 5,
   "i18n": {
     "material": {
@@ -2610,6 +2651,7 @@ const cursos = [
   "linkPdf": "",
   "linkAprofundamento": "",
   "linkAplicativo": "",
+	"linkAcessibilidade": "",
   "duracaoMinutos": 3,
   "i18n": {
     "material": {
@@ -2672,6 +2714,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -2731,6 +2774,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -2790,6 +2834,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -2849,6 +2894,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -2908,6 +2954,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -2967,6 +3014,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -3030,6 +3078,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -3089,6 +3138,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -3148,6 +3198,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -3207,6 +3258,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -3266,6 +3318,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -3325,6 +3378,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -3388,6 +3442,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -3447,6 +3502,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -3506,6 +3562,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -3565,6 +3622,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -3624,6 +3682,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -3683,6 +3742,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -3745,6 +3805,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -3804,6 +3865,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -3863,6 +3925,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -3922,6 +3985,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -3981,6 +4045,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -4040,6 +4105,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -4101,6 +4167,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -4160,6 +4227,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -4219,6 +4287,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -4278,6 +4347,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -4337,6 +4407,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -4396,6 +4467,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -4507,6 +4579,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 4,
     "i18n": {
       "material": {
@@ -4566,6 +4639,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 4,
     "i18n": {
       "material": {
@@ -4625,6 +4699,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 4,
     "i18n": {
       "material": {
@@ -4684,6 +4759,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 4,
     "i18n": {
       "material": {
@@ -4743,6 +4819,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 4,
     "i18n": {
       "material": {
@@ -4802,6 +4879,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -4865,6 +4943,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -4924,6 +5003,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -4983,6 +5063,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -5042,6 +5123,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -5101,6 +5183,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -5160,6 +5243,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -5222,6 +5306,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -5281,6 +5366,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -5340,6 +5426,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -5399,6 +5486,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -5458,6 +5546,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -5517,6 +5606,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -5579,6 +5669,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -5638,6 +5729,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -5697,6 +5789,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -5756,6 +5849,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -5815,6 +5909,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -5874,6 +5969,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -5938,6 +6034,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -5997,6 +6094,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -6056,6 +6154,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -6115,6 +6214,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -6174,6 +6274,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -6233,6 +6334,7 @@ const cursos = [
     "linkPdf": "",
     "linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -6314,6 +6416,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -6373,6 +6476,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -6432,6 +6536,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -6491,6 +6596,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -6550,6 +6656,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -6609,6 +6716,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -6668,6 +6776,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -6727,6 +6836,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -6786,6 +6896,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -6845,6 +6956,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -6904,6 +7016,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -6963,6 +7076,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -7022,6 +7136,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 4,
     "i18n": {
       "material": {
@@ -7081,6 +7196,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -7140,6 +7256,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -7199,6 +7316,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -7258,6 +7376,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -7317,6 +7436,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -7376,6 +7496,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -7435,6 +7556,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -7494,6 +7616,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -7553,6 +7676,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -7612,6 +7736,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -7671,6 +7796,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -7730,6 +7856,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -7789,6 +7916,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -7848,6 +7976,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -7907,6 +8036,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -7966,6 +8096,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -8025,6 +8156,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -8084,6 +8216,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 2,
     "i18n": {
       "material": {
@@ -8143,6 +8276,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -8202,6 +8336,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -8261,6 +8396,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -8320,6 +8456,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 3,
     "i18n": {
       "material": {
@@ -8379,6 +8516,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -8438,6 +8576,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -8497,6 +8636,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -8556,6 +8696,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -8615,6 +8756,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -8674,6 +8816,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -8733,6 +8876,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -8792,6 +8936,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -8851,6 +8996,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -8910,6 +9056,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -8969,6 +9116,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -9028,6 +9176,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -9087,6 +9236,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -9146,6 +9296,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -9205,6 +9356,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -9264,6 +9416,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -9323,6 +9476,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -9382,6 +9536,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -9441,6 +9596,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -9500,6 +9656,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -9559,6 +9716,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -9618,6 +9776,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -9677,6 +9836,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -9736,6 +9896,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -9795,6 +9956,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -9854,6 +10016,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -9913,6 +10076,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -9972,6 +10136,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -10031,6 +10196,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -10090,6 +10256,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -10149,6 +10316,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -10208,6 +10376,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -10267,6 +10436,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -10326,6 +10496,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -10385,6 +10556,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -10444,6 +10616,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -10503,6 +10676,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -10562,6 +10736,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -10621,6 +10796,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -10680,6 +10856,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -10739,6 +10916,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -10798,6 +10976,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -10857,6 +11036,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -10916,6 +11096,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -10975,6 +11156,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -11034,6 +11216,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -11093,6 +11276,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -11152,6 +11336,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -11211,6 +11396,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -11270,6 +11456,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -11329,6 +11516,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -11388,6 +11576,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -11447,6 +11636,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -11506,6 +11696,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -11565,6 +11756,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -11624,6 +11816,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -11683,6 +11876,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -11742,6 +11936,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -11801,6 +11996,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -11860,6 +12056,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -11919,6 +12116,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -11978,6 +12176,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -12037,6 +12236,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -12096,6 +12296,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -12155,6 +12356,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -12214,6 +12416,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -12273,6 +12476,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -12332,6 +12536,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -12391,6 +12596,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -12450,6 +12656,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -12509,6 +12716,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -12568,6 +12776,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -12627,6 +12836,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -12686,6 +12896,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -12745,6 +12956,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -12804,6 +13016,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -12863,6 +13076,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -12922,6 +13136,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -12981,6 +13196,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -13040,6 +13256,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -13099,6 +13316,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -13158,6 +13376,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -13217,6 +13436,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -13276,6 +13496,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -13335,6 +13556,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -13394,6 +13616,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -13453,6 +13676,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -13512,6 +13736,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -13571,6 +13796,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -13630,6 +13856,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -13689,6 +13916,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -13748,6 +13976,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -13807,6 +14036,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -13866,6 +14096,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -13925,6 +14156,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -13984,6 +14216,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -14043,6 +14276,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -14102,6 +14336,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -14161,6 +14396,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -14220,6 +14456,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -14279,6 +14516,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -14338,6 +14576,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -14397,6 +14636,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -14456,6 +14696,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -14515,6 +14756,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1XPaHScitwvWPHrIBBQNbLJZXXZHdQ6V4/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLMiTpb87C8CY",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1C2FeUi6fsO-oWEoKN9cc29b3JQECCNvm/view?usp=sharing",
     "duracaoMinutos": 16,
     "i18n": {
       "material": {
@@ -14574,6 +14816,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1YURfGZ4ns8X5E9qMg3JG1tn-ePyp5ug9/view?usp=sharing",
 	"linkAprofundamento": "https://youtu.be/bShwn-z0-wg?list=PLXXIkklJqmKm8ynmzHcQUeKvk9tq6VrpJ",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/18elCV6WvRBUwK33f8PCWfzi4CiT_kuIk/view?usp=sharing",
     "duracaoMinutos": 14,
     "i18n": {
       "material": {
@@ -14633,6 +14876,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1N-f1jQIa0qDPFFxFSpB5joUsRgMoAYcM/view?usp=sharing",
 	"linkAprofundamento": "https://youtu.be/e8xD16e3rAk?list=PLXXIkklJqmKm8ynmzHcQUeKvk9tq6VrpJ",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1MOoniqGTwvhfIbRVEAy9bx4drGDnky5m/view?usp=sharing",
     "duracaoMinutos": 13,
     "i18n": {
       "material": {
@@ -14692,6 +14936,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1qSpqdUrLFUVxC-zd3VOcx3MAm99pFbXQ/view?usp=sharing",
 	"linkAprofundamento": "https://youtu.be/788WH2ctu90?list=PLXXIkklJqmKm8ynmzHcQUeKvk9tq6VrpJ",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1bc72L0HZ7ZLYMAa5hN0VwBbyDo7P1xkn/view?usp=sharing",
     "duracaoMinutos": 13,
     "i18n": {
       "material": {
@@ -14751,6 +14996,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1hO_9j9BD7onM-adQkp4sVzfAUuMLu0Ey/view?usp=sharing",
 	"linkAprofundamento": "https://youtu.be/J86C1KT5x4Q?list=PLXXIkklJqmKm8ynmzHcQUeKvk9tq6VrpJ",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1dZDj3vbeDMX-XaYcapNdEGdZj0Y_CdBS/view?usp=sharing",
     "duracaoMinutos": 14,
     "i18n": {
       "material": {
@@ -14810,6 +15056,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1zLwNaLIeYIyATViUlfy4UjmG_e1Ao4RJ/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLA928Os7eRuI",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/19IB6DYAR_FzQB1KgxUXvKTNBB4hQs2k6/view?usp=sharing",
     "duracaoMinutos": 11,
     "i18n": {
       "material": {
@@ -14869,6 +15116,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1J5Xnq2aFQ_f_ZtuZjHw0OcLyQw-RKgm7/view?usp=sharing",
 	"linkAprofundamento": "https://youtu.be/sVdsHjsAR-s?list=PLXXIkklJqmKm8ynmzHcQUeKvk9tq6VrpJ",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1GpeS-nF0mSutiWfWpUfcPolXVyTtLALG/view?usp=sharing",
     "duracaoMinutos": 16,
     "i18n": {
       "material": {
@@ -14928,6 +15176,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1niEqqX5uhaxGFUtO_yy8K7MnoA6MsyLb/view?usp=sharing",
 	"linkAprofundamento": "https://youtu.be/xN8nfKReO5A?list=PLXXIkklJqmKm8ynmzHcQUeKvk9tq6VrpJ",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1Co8OWzvtlwbWNWWFmiBuhqg2SnwNU4TE/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -14987,6 +15236,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1AqpEldDsBJW1x9BYtERD_cEJLWJDb-4C/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLAC4O1tL2SbM",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1RCP0t8vzFSB9YZDInKR0OJG7_JJK8JT4/view?usp=sharing",
     "duracaoMinutos": 12,
     "i18n": {
       "material": {
@@ -15046,6 +15296,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1sOTn-lFw7s77XWUgW2WDIBVAgCweSHu0/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLHqg-Lw_d-Rc",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1yHNF2hXJWQuI-Yf0hdmEFevvUPuPMbVe/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -15105,6 +15356,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1vKWSlhPZj2bMObxNwAZZ1BQQ3vlv1fVO/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLcV5dcG9mCmU",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1xXlGNeTCwBn_SNKffHPBGhcjAxGpwy38/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -15164,6 +15416,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1ZcauA5pYD14bXIzcwGhQsFxYrXHVkX7Z/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1PrZkv85DOL_M5PKujocuTRkFlkuIzHZE/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -15223,6 +15476,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1UphoTKjWv3GjUqbkz9sJ_SRbmZCboevE/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLO_JkWX2P5f8",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/10VZETvbadFB642eIqtBhb_MYnMqlFl9W/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -15282,6 +15536,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1PZEsVWoNUtnYwQG8EWQ1V7WIH41pPRcC/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLIS-hkcGScs4",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1nB40zujnWIlYP5gpplv99Ih5KltQrfTv/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -15341,6 +15596,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/15spGdw1MrngDZednY9i2etG8KVpDxgwH/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/19ldxHUgtdZl6p3VzUbkUf8sS_IF3pOze/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -15400,6 +15656,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1IU6BazL6mZy5j8rzaA8ZNrP_cwCVzo9p/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLDN3xXIGzf6s",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1yqSKsaVNbr1W_6ddZxts88IHPbTTwziF/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -15459,6 +15716,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1b-NoobQXhcgvnw_DA4KT_nvSZI9MdvW5/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1JyeCMkOvAMxk6zqBSNwpB5Vy2VETY48j/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -15518,6 +15776,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/19-JwbLGgc82-nlVWDSbwSxnBAGcJKR87/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/19n0UuXAPqM6PNGDzEZW5EcQHL7ssS-ze/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -15577,6 +15836,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -15636,6 +15896,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -15695,6 +15956,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -15754,6 +16016,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -15813,6 +16076,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -15872,6 +16136,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -15931,6 +16196,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -15990,6 +16256,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -16049,6 +16316,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -16108,6 +16376,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -16167,6 +16436,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -16226,6 +16496,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -16285,6 +16556,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -16344,6 +16616,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -16403,6 +16676,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -16462,6 +16736,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -16521,6 +16796,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -16580,6 +16856,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -16639,6 +16916,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -16698,6 +16976,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -16757,6 +17036,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -16816,6 +17096,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -16875,6 +17156,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -16934,6 +17216,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -16993,6 +17276,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -17052,6 +17336,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -17111,6 +17396,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -17170,6 +17456,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -17229,6 +17516,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -17288,6 +17576,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -17347,6 +17636,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -17406,6 +17696,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -17465,6 +17756,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -17524,6 +17816,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -17583,6 +17876,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -17642,6 +17936,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -17701,6 +17996,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -17760,6 +18056,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -17819,6 +18116,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -17878,6 +18176,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -17937,6 +18236,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -17996,6 +18296,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -18055,6 +18356,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -18114,6 +18416,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -18173,6 +18476,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -18232,6 +18536,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -18291,6 +18596,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -18350,6 +18656,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -18409,6 +18716,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -18468,6 +18776,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -18527,6 +18836,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -18586,6 +18896,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -18645,6 +18956,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -18704,6 +19016,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -18763,6 +19076,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -18822,6 +19136,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -18881,6 +19196,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -18939,6 +19255,7 @@ const cursos = [
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLacPlXQNChnE",
 	"linkPdf": "https://drive.google.com/file/d/1-asqbhDsmAo6naUiQu3PbSAGKWRWOcyo/view?usp=sharing",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1J2MegX65_WEfxJJCODYP-D2vZLwIzL1e/view?usp=sharing",
     "duracaoMinutos": 17,
     "i18n": {
       "material": {
@@ -18996,6 +19313,7 @@ const cursos = [
     "linkAula": "https://youtu.be/2eW3kD_Kpw0?list=PLE--1VpbVGyk",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLZ2te4E4-J6s",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/11vO6ddpw4D9X4hiE6Mpc25zK2mNxzQm3/view?usp=sharing",
 	"linkPdf": "https://drive.google.com/file/d/1Tw3ZNDCpoi_BYzS0ZQMPgUMyrYn5hfY1/view?usp=sharing",
     "duracaoMinutos": 11,
     "i18n": {
@@ -19054,6 +19372,7 @@ const cursos = [
     "linkAula": "https://youtu.be/PrJfEM9WEx0?list=PLE--1VpbVGyk",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLM5gd5R8yjjc",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1S7qWagl8zMwHcY5HDjsi3cmwJ5viB30X/view?usp=sharing",
 	"linkPdf": "https://drive.google.com/file/d/17dKEUo1G6Ja05O1sPund3XXbnc4u3OR4/view?usp=sharing",
     "duracaoMinutos": 12,
     "i18n": {
@@ -19112,6 +19431,7 @@ const cursos = [
     "linkAula": "https://youtu.be/0EV-6AIlAcY?list=PLE--1VpbVGyk",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLJSFKqF0ft6g",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1yhyQik7a9WXZO_kKWzvSsvHSybeXToOS/view?usp=sharing",
 	"linkPdf":"https://drive.google.com/file/d/1KXJvZmP5m3kX6IGvSPwRSQyNz10hTrsp/view?usp=sharing",
     "duracaoMinutos": 12,
     "i18n": {
@@ -19172,6 +19492,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1MIitGI53TBv7R3qmHykLNxzWsGO9AjLW/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLH_UxQk5_v-U",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1AWJUwyCniuqzYmrqq7hztCMqNJhjRaZN/view?usp=sharing",
     "duracaoMinutos": 10,
     "i18n": {
       "material": {
@@ -19231,6 +19552,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1KySBPeo-pvBUWuoH8Gnzwu1SLeUoveZZ/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLHfPgE9yWiwI",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1bYfUICmjXGeGWpM0uYvY0AaGgBc-4MPk/view?usp=sharing",
     "duracaoMinutos": 12,
     "i18n": {
       "material": {
@@ -19290,6 +19612,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1OmQ69r649yfwTsvFXjzKzOEhOokM0TEQ/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLYhaBRBHDHnM",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/13dwLKKabFSorQRBBtQDoPF_ImUHLw7lY/view?usp=sharing",
     "duracaoMinutos": 11,
     "i18n": {
       "material": {
@@ -19349,6 +19672,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1XaW8lCECsKD7jC05FM75wUAGYgrAsiJL/view?usp=sharing",
 	"linkAprofundamento": "https://youtu.be/y2rbw7uc0BM",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1ujoFMf6lEXqajsFEdRaFB6IVKfvwP320/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -19408,6 +19732,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1haWUaDCDWWSGCVvg_IXxwgXIxnJo4kd0/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLQGsr5qXB-Z0",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1nGNaZTyqIgly0UXjn3PYPR3AxLn4D7df/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -19467,6 +19792,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1oeVTzkLW-ivezIaXDuyOE8siYkVXLQdB/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLIiiWaxqKTbA",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1_hhhqIOGMTL1F6sDUsJDLHf8aPSZkqAS/view?usp=drive_link",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -19526,6 +19852,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1Je7ShMBi-R7x9txv9iXzuilbwIcWlSOp/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLPYUv_OMOpa4",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1kKD7LkDxU9P4ZKfyxFDlgR7nEsa1JJ0I/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -19585,6 +19912,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/19ykH1zg91vQ0SlSyxmzewA1x8CXHXsot/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1qW-jAqsJn-9zCzoQtMyyedY9ZolUAOaZ/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -19644,6 +19972,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1XPPJF1dFaWY0l_KZMlZIpqzu--K8_4GF/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/102ej3CVPBBsvG-k2YNWidtGFYymjhGcW/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -19703,6 +20032,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1Ku4E-4GdA0OgbzJPYxEO0i2IQfepmxzc/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLEI_x8jZsZeA",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1NLqqZYzp0zcthjspFxOtTAXLyJO_3uVt/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -19762,6 +20092,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1xbC2sJhfvJeaLDwPFIEt3uEAmpEFR8hn/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLKRfmI1MQngY",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1mWK812Ftgvzy9sjdtun_WZs0EbApxIwW/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -19821,6 +20152,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1DiTGWqyqLxdtxfTd8TuVzpMimnP22s20/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLKt0AGJlb45w",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1D3zTSFgucXb-Ho1bNBmcCLjnjAO6102g/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -19880,6 +20212,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1tjrVoc_tcU8r3mbHkgnRdQ9StVEjmx8a/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLAVCt924-RIo",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1jsurzU4xuEzyAKJ7x9dxHFJ76ywa0VpM/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -19939,6 +20272,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/16Sz46cPnliwj0f8-oZP5vtyYAequpxbp/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLO72Iz2yqF80",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1fAaYo44Nnubm-ELaFQ8fVY3FMlJkRJo8/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -19998,6 +20332,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1rUrovb3Wpvlsdq5-NHAIaiAgz87hXHz0/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLRNwGUtYaKuM",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1tQgOXPEHAO8JaATr2sQph3dIbe3wqJnN/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -20057,6 +20392,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1fo3XWr3BQ34F6-VY4298RG2lPs2h8omX/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLP243abPU0RU",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1TCHXoHvPctpmG5dMt046ALc2PH_d-w1j/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -20116,6 +20452,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1h34Y6vfRMN1MQumNkS37iDb6TALczG78/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1OIngDMLla2wFbDehZ8LaW2BvL2xW6a7T/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -20175,6 +20512,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1iF34zFhMXAjVc9CqxVcta9QcOhcAxv4V/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1-oG_Z7LRv6WU2Kqhqc5Q63zsygXRQ0JR/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -20234,6 +20572,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1eLlsBBqOv8fMlieMn2741-MRFgAjb68g/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/11PvhXdtM6l4KyVkwZ508Qo7lB445YxR9/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -20293,6 +20632,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/170nQrsAmdEJ5w6tkndVIWdrHdv3J4C2t/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/11WvRtrJ98gvndaBU8dOloa9Rk0o0VrBr/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -20352,6 +20692,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -20411,6 +20752,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -20470,6 +20812,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -20529,6 +20872,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -20588,6 +20932,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -20647,6 +20992,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -20706,6 +21052,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -20765,6 +21112,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -20824,6 +21172,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -20883,6 +21232,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -20942,6 +21292,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -21001,6 +21352,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -21060,6 +21412,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -21119,6 +21472,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -21178,6 +21532,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -21237,6 +21592,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -21296,6 +21652,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -21355,6 +21712,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -21414,6 +21772,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -21473,6 +21832,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -21532,6 +21892,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -21591,6 +21952,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -21650,6 +22012,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -21709,6 +22072,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -21768,6 +22132,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -21827,6 +22192,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -21886,6 +22252,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -21945,6 +22312,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -22004,6 +22372,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -22063,6 +22432,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -22122,6 +22492,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -22181,6 +22552,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -22240,6 +22612,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -22299,6 +22672,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -22358,6 +22732,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -22417,6 +22792,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -22476,6 +22852,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -22535,6 +22912,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -22594,6 +22972,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -22653,6 +23032,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -22712,6 +23092,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -22771,6 +23152,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -22830,6 +23212,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -22889,6 +23272,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -22948,6 +23332,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -23007,6 +23392,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -23066,6 +23452,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -23125,6 +23512,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -23184,6 +23572,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -23243,6 +23632,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -23302,6 +23692,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -23361,6 +23752,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -23420,6 +23812,7 @@ const cursos = [
     "linkPdf": "",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -23479,6 +23872,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1drHh45zD7ODhhL3c-7Ep1SYUqxBStj_6/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLX6ATWWzWxH8",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1TmTiLASSjt-rGBomL0DrAMZaG7u5UxB-/view?usp=sharing",
     "duracaoMinutos": 20,
     "i18n": {
       "material": {
@@ -23536,6 +23930,7 @@ const cursos = [
     "linkAula": "https://youtu.be/9lX8zxiNjgM?list=PLc8Rdyjdtq34",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLVItGymref-o",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/10l4_zP_v9thVNUgJ4jO0evWH77eQ0p8l/view?usp=sharing",
     "linkPdf": "https://drive.google.com/file/d/1_LYv4WqZUPc4GWSgaTTd32EAt9WsFkjB/view?usp=sharing",
     "duracaoMinutos": 12,
     "i18n": {
@@ -23594,6 +23989,7 @@ const cursos = [
     "linkAula": "https://youtu.be/8EqNR_H3hv8?list=PLc8Rdyjdtq34",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLXJFfCcChq_0",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1TLgfWJzdqAi9evKHzSjFYovxpvhEcLD1/view?usp=sharing",
     "linkPdf": "https://drive.google.com/file/d/1K2HEb3fSnGQegNPK9bo2zvSgXeNicHCf/view?usp=sharing",
     "duracaoMinutos": 14,
     "i18n": {
@@ -23652,6 +24048,7 @@ const cursos = [
     "linkAula": "https://youtu.be/tzMCrVhv6VA?list=PLc8Rdyjdtq34",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLA928Os7eRuI",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/16P01-nXasvr75W2Vh4o24KVK1ToS3FcC/view?usp=sharing",
     "linkPdf": "https://drive.google.com/file/d/1YmH1I78wu6SQtUZ0Ear8M9NA0MH0uKTW/view?usp=sharing",
     "duracaoMinutos": 16,
     "i18n": {
@@ -23712,6 +24109,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1yvLSHpmaxGh4Ezp7Byb2SecyF3ldN6R5/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLZU-jvblYMvc",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1eX8Hfuc2tIikTo2o26jmbO8h3tjDwZpL/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -23771,6 +24169,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1uipdyt6DA2cVtz1HbAkUODEgymHXUfHL/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLO_JkWX2P5f8",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1rt7GyUr7oN314Tb86YJx3WS26LY9c1AF/view?usp=sharing",
     "duracaoMinutos": 21,
     "i18n": {
       "material": {
@@ -23830,6 +24229,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1LptKVyuXRY9sM7xeeqDQKJ0WzXSvlY3U/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1rt7GyUr7oN314Tb86YJx3WS26LY9c1AF/view?usp=sharing",
     "duracaoMinutos": 14,
     "i18n": {
       "material": {
@@ -23889,6 +24289,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1xyxJYlfbsstI7dPV6TGUi4MBXULu0dy9/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1YBHtMt3yka5JxY0kjW0UTnGU79pOca9C/view?usp=sharing",
     "duracaoMinutos": 18,
     "i18n": {
       "material": {
@@ -23948,6 +24349,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1Ja4Jmzat6VmnvgNlUn4rEvrYZgNBjbD0/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLST_VhjpeC4U",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1lR18645UdhfKbnO-fs5nzAMytTa41Cx_/view?usp=sharing",
     "duracaoMinutos": 19,
     "i18n": {
       "material": {
@@ -24007,6 +24409,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1PMxPcPpQs8cWCxkmUXaKlcYrpsKMhFfl/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLLjlsbHRUm84",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1ZwxiSIfgL5PT2CrrbzcZ-S8CwOEcx4re/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -24066,6 +24469,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1gFnIt_OGSRxw5Q2Vcns7kk4-b_ZP7zMQ/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLCxsb0aqxZsc",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1vrdWpfRPuCY7HN9fV1vkcapsj6ktj5Zx/view?usp=sharing",
     "duracaoMinutos": 17,
     "i18n": {
       "material": {
@@ -24125,6 +24529,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/18yK5VYbqqbuE8uUdOfz20tlZicTdhGsP/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLTo-21-FPkZI",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/18KB6LGU2cFjZ4lOMhpbMdZYuBd7D1mBS/view?usp=sharing",
     "duracaoMinutos": 17,
     "i18n": {
       "material": {
@@ -24184,6 +24589,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1aLKLNhQg0pIqJ167C__rjge8nbaaACrG/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLTo-21-FPkZI",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1xjXYfU5u6azhiJJhSEv0ve18vpMgQjyO/view?usp=sharing",
     "duracaoMinutos": 13,
     "i18n": {
       "material": {
@@ -24243,6 +24649,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1zbLRg3iu424vvdmJhwiVsLmQccNoZHkN/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLAvMMJyHZEaFnbAHb_0limdkGL5Z_HBIi",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1kIXtpDoWGrb4aihzX7rfrl2O_bZerroV/view?usp=sharing",
     "duracaoMinutos": 26,
     "i18n": {
       "material": {
@@ -24302,6 +24709,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1S5EJ5O7XOKusM0aNI-xOF2hN0b9B3o6d/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLDrLv6S8mGG8",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/18PxViJPkhmAzIyr05gHi2n1KRXWWSH3n/view?usp=sharing",
     "duracaoMinutos": 14,
     "i18n": {
       "material": {
@@ -24361,6 +24769,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1syrFbM19IIXrLjSHUHdIUN52OarU2g_C/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLJjvihZc-L5M",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1FVHO5O9kaSKVS8aUaSbiBjcbAm4dGswq/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -24420,6 +24829,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1JG-a2Djh6L83ruLRMJS81IDhEKaQZwuk/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLXojhhfffUTE",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/14Ql6uD6SfDRntbSwh01qXsDPyL4KjbDJ/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -24479,6 +24889,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1_P0uKVW3wJ3z60r9q2sYRK8x6_m3ltM7/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLeZkghTTbwWU",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1kNwYd6oBqZTLOaYRznFzXxBRS-wCXgws/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -24538,6 +24949,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1ijZAfMBHK2W-tEgPHW2duSJQ5BdgSkPy/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1dUR8stTCpEfShWE7URkbeRiqdzyKjxL_/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -24597,6 +25009,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/18HyYZzC3tYFi-oPHIdYi34bBN0lL0ZJF/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1vSuVd88a5VAK5v_oXsTIP-6oACBI12BA/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -24656,6 +25069,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1xsaRj40ed2UKaFN7lX7qxIR8NmHM1maz/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1b6o2_d5Ac5E0w28DxTh36Po0eZr8mN2O/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -24715,6 +25129,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/19daFW7Xt6tBgZmo6cPV3ZbEiYEDohsvT/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1juBHhiq8D3aS2CRbNfPC1gmtOBpewIAY/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -24774,6 +25189,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1IPVhuFPyilbctL5wW_XW1z2b0A21hFX2/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1NNkEi-cXu3UFuc4j-6ae22G3SXAhA90p/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
@@ -24833,6 +25249,7 @@ const cursos = [
     "linkPdf": "https://drive.google.com/file/d/1Gs-fWy1YBDjIsrCnCRVYmtzj_KcDAsL9/view?usp=sharing",
 	"linkAprofundamento": "",
     "linkAplicativo": "",
+	"linkAcessibilidade": "https://drive.google.com/file/d/1BurgTnR4yhL2oxiV4icr04fB1Sepba6t/view?usp=sharing",
     "duracaoMinutos": 15,
     "i18n": {
       "material": {
