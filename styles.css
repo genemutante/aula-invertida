@@ -2609,3 +2609,41 @@ html.tema-em-transicao *::after {
     grid-column: 1 / -1;
   }
 }
+
+
+/* =============================================================
+   BOTÃO DE APOIO
+   ============================================================= */
+
+.btn-acessibilidade {
+  color: var(--color-text);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-strong);
+  box-shadow: none;
+}
+
+.btn-acessibilidade:hover {
+  color: var(--color-primary);
+  background: var(--color-surface-soft);
+  border-color: var(--color-primary);
+}
+
+.btn-acessibilidade::before {
+  content: "";
+
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+
+  margin-right: 6px;
+
+  background-color: #ffffff;
+  background-image:
+    url("assets/acessibilidade.png");
+
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-radius: 50%;
+}
