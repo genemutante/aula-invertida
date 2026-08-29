@@ -84,6 +84,8 @@ const I18N = (() => {
       "resources.videoAria": "Assistir ao vídeo: {title}",
       "resources.musicAria": "Ouvir a música: {title}",
       "resources.pdfAria": "Abrir o PDF: {title}",
+      "resources.accessibility": "Apoio",
+      "resources.accessibilityAria": "Abrir material de apoio: {title}",
 
       "time.minutes": "{value} min",
       "time.hours": "{value} h",
@@ -192,7 +194,10 @@ const I18N = (() => {
       "resources.videoAria": "Watch the video: {title}",
       "resources.musicAria": "Listen to the song: {title}",
       "resources.pdfAria": "Open the PDF: {title}",
-
+      "resources.accessibility": "Support",
+      "resources.accessibilityAria": "Open support material: {title}",
+	  
+	  
       "time.minutes": "{value} min",
       "time.hours": "{value} hr",
       "time.hoursMinutes": "{hours} hr {minutes} min",
@@ -300,6 +305,9 @@ const I18N = (() => {
       "resources.videoAria": "Ver el video: {title}",
       "resources.musicAria": "Escuchar la canción: {title}",
       "resources.pdfAria": "Abrir el PDF: {title}",
+      "resources.accessibility": "Apoyo",
+      "resources.accessibilityAria": "Abrir material de apoyo: {title}",	  
+	  
 
       "time.minutes": "{value} min",
       "time.hours": "{value} h",
