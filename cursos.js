@@ -19667,13 +19667,13 @@ const cursos = [
     "descricao": "Propõe uma atividade prática para representar e compreender as fases da Lua.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/07WMD3Xaapw?list=PLE--1VpbVGyk",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1XaW8lCECsKD7jC05FM75wUAGYgrAsiJL/view?usp=sharing",
 	"linkAprofundamento": "https://youtu.be/y2rbw7uc0BM",
     "linkAplicativo": "",
 	"linkAcessibilidade": "https://drive.google.com/file/d/1ujoFMf6lEXqajsFEdRaFB6IVKfvwP320/view?usp=sharing",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 18,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
