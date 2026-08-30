@@ -15291,13 +15291,13 @@ const cursos = [
     "descricao": "Apresenta as características do Pampa, sua vegetação, fauna e importância ambiental.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/VDITrRnq_zo?list=PLdcJwfpw3J4A",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1sOTn-lFw7s77XWUgW2WDIBVAgCweSHu0/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLHqg-Lw_d-Rc",
     "linkAplicativo": "",
 	"linkAcessibilidade": "https://drive.google.com/file/d/1yHNF2hXJWQuI-Yf0hdmEFevvUPuPMbVe/view?usp=sharing",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 12,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
