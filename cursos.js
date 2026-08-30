@@ -24764,13 +24764,13 @@ const cursos = [
     "descricao": "Explica os princípios da economia circular e sua contribuição para a redução de desperdícios e o desenvolvimento sustentável.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/BinOdMeVFmw?list=PLc8Rdyjdtq34",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1syrFbM19IIXrLjSHUHdIUN52OarU2g_C/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLJjvihZc-L5M",
     "linkAplicativo": "",
 	"linkAcessibilidade": "https://drive.google.com/file/d/1FVHO5O9kaSKVS8aUaSbiBjcbAm4dGswq/view?usp=sharing",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 16,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -24824,13 +24824,13 @@ const cursos = [
     "descricao": "Apresenta conceitos de gestão de resíduos sólidos, logística reversa e princípios da Política Nacional de Resíduos Sólidos.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/0rFym6H47vM?list=PLc8Rdyjdtq34",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1JG-a2Djh6L83ruLRMJS81IDhEKaQZwuk/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLXojhhfffUTE",
     "linkAplicativo": "",
 	"linkAcessibilidade": "https://drive.google.com/file/d/14Ql6uD6SfDRntbSwh01qXsDPyL4KjbDJ/view?usp=sharing",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 20,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
@@ -24884,13 +24884,13 @@ const cursos = [
     "descricao": "Explica a importância da coleta seletiva, da separação correta dos resíduos e da reciclagem de materiais.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/bV24VEajZbQ?list=PLc8Rdyjdtq34",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1_P0uKVW3wJ3z60r9q2sYRK8x6_m3ltM7/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLeZkghTTbwWU",
     "linkAplicativo": "",
 	"linkAcessibilidade": "https://drive.google.com/file/d/1kNwYd6oBqZTLOaYRznFzXxBRS-wCXgws/view?usp=sharing",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 18,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
