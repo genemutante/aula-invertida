@@ -15351,13 +15351,13 @@ const cursos = [
     "descricao": "Estuda as características da Caatinga, suas adaptações ao clima seco e sua biodiversidade.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/W6M7kAtsfkc?list=PLdcJwfpw3J4A",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1vKWSlhPZj2bMObxNwAZZ1BQQ3vlv1fVO/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLcV5dcG9mCmU",
     "linkAplicativo": "",
 	"linkAcessibilidade": "https://drive.google.com/file/d/1xXlGNeTCwBn_SNKffHPBGhcjAxGpwy38/view?usp=sharing",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 12,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
