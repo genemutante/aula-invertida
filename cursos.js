@@ -15471,13 +15471,13 @@ const cursos = [
     "descricao": "Explica o que são unidades de conservação e como elas contribuem para a proteção da biodiversidade.",
     "quantidadeAulas": 1,
     "status": "DISPONÍVEL",
-    "linkAula": "",
+    "linkAula": "https://youtu.be/5l-WLHRf1sE?list=PLdcJwfpw3J4A",
     "linkMusica": "",
     "linkPdf": "https://drive.google.com/file/d/1UphoTKjWv3GjUqbkz9sJ_SRbmZCboevE/view?usp=sharing",
 	"linkAprofundamento": "https://www.youtube.com/playlist?list=PLO_JkWX2P5f8",
     "linkAplicativo": "",
 	"linkAcessibilidade": "https://drive.google.com/file/d/10VZETvbadFB642eIqtBhb_MYnMqlFl9W/view?usp=sharing",
-    "duracaoMinutos": 15,
+    "duracaoMinutos": 16,
     "i18n": {
       "material": {
         "pt": "Vídeo-Aula",
