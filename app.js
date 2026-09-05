@@ -882,14 +882,28 @@ function renderCursos(lista) {
       botoes.className =
         "card-botoes-materiais";
 
-      const botaoVideo =
-        criarBotaoMaterial({
-          texto: t("resources.video"),
-          link: curso.linkAula,
-          classeExtra: "btn-aula",
-          ariaLabel:
-            t("resources.videoAria", { title: titulo.textContent })
-        });
+const ehCorrecaoTarefa =
+  curso.material === "Correção da Tarefa";
+
+       const botaoVideo =
+         criarBotaoMaterial({
+           texto: ehCorrecaoTarefa
+             ? t("resources.correction")
+             : t("resources.video"),
+       
+           link: curso.linkAula,
+       
+           classeExtra: "btn-aula",
+       
+           ariaLabel: ehCorrecaoTarefa
+             ? `${t("resources.correction")}: ${titulo.textContent}`
+             : t("resources.videoAria", {
+                 title: titulo.textContent
+               })
+         });
+		
+		
+		
 
       const botaoMusica =
         criarBotaoMaterial({
@@ -900,14 +914,22 @@ function renderCursos(lista) {
             t("resources.musicAria", { title: titulo.textContent })
         });
 
-      const botaoPdf =
-        criarBotaoMaterial({
-          texto: t("resources.pdf"),
-          link: curso.linkPdf,
-          classeExtra: "btn-pdf",
-          ariaLabel:
-            t("resources.pdfAria", { title: titulo.textContent })
-        });
+       const botaoPdf =
+         criarBotaoMaterial({
+           texto: ehCorrecaoTarefa
+             ? t("resources.answerKey")
+             : t("resources.pdf"),
+       
+           link: curso.linkPdf,
+       
+           classeExtra: "btn-pdf",
+       
+           ariaLabel: ehCorrecaoTarefa
+             ? `${t("resources.answerKey")}: ${titulo.textContent}`
+             : t("resources.pdfAria", {
+                 title: titulo.textContent
+               })
+         });
 
       const botaoAprofundamento =
         criarBotaoMaterial({
