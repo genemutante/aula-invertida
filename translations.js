@@ -86,7 +86,9 @@ const I18N = (() => {
       "resources.pdfAria": "Abrir o PDF: {title}",
       "resources.accessibility": "Apoio",
       "resources.accessibilityAria": "Abrir material de apoio: {title}",
-
+      "resources.correction": "Correção",
+      "resources.answerKey": "Gabarito",
+      
       "time.minutes": "{value} min",
       "time.hours": "{value} h",
       "time.hoursMinutes": "{hours} h {minutes} min",
@@ -196,7 +198,8 @@ const I18N = (() => {
       "resources.pdfAria": "Open the PDF: {title}",
       "resources.accessibility": "Support",
       "resources.accessibilityAria": "Open support material: {title}",
-	  
+      "resources.correction": "Correction",
+      "resources.answerKey": "Answer Key",
 	  
       "time.minutes": "{value} min",
       "time.hours": "{value} hr",
@@ -307,7 +310,8 @@ const I18N = (() => {
       "resources.pdfAria": "Abrir el PDF: {title}",
       "resources.accessibility": "Apoyo",
       "resources.accessibilityAria": "Abrir material de apoyo: {title}",	  
-	  
+	  "resources.correction": "Corrección",
+      "resources.answerKey": "Respuestas",
 
       "time.minutes": "{value} min",
       "time.hours": "{value} h",
