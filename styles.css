@@ -1,2366 +1,2828 @@
 /* =============================================================
-   APP.JS — SALA DE AULA INVERTIDA
-
-   Recursos:
-   - Exibe somente conteúdos com status DISPONÍVEL.
-   - Filtros encadeados.
-   - Agrupamento por Material, Disciplina, Série e Bimestre.
-   - Exibe somente recursos que possuem links.
-   - Painel lateral de filtros no celular.
-   - Temas visuais com persistência no localStorage.
+   SALA DE AULA INVERTIDA — SISTEMA DE TEMAS
+   Temas adaptados do SeqAnalyzer para tokens semânticos.
    ============================================================= */
+
+:root {
+  /* Dimensões compartilhadas */
+  --page-max-width: 1280px;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 20px;
+  --touch-target: 44px;
+}
+
+html[data-theme="cientifico"] {
+  color-scheme: light;
+  --color-text-inverse: #ffffff;
+  --color-primary-contrast: #ffffff;
+  --color-danger: #dc2626;
+  --color-danger-hover: #b91c1c;
+  --color-success: #15803d;
+  --color-success-bg: #ecfdf3;
+  --color-success-border: #86efac;
+  --color-warning: #92400e;
+  --color-warning-bg: #fffbeb;
+  --color-warning-border: #fcd34d;
+  --color-info: #1d4ed8;
+  --color-info-bg: #eff6ff;
+  --color-info-border: #93c5fd;
+  --color-page: #f7f9fc;
+  --color-surface: #ffffff;
+  --color-surface-soft: #f3f8fc;
+  --color-surface-muted: #eaf3f9;
+  --color-surface-elevated: #ffffff;
+  --color-header: #0c4a6e;
+  --color-header-text: #f8fafc;
+  --color-header-muted: #bae6fd;
+  --color-header-accent: #7dd3fc;
+  --color-header-control: #ffffff;
+  --color-header-control-text: #0f172a;
+  --color-header-control-border: #7dd3fc;
+  --color-header-divider: rgba(255,255,255,.18);
+  --color-header-control-ghost: rgba(255,255,255,.10);
+  --color-header-control-ghost-hover: rgba(125,211,252,.18);
+  --color-header-accent-soft: rgba(125,211,252,.15);
+  --color-header-accent-border: rgba(125,211,252,.48);
+  --color-header-button-bg: rgba(255,255,255,.10);
+  --color-header-button-border: rgba(255,255,255,.28);
+  --color-text: #0f172a;
+  --color-text-strong: #082f49;
+  --color-text-muted: #4b5563;
+  --color-text-soft: #64748b;
+  --color-border: #dbe5ed;
+  --color-border-strong: #b9d3e3;
+  --color-primary: #0ea5e9;
+  --color-primary-hover: #0284c7;
+  --color-secondary: #0369a1;
+  --color-secondary-hover: #075985;
+  --color-material-start: #0369a1;
+  --color-material-end: #0ea5e9;
+  --color-material-accent: #7dd3fc;
+  --color-material-shadow: rgba(14,165,233,.22);
+  --color-bimestre-bg: #e0f2fe;
+  --color-bimestre-text: #075985;
+  --color-bimestre-border: #7dd3fc;
+  --color-bimestre-accent: #0284c7;
+  --color-lesson-badge-text: #075985;
+  --color-lesson-badge-bg: #e0f2fe;
+  --color-lesson-badge-border: #7dd3fc;
+  --color-overlay: rgba(8,47,73,.68);
+  --color-close-button-text: #334155;
+  --color-icon-purple-bg: #ede9fe;
+  --color-icon-purple: #7c3aed;
+  --color-icon-cyan-bg: #cffafe;
+  --color-icon-cyan: #0e7490;
+  --color-icon-gray-bg: #f1f5f9;
+  --color-icon-gray: #475569;
+  --color-icon-green-bg: #dcfce7;
+  --color-icon-green: #16a34a;
+  --color-icon-blue-bg: #dbeafe;
+  --color-icon-blue: #2563eb;
+  --color-icon-orange-bg: #ffedd5;
+  --color-icon-orange: #ea580c;
+  --shadow-card: 0 5px 16px rgba(15,23,42,.08);
+  --shadow-card-hover: 0 12px 28px rgba(14,165,233,.16);
+  --shadow-header: 0 16px 42px -12px rgba(8,47,73,.55);
+  --shadow-drawer: -15px 0 40px rgba(8,47,73,.25);
+  --shadow-primary: 0 6px 14px rgba(14,165,233,.25);
+  --shadow-primary-hover: 0 10px 22px rgba(14,165,233,.34);
+  --color-focus: #0284c7;
+  --color-focus-ring: rgba(14,165,233,.25);
+}
+
+html[data-theme="clinico"] {
+  color-scheme: light;
+  --color-text-inverse: #ffffff;
+  --color-primary-contrast: #ffffff;
+  --color-danger: #dc2626;
+  --color-danger-hover: #b91c1c;
+  --color-success: #15803d;
+  --color-success-bg: #ecfdf3;
+  --color-success-border: #86efac;
+  --color-warning: #92400e;
+  --color-warning-bg: #fffbeb;
+  --color-warning-border: #fcd34d;
+  --color-info: #1d4ed8;
+  --color-info-bg: #eff6ff;
+  --color-info-border: #93c5fd;
+  --color-page: #f5f7fa;
+  --color-surface: #ffffff;
+  --color-surface-soft: #f0fdfa;
+  --color-surface-muted: #e6f7f4;
+  --color-surface-elevated: #ffffff;
+  --color-header: #164e63;
+  --color-header-text: #f0fdfa;
+  --color-header-muted: #99f6e4;
+  --color-header-accent: #5eead4;
+  --color-header-control: #ffffff;
+  --color-header-control-text: #134e4a;
+  --color-header-control-border: #5eead4;
+  --color-header-divider: rgba(255,255,255,.16);
+  --color-header-control-ghost: rgba(255,255,255,.09);
+  --color-header-control-ghost-hover: rgba(94,234,212,.17);
+  --color-header-accent-soft: rgba(94,234,212,.14);
+  --color-header-accent-border: rgba(94,234,212,.46);
+  --color-header-button-bg: rgba(255,255,255,.09);
+  --color-header-button-border: rgba(255,255,255,.26);
+  --color-text: #0f172a;
+  --color-text-strong: #134e4a;
+  --color-text-muted: #4b5563;
+  --color-text-soft: #64748b;
+  --color-border: #d7ebe7;
+  --color-border-strong: #9ccfc5;
+  --color-primary: #0d9488;
+  --color-primary-hover: #0f766e;
+  --color-secondary: #0891b2;
+  --color-secondary-hover: #0e7490;
+  --color-material-start: #115e59;
+  --color-material-end: #0d9488;
+  --color-material-accent: #5eead4;
+  --color-material-shadow: rgba(13,148,136,.22);
+  --color-bimestre-bg: #ccfbf1;
+  --color-bimestre-text: #115e59;
+  --color-bimestre-border: #5eead4;
+  --color-bimestre-accent: #0d9488;
+  --color-lesson-badge-text: #115e59;
+  --color-lesson-badge-bg: #ccfbf1;
+  --color-lesson-badge-border: #5eead4;
+  --color-overlay: rgba(19,78,74,.68);
+  --color-close-button-text: #334155;
+  --color-icon-purple-bg: #ede9fe;
+  --color-icon-purple: #7c3aed;
+  --color-icon-cyan-bg: #ccfbf1;
+  --color-icon-cyan: #0f766e;
+  --color-icon-gray-bg: #f1f5f9;
+  --color-icon-gray: #475569;
+  --color-icon-green-bg: #dcfce7;
+  --color-icon-green: #16a34a;
+  --color-icon-blue-bg: #dbeafe;
+  --color-icon-blue: #2563eb;
+  --color-icon-orange-bg: #ffedd5;
+  --color-icon-orange: #ea580c;
+  --shadow-card: 0 5px 16px rgba(15,118,110,.08);
+  --shadow-card-hover: 0 12px 28px rgba(13,148,136,.16);
+  --shadow-header: 0 16px 42px -12px rgba(19,78,74,.55);
+  --shadow-drawer: -15px 0 40px rgba(19,78,74,.25);
+  --shadow-primary: 0 6px 14px rgba(13,148,136,.25);
+  --shadow-primary-hover: 0 10px 22px rgba(13,148,136,.34);
+  --color-focus: #0d9488;
+  --color-focus-ring: rgba(13,148,136,.25);
+}
+
+html[data-theme="forense"] {
+  color-scheme: light;
+  --color-text-inverse: #ffffff;
+  --color-primary-contrast: #ffffff;
+  --color-danger: #dc2626;
+  --color-danger-hover: #b91c1c;
+  --color-success: #15803d;
+  --color-success-bg: #ecfdf3;
+  --color-success-border: #86efac;
+  --color-warning: #92400e;
+  --color-warning-bg: #fffbeb;
+  --color-warning-border: #fcd34d;
+  --color-info: #1d4ed8;
+  --color-info-bg: #eff6ff;
+  --color-info-border: #93c5fd;
+  --color-page: #f5f7fb;
+  --color-surface: #ffffff;
+  --color-surface-soft: #eef4ff;
+  --color-surface-muted: #e4ecff;
+  --color-surface-elevated: #ffffff;
+  --color-header: #172554;
+  --color-header-text: #f8fafc;
+  --color-header-muted: #bfdbfe;
+  --color-header-accent: #93c5fd;
+  --color-header-control: #ffffff;
+  --color-header-control-text: #172554;
+  --color-header-control-border: #93c5fd;
+  --color-header-divider: rgba(255,255,255,.16);
+  --color-header-control-ghost: rgba(255,255,255,.09);
+  --color-header-control-ghost-hover: rgba(147,197,253,.18);
+  --color-header-accent-soft: rgba(147,197,253,.15);
+  --color-header-accent-border: rgba(147,197,253,.48);
+  --color-header-button-bg: rgba(255,255,255,.09);
+  --color-header-button-border: rgba(255,255,255,.26);
+  --color-text: #0f172a;
+  --color-text-strong: #172554;
+  --color-text-muted: #4b5563;
+  --color-text-soft: #64748b;
+  --color-border: #d1ddff;
+  --color-border-strong: #a9bfff;
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-secondary: #4f46e5;
+  --color-secondary-hover: #4338ca;
+  --color-material-start: #1e3a8a;
+  --color-material-end: #2563eb;
+  --color-material-accent: #93c5fd;
+  --color-material-shadow: rgba(37,99,235,.22);
+  --color-bimestre-bg: #dbeafe;
+  --color-bimestre-text: #1e3a8a;
+  --color-bimestre-border: #93c5fd;
+  --color-bimestre-accent: #2563eb;
+  --color-lesson-badge-text: #3730a3;
+  --color-lesson-badge-bg: #e0e7ff;
+  --color-lesson-badge-border: #a5b4fc;
+  --color-overlay: rgba(23,37,84,.70);
+  --color-close-button-text: #334155;
+  --color-icon-purple-bg: #ede9fe;
+  --color-icon-purple: #7c3aed;
+  --color-icon-cyan-bg: #cffafe;
+  --color-icon-cyan: #0e7490;
+  --color-icon-gray-bg: #f1f5f9;
+  --color-icon-gray: #475569;
+  --color-icon-green-bg: #dcfce7;
+  --color-icon-green: #16a34a;
+  --color-icon-blue-bg: #dbeafe;
+  --color-icon-blue: #2563eb;
+  --color-icon-orange-bg: #ffedd5;
+  --color-icon-orange: #ea580c;
+  --shadow-card: 0 5px 18px rgba(37,99,235,.12);
+  --shadow-card-hover: 0 13px 30px rgba(37,99,235,.20);
+  --shadow-header: 0 16px 44px -12px rgba(23,37,84,.62);
+  --shadow-drawer: -15px 0 42px rgba(23,37,84,.30);
+  --shadow-primary: 0 6px 14px rgba(37,99,235,.25);
+  --shadow-primary-hover: 0 10px 22px rgba(37,99,235,.36);
+  --color-focus: #2563eb;
+  --color-focus-ring: rgba(37,99,235,.25);
+}
+
+html[data-theme="fogo"] {
+  color-scheme: dark;
+  --color-text-inverse: #ffffff;
+  --color-primary-contrast: #ffffff;
+  --color-danger: #dc2626;
+  --color-danger-hover: #b91c1c;
+  --color-success: #86efac;
+  --color-success-bg: #123523;
+  --color-success-border: #227a45;
+  --color-warning: #fde68a;
+  --color-warning-bg: #3a2a0c;
+  --color-warning-border: #9a6b14;
+  --color-info: #93c5fd;
+  --color-info-bg: #122a4a;
+  --color-info-border: #2f65a7;
+  --color-page: #0b1020;
+  --color-surface: #111827;
+  --color-surface-soft: #172033;
+  --color-surface-muted: #1f2937;
+  --color-surface-elevated: #162033;
+  --color-header: #111827;
+  --color-header-text: #f9fafb;
+  --color-header-muted: #cbd5e1;
+  --color-header-accent: #f97316;
+  --color-header-control: #111827;
+  --color-header-control-text: #f8fafc;
+  --color-header-control-border: #374151;
+  --color-header-divider: rgba(255,255,255,.12);
+  --color-header-control-ghost: rgba(255,255,255,.07);
+  --color-header-control-ghost-hover: color-mix(in srgb, #f97316 18%, transparent);
+  --color-header-accent-soft: color-mix(in srgb, #f97316 16%, transparent);
+  --color-header-accent-border: color-mix(in srgb, #f97316 48%, transparent);
+  --color-header-button-bg: rgba(255,255,255,.08);
+  --color-header-button-border: rgba(255,255,255,.22);
+  --color-text: #e5e7eb;
+  --color-text-strong: #f9fafb;
+  --color-text-muted: #b2bdcc;
+  --color-text-soft: #94a3b8;
+  --color-border: #374151;
+  --color-border-strong: #4b5563;
+  --color-primary: #f97316;
+  --color-primary-hover: #ea580c;
+  --color-secondary: #a855f7;
+  --color-secondary-hover: #c084fc;
+  --color-material-start: #ea580c;
+  --color-material-end: #f97316;
+  --color-material-accent: #fdba74;
+  --color-material-shadow: color-mix(in srgb, #f97316 28%, transparent);
+  --color-bimestre-bg: #3b2413;
+  --color-bimestre-text: #fed7aa;
+  --color-bimestre-border: #9a4d16;
+  --color-bimestre-accent: #f97316;
+  --color-lesson-badge-text: #fed7aa;
+  --color-lesson-badge-bg: #3b2413;
+  --color-lesson-badge-border: #9a4d16;
+  --color-overlay: rgba(2,6,23,.80);
+  --color-close-button-text: #e2e8f0;
+  --color-icon-purple-bg: #2e1a4f;
+  --color-icon-purple: #c4b5fd;
+  --color-icon-cyan-bg: #123a38;
+  --color-icon-cyan: #5eead4;
+  --color-icon-gray-bg: #1e293b;
+  --color-icon-gray: #cbd5e1;
+  --color-icon-green-bg: #123523;
+  --color-icon-green: #86efac;
+  --color-icon-blue-bg: #122a4a;
+  --color-icon-blue: #93c5fd;
+  --color-icon-orange-bg: #3b2413;
+  --color-icon-orange: #fdba74;
+  --shadow-card: 0 8px 22px rgba(0,0,0,.34);
+  --shadow-card-hover: 0 15px 34px color-mix(in srgb, #f97316 22%, rgba(0,0,0,.48));
+  --shadow-header: 0 18px 46px -12px rgba(0,0,0,.82);
+  --shadow-drawer: -15px 0 46px rgba(0,0,0,.52);
+  --shadow-primary: 0 6px 16px color-mix(in srgb, #f97316 30%, transparent);
+  --shadow-primary-hover: 0 10px 24px color-mix(in srgb, #f97316 42%, transparent);
+  --color-focus: #f97316;
+  --color-focus-ring: color-mix(in srgb, #f97316 28%, transparent);
+}
+
+html[data-theme="eclipse-azul"] {
+  color-scheme: dark;
+  --color-text-inverse: #ffffff;
+  --color-primary-contrast: #ffffff;
+  --color-danger: #dc2626;
+  --color-danger-hover: #b91c1c;
+  --color-success: #86efac;
+  --color-success-bg: #123523;
+  --color-success-border: #227a45;
+  --color-warning: #fde68a;
+  --color-warning-bg: #3a2a0c;
+  --color-warning-border: #9a6b14;
+  --color-info: #93c5fd;
+  --color-info-bg: #122a4a;
+  --color-info-border: #2f65a7;
+  --color-page: #020617;
+  --color-surface: #0f172a;
+  --color-surface-soft: #172033;
+  --color-surface-muted: #1f2937;
+  --color-surface-elevated: #162033;
+  --color-header: #070d1c;
+  --color-header-text: #f9fafb;
+  --color-header-muted: #cbd5e1;
+  --color-header-accent: #3b82f6;
+  --color-header-control: #0f172a;
+  --color-header-control-text: #f8fafc;
+  --color-header-control-border: #25334a;
+  --color-header-divider: rgba(255,255,255,.12);
+  --color-header-control-ghost: rgba(255,255,255,.07);
+  --color-header-control-ghost-hover: color-mix(in srgb, #3b82f6 18%, transparent);
+  --color-header-accent-soft: color-mix(in srgb, #3b82f6 16%, transparent);
+  --color-header-accent-border: color-mix(in srgb, #3b82f6 48%, transparent);
+  --color-header-button-bg: rgba(255,255,255,.08);
+  --color-header-button-border: rgba(255,255,255,.22);
+  --color-text: #e5e7eb;
+  --color-text-strong: #f9fafb;
+  --color-text-muted: #b2bdcc;
+  --color-text-soft: #94a3b8;
+  --color-border: #25334a;
+  --color-border-strong: #4b5563;
+  --color-primary: #3b82f6;
+  --color-primary-hover: #2563eb;
+  --color-secondary: #a855f7;
+  --color-secondary-hover: #c084fc;
+  --color-material-start: #2563eb;
+  --color-material-end: #3b82f6;
+  --color-material-accent: #93c5fd;
+  --color-material-shadow: color-mix(in srgb, #3b82f6 28%, transparent);
+  --color-bimestre-bg: #102b3d;
+  --color-bimestre-text: #bae6fd;
+  --color-bimestre-border: #286887;
+  --color-bimestre-accent: #3b82f6;
+  --color-lesson-badge-text: #dbeafe;
+  --color-lesson-badge-bg: #172554;
+  --color-lesson-badge-border: #374f91;
+  --color-overlay: rgba(2,6,23,.80);
+  --color-close-button-text: #e2e8f0;
+  --color-icon-purple-bg: #2e1a4f;
+  --color-icon-purple: #c4b5fd;
+  --color-icon-cyan-bg: #123a38;
+  --color-icon-cyan: #5eead4;
+  --color-icon-gray-bg: #1e293b;
+  --color-icon-gray: #cbd5e1;
+  --color-icon-green-bg: #123523;
+  --color-icon-green: #86efac;
+  --color-icon-blue-bg: #122a4a;
+  --color-icon-blue: #93c5fd;
+  --color-icon-orange-bg: #3b2413;
+  --color-icon-orange: #fdba74;
+  --shadow-card: 0 8px 22px rgba(0,0,0,.34);
+  --shadow-card-hover: 0 15px 34px color-mix(in srgb, #3b82f6 22%, rgba(0,0,0,.48));
+  --shadow-header: 0 18px 46px -12px rgba(0,0,0,.82);
+  --shadow-drawer: -15px 0 46px rgba(0,0,0,.52);
+  --shadow-primary: 0 6px 16px color-mix(in srgb, #3b82f6 30%, transparent);
+  --shadow-primary-hover: 0 10px 24px color-mix(in srgb, #3b82f6 42%, transparent);
+  --color-focus: #3b82f6;
+  --color-focus-ring: color-mix(in srgb, #3b82f6 28%, transparent);
+}
+
+html[data-theme="eclipse-laranja"] {
+  color-scheme: dark;
+  --color-text-inverse: #ffffff;
+  --color-primary-contrast: #ffffff;
+  --color-danger: #dc2626;
+  --color-danger-hover: #b91c1c;
+  --color-success: #86efac;
+  --color-success-bg: #123523;
+  --color-success-border: #227a45;
+  --color-warning: #fde68a;
+  --color-warning-bg: #3a2a0c;
+  --color-warning-border: #9a6b14;
+  --color-info: #93c5fd;
+  --color-info-bg: #122a4a;
+  --color-info-border: #2f65a7;
+  --color-page: #0b0b10;
+  --color-surface: #111827;
+  --color-surface-soft: #172033;
+  --color-surface-muted: #1f2937;
+  --color-surface-elevated: #162033;
+  --color-header: #0f172a;
+  --color-header-text: #f9fafb;
+  --color-header-muted: #cbd5e1;
+  --color-header-accent: #fb923c;
+  --color-header-control: #111827;
+  --color-header-control-text: #f8fafc;
+  --color-header-control-border: #374151;
+  --color-header-divider: rgba(255,255,255,.12);
+  --color-header-control-ghost: rgba(255,255,255,.07);
+  --color-header-control-ghost-hover: color-mix(in srgb, #fb923c 18%, transparent);
+  --color-header-accent-soft: color-mix(in srgb, #fb923c 16%, transparent);
+  --color-header-accent-border: color-mix(in srgb, #fb923c 48%, transparent);
+  --color-header-button-bg: rgba(255,255,255,.08);
+  --color-header-button-border: rgba(255,255,255,.22);
+  --color-text: #e5e7eb;
+  --color-text-strong: #f9fafb;
+  --color-text-muted: #b2bdcc;
+  --color-text-soft: #94a3b8;
+  --color-border: #374151;
+  --color-border-strong: #4b5563;
+  --color-primary: #fb923c;
+  --color-primary-hover: #f97316;
+  --color-secondary: #a855f7;
+  --color-secondary-hover: #c084fc;
+  --color-material-start: #f97316;
+  --color-material-end: #fb923c;
+  --color-material-accent: #fdba74;
+  --color-material-shadow: color-mix(in srgb, #fb923c 28%, transparent);
+  --color-bimestre-bg: #3b2413;
+  --color-bimestre-text: #fed7aa;
+  --color-bimestre-border: #9a4d16;
+  --color-bimestre-accent: #fb923c;
+  --color-lesson-badge-text: #fed7aa;
+  --color-lesson-badge-bg: #3b2413;
+  --color-lesson-badge-border: #9a4d16;
+  --color-overlay: rgba(2,6,23,.80);
+  --color-close-button-text: #e2e8f0;
+  --color-icon-purple-bg: #2e1a4f;
+  --color-icon-purple: #c4b5fd;
+  --color-icon-cyan-bg: #123a38;
+  --color-icon-cyan: #5eead4;
+  --color-icon-gray-bg: #1e293b;
+  --color-icon-gray: #cbd5e1;
+  --color-icon-green-bg: #123523;
+  --color-icon-green: #86efac;
+  --color-icon-blue-bg: #122a4a;
+  --color-icon-blue: #93c5fd;
+  --color-icon-orange-bg: #3b2413;
+  --color-icon-orange: #fdba74;
+  --shadow-card: 0 8px 22px rgba(0,0,0,.34);
+  --shadow-card-hover: 0 15px 34px color-mix(in srgb, #fb923c 22%, rgba(0,0,0,.48));
+  --shadow-header: 0 18px 46px -12px rgba(0,0,0,.82);
+  --shadow-drawer: -15px 0 46px rgba(0,0,0,.52);
+  --shadow-primary: 0 6px 16px color-mix(in srgb, #fb923c 30%, transparent);
+  --shadow-primary-hover: 0 10px 24px color-mix(in srgb, #fb923c 42%, transparent);
+  --color-focus: #fb923c;
+  --color-focus-ring: color-mix(in srgb, #fb923c 28%, transparent);
+}
+
+html[data-theme="biohack"] {
+  color-scheme: dark;
+  --color-text-inverse: #ffffff;
+  --color-primary-contrast: #ffffff;
+  --color-danger: #dc2626;
+  --color-danger-hover: #b91c1c;
+  --color-success: #86efac;
+  --color-success-bg: #123523;
+  --color-success-border: #227a45;
+  --color-warning: #fde68a;
+  --color-warning-bg: #3a2a0c;
+  --color-warning-border: #9a6b14;
+  --color-info: #93c5fd;
+  --color-info-bg: #122a4a;
+  --color-info-border: #2f65a7;
+  --color-page: #020617;
+  --color-surface: #07120d;
+  --color-surface-soft: #0b2215;
+  --color-surface-muted: #10351e;
+  --color-surface-elevated: #0b1d12;
+  --color-header: #020611;
+  --color-header-text: #f9fafb;
+  --color-header-muted: #cbd5e1;
+  --color-header-accent: #22c55e;
+  --color-header-control: #07120d;
+  --color-header-control-text: #f8fafc;
+  --color-header-control-border: #14532d;
+  --color-header-divider: rgba(255,255,255,.12);
+  --color-header-control-ghost: rgba(255,255,255,.07);
+  --color-header-control-ghost-hover: color-mix(in srgb, #22c55e 18%, transparent);
+  --color-header-accent-soft: color-mix(in srgb, #22c55e 16%, transparent);
+  --color-header-accent-border: color-mix(in srgb, #22c55e 48%, transparent);
+  --color-header-button-bg: rgba(255,255,255,.08);
+  --color-header-button-border: rgba(255,255,255,.22);
+  --color-text: #e5e7eb;
+  --color-text-strong: #f9fafb;
+  --color-text-muted: #b2bdcc;
+  --color-text-soft: #94a3b8;
+  --color-border: #14532d;
+  --color-border-strong: #166534;
+  --color-primary: #22c55e;
+  --color-primary-hover: #16a34a;
+  --color-secondary: #10b981;
+  --color-secondary-hover: #34d399;
+  --color-material-start: #16a34a;
+  --color-material-end: #22c55e;
+  --color-material-accent: #86efac;
+  --color-material-shadow: color-mix(in srgb, #22c55e 28%, transparent);
+  --color-bimestre-bg: #0b2f1b;
+  --color-bimestre-text: #bbf7d0;
+  --color-bimestre-border: #166534;
+  --color-bimestre-accent: #22c55e;
+  --color-lesson-badge-text: #bbf7d0;
+  --color-lesson-badge-bg: #0b2f1b;
+  --color-lesson-badge-border: #166534;
+  --color-overlay: rgba(2,6,23,.80);
+  --color-close-button-text: #e2e8f0;
+  --color-icon-purple-bg: #2e1a4f;
+  --color-icon-purple: #c4b5fd;
+  --color-icon-cyan-bg: #123a38;
+  --color-icon-cyan: #5eead4;
+  --color-icon-gray-bg: #1e293b;
+  --color-icon-gray: #cbd5e1;
+  --color-icon-green-bg: #123523;
+  --color-icon-green: #86efac;
+  --color-icon-blue-bg: #122a4a;
+  --color-icon-blue: #93c5fd;
+  --color-icon-orange-bg: #3b2413;
+  --color-icon-orange: #fdba74;
+  --shadow-card: 0 8px 22px rgba(0,0,0,.34);
+  --shadow-card-hover: 0 15px 34px color-mix(in srgb, #22c55e 22%, rgba(0,0,0,.48));
+  --shadow-header: 0 18px 46px -12px rgba(0,0,0,.82);
+  --shadow-drawer: -15px 0 46px rgba(0,0,0,.52);
+  --shadow-primary: 0 6px 16px color-mix(in srgb, #22c55e 30%, transparent);
+  --shadow-primary-hover: 0 10px 24px color-mix(in srgb, #22c55e 42%, transparent);
+  --color-focus: #22c55e;
+  --color-focus-ring: color-mix(in srgb, #22c55e 28%, transparent);
+}
+
+html[data-theme="minimal"] {
+  color-scheme: light;
+  --color-text-inverse: #ffffff;
+  --color-primary-contrast: #ffffff;
+  --color-danger: #dc2626;
+  --color-danger-hover: #b91c1c;
+  --color-success: #15803d;
+  --color-success-bg: #ecfdf3;
+  --color-success-border: #86efac;
+  --color-warning: #92400e;
+  --color-warning-bg: #fffbeb;
+  --color-warning-border: #fcd34d;
+  --color-info: #1d4ed8;
+  --color-info-bg: #eff6ff;
+  --color-info-border: #93c5fd;
+  --color-page: #f5f5f5;
+  --color-surface: #ffffff;
+  --color-surface-soft: #fafafa;
+  --color-surface-muted: #f1f1f1;
+  --color-surface-elevated: #ffffff;
+  --color-header: #374151;
+  --color-header-text: #f9fafb;
+  --color-header-muted: #d1d5db;
+  --color-header-accent: #e5e7eb;
+  --color-header-control: #ffffff;
+  --color-header-control-text: #111827;
+  --color-header-control-border: #d1d5db;
+  --color-header-divider: rgba(255,255,255,.14);
+  --color-header-control-ghost: rgba(255,255,255,.08);
+  --color-header-control-ghost-hover: rgba(229,231,235,.16);
+  --color-header-accent-soft: rgba(229,231,235,.12);
+  --color-header-accent-border: rgba(229,231,235,.38);
+  --color-header-button-bg: rgba(255,255,255,.08);
+  --color-header-button-border: rgba(255,255,255,.24);
+  --color-text: #111827;
+  --color-text-strong: #111827;
+  --color-text-muted: #4b5563;
+  --color-text-soft: #6b7280;
+  --color-border: #e5e7eb;
+  --color-border-strong: #cbd5e1;
+  --color-primary: #64748b;
+  --color-primary-hover: #475569;
+  --color-secondary: #6b7280;
+  --color-secondary-hover: #374151;
+  --color-material-start: #475569;
+  --color-material-end: #64748b;
+  --color-material-accent: #cbd5e1;
+  --color-material-shadow: rgba(71,85,105,.18);
+  --color-bimestre-bg: #f1f5f9;
+  --color-bimestre-text: #334155;
+  --color-bimestre-border: #cbd5e1;
+  --color-bimestre-accent: #64748b;
+  --color-lesson-badge-text: #334155;
+  --color-lesson-badge-bg: #f1f5f9;
+  --color-lesson-badge-border: #cbd5e1;
+  --color-overlay: rgba(17,24,39,.65);
+  --color-close-button-text: #374151;
+  --color-icon-purple-bg: #f3f4f6;
+  --color-icon-purple: #6b7280;
+  --color-icon-cyan-bg: #f3f4f6;
+  --color-icon-cyan: #6b7280;
+  --color-icon-gray-bg: #f3f4f6;
+  --color-icon-gray: #4b5563;
+  --color-icon-green-bg: #f3f4f6;
+  --color-icon-green: #4b5563;
+  --color-icon-blue-bg: #f3f4f6;
+  --color-icon-blue: #4b5563;
+  --color-icon-orange-bg: #f3f4f6;
+  --color-icon-orange: #4b5563;
+  --shadow-card: 0 4px 14px rgba(15,23,42,.06);
+  --shadow-card-hover: 0 10px 24px rgba(15,23,42,.10);
+  --shadow-header: 0 14px 38px -12px rgba(15,23,42,.48);
+  --shadow-drawer: -15px 0 38px rgba(15,23,42,.22);
+  --shadow-primary: 0 5px 12px rgba(71,85,105,.22);
+  --shadow-primary-hover: 0 8px 18px rgba(71,85,105,.30);
+  --color-focus: #475569;
+  --color-focus-ring: rgba(100,116,139,.25);
+}
+
+/* =============================================================
+   2. RESET E BASE
+   ============================================================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  color: var(--color-text);
+  background: var(--color-page);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button,
+select {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+svg {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+.card-titulo {
+  letter-spacing: -0.025em;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+/* Link de salto para navegação por teclado */
+.skip-link {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 2000;
+
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+
+  color: var(--color-primary-contrast);
+  background: var(--color-primary);
+
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+
+  transform: translateY(-150%);
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+/* Texto disponível apenas para leitores de tela */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* =============================================================
+   3. ESTRUTURA DA PÁGINA
+   ============================================================= */
+
+.page {
+  width: 100%;
+  max-width: var(--page-max-width);
+  margin: 0 auto;
+  padding: 0 24px 40px;
+}
+
+/* =============================================================
+   4. CABEÇALHO
+   ============================================================= */
+
+.app-header {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  margin: 0 -24px 16px;
+  padding: 30px 32px 30px;
+
+  color: var(--color-header-text);
+  background: var(--color-header);
+  border-radius: 0 0 24px 24px;
+  box-shadow: var(--shadow-header);
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.brand-identity {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  min-width: 0;
+}
+
+.app-header h1 {
+  color: var(--color-header-text);
+  font-size: clamp(1.25rem, 1.7vw, 1.6rem);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.version-pill {
+  display: inline-flex;
+  align-items: center;
+
+  max-width: 720px;
+  padding: 5px 10px;
+
+  color: var(--color-header-accent);
+  background: var(--color-header-accent-soft);
+  border: 1px solid var(--color-header-accent-border);
+  border-radius: 999px;
+
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
 
 
 /* =============================================================
-   1. CONFIGURAÇÃO DOS TEMAS
+   4A. CONTROLE DE TEMA
    ============================================================= */
 
-const CHAVE_PREFERENCIA_TEMA = "sala-aula-tema";
-
-const TEMA_AUTO_CLARO = "cientifico";
-const TEMA_AUTO_ESCURO = "eclipse-azul";
-
-const TEMAS_VALIDOS = new Set([
-  "auto",
-  "cientifico",
-  "clinico",
-  "forense",
-  "fogo",
-  "eclipse-azul",
-  "eclipse-laranja",
-  "biohack",
-  "minimal"
-]);
-
-const TEMAS_ESCUROS = new Set([
-  "fogo",
-  "eclipse-azul",
-  "eclipse-laranja",
-  "biohack"
-]);
-
-const consultaTemaSistema = window.matchMedia(
-  "(prefers-color-scheme: dark)"
-);
-
-
-function obterPreferenciaTemaSalva() {
-  try {
-    const preferencia = localStorage.getItem(
-      CHAVE_PREFERENCIA_TEMA
-    );
-
-    return TEMAS_VALIDOS.has(preferencia)
-      ? preferencia
-      : "auto";
-  } catch {
-    return "auto";
-  }
+.header-preferencias {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 0 0 auto;
 }
 
+.tema-controle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 
-function salvarPreferenciaTema(preferencia) {
-  try {
-    localStorage.setItem(
-      CHAVE_PREFERENCIA_TEMA,
-      preferencia
-    );
-  } catch {
-    /*
-     * O projeto continua funcionando quando
-     * o armazenamento local está indisponível.
-     */
-  }
+  min-height: var(--touch-target);
+  padding: 5px 6px 5px 11px;
+
+  color: var(--color-header-text);
+  background: var(--color-header-control-ghost);
+  border: 1px solid var(--color-header-control-border);
+  border-radius: var(--radius-lg);
 }
 
-
-function obterTemaEfetivo(preferencia) {
-  if (preferencia !== "auto") {
-    return preferencia;
-  }
-
-  return consultaTemaSistema.matches
-    ? TEMA_AUTO_ESCURO
-    : TEMA_AUTO_CLARO;
+.tema-icone {
+  width: 18px;
+  height: 18px;
+  color: var(--color-header-accent);
+  flex: 0 0 auto;
 }
 
-
-function obterModoTema(tema) {
-  return TEMAS_ESCUROS.has(tema)
-    ? "dark"
-    : "light";
+.tema-rotulo {
+  font-size: 0.72rem;
+  font-weight: 700;
 }
 
+.tema-controle select {
+  min-height: 32px;
+  padding: 5px 30px 5px 9px;
 
-function atualizarMetaTema() {
-  const metaTema = document.querySelector(
-    'meta[name="theme-color"]'
-  );
+  appearance: none;
 
-  if (!metaTema) {
-    return;
-  }
+  color: var(--color-header-control-text);
+  background-color: var(--color-header-control);
+  border: 1px solid var(--color-header-control-border);
+  border-radius: var(--radius-sm);
 
-  const estilos = getComputedStyle(
-    document.documentElement
-  );
+  font-size: 0.74rem;
+  font-weight: 700;
 
-  const corCabecalho = estilos
-    .getPropertyValue("--color-header")
-    .trim();
-
-  if (corCabecalho) {
-    metaTema.setAttribute(
-      "content",
-      corCabecalho
-    );
-  }
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2305055b' stroke-width='2.5'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 14px;
 }
 
-
-function atualizarIconeTema(modo) {
-  const icone = document.querySelector(
-    ".tema-icone"
-  );
-
-  if (!icone) {
-    return;
-  }
-
-  if (modo === "dark") {
-    icone.innerHTML = `
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        d="M21.752 15.002A9.718 9.718 0 0 1
-        18 15.75 9.75 9.75 0 0 1 8.25 6
-        a9.718 9.718 0 0 1 .748-3.752
-        A9.753 9.753 0 1 0 21.752 15.002Z"
-      />
-    `;
-
-    return;
-  }
-
-  icone.innerHTML = `
-    <path
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      d="M12 3v1.5m0 15V21m9-9h-1.5
-      M4.5 12H3m15.364-6.364-1.061 1.061
-      M6.697 17.303l-1.061 1.061m12.728 0
-      -1.061-1.061M6.697 6.697 5.636 5.636
-      M16.5 12a4.5 4.5 0 1 1-9 0
-      4.5 4.5 0 0 1 9 0Z"
-    />
-  `;
+html[data-theme-mode="dark"] .select-wrapper select,
+html[data-theme-mode="dark"] .tema-controle select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23f8fafc' stroke-width='2.5'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E");
 }
 
-
-function aplicarTema(
-  preferencia,
-  {
-    persistir = true
-  } = {}
-) {
-  const preferenciaSegura =
-    TEMAS_VALIDOS.has(preferencia)
-      ? preferencia
-      : "auto";
-
-  const temaEfetivo =
-    obterTemaEfetivo(
-      preferenciaSegura
-    );
-
-  const modo =
-    obterModoTema(
-      temaEfetivo
-    );
-
-  const raiz =
-    document.documentElement;
-
-  const temaAnterior =
-    raiz.dataset.theme;
-
-  if (
-    temaAnterior &&
-    temaAnterior !== temaEfetivo
-  ) {
-    raiz.classList.add(
-      "tema-em-transicao"
-    );
-
-    window.setTimeout(
-      () => {
-        raiz.classList.remove(
-          "tema-em-transicao"
-        );
-      },
-      220
-    );
-  }
-
-  raiz.dataset.theme =
-    temaEfetivo;
-
-  raiz.dataset.themePreference =
-    preferenciaSegura;
-
-  raiz.dataset.themeMode =
-    modo;
-
-  raiz.style.colorScheme =
-    modo;
-
-  const seletorTema =
-    document.getElementById(
-      "seletor-tema"
-    );
-
-  if (
-    seletorTema &&
-    seletorTema.value !== preferenciaSegura
-  ) {
-    seletorTema.value =
-      preferenciaSegura;
-  }
-
-  atualizarIconeTema(
-    modo
-  );
-
-  window.requestAnimationFrame(
-    atualizarMetaTema
-  );
-
-  if (persistir) {
-    salvarPreferenciaTema(
-      preferenciaSegura
-    );
-  }
+.tema-controle select:focus {
+  border-color: var(--color-focus);
+  box-shadow: 0 0 0 3px var(--color-focus-ring);
+  outline: none;
 }
 
-
-function configurarTema() {
-  const seletorTema =
-    document.getElementById(
-      "seletor-tema"
-    );
-
-  aplicarTema(
-    obterPreferenciaTemaSalva(),
-    {
-      persistir: false
-    }
-  );
-
-  seletorTema?.addEventListener(
-    "change",
-    () => {
-      aplicarTema(
-        seletorTema.value
-      );
-    }
-  );
-
-  const acompanharTemaSistema =
-    () => {
-      if (
-        obterPreferenciaTemaSalva() ===
-        "auto"
-      ) {
-        aplicarTema(
-          "auto",
-          {
-            persistir: false
-          }
-        );
-      }
-    };
-
-  if (
-    typeof consultaTemaSistema
-      .addEventListener === "function"
-  ) {
-    consultaTemaSistema.addEventListener(
-      "change",
-      acompanharTemaSistema
-    );
-  } else if (
-    typeof consultaTemaSistema
-      .addListener === "function"
-  ) {
-    consultaTemaSistema.addListener(
-      acompanharTemaSistema
-    );
-  }
-}
-
-
-/* =============================================================
-   2. IDIOMA E DADOS MULTILÍNGUES
-   ============================================================= */
-
-function t(chave, parametros = {}) {
-  return window.I18N?.t(chave, parametros) || chave;
-}
-
-function obterIdiomaAtual() {
-  return window.I18N?.obterIdioma() || "pt";
-}
-
-function obterTextoMultilingue(valor, idioma = obterIdiomaAtual()) {
-  if (typeof valor === "string") {
-    return valor;
-  }
-
-  if (valor && typeof valor === "object") {
-    return (
-      valor[idioma] ||
-      valor.pt ||
-      valor.en ||
-      valor.es ||
-      ""
-    );
-  }
-
-  return "";
-}
-
-function obterCampoCurso(curso, campo) {
-  return obterTextoMultilingue(
-    curso?.i18n?.[campo] ?? curso?.[campo]
-  );
-}
-
-function obterRotuloValorCurso(campo, valorOriginal) {
-  const cursoReferencia = obterCursosDisponiveis().find(
-    (curso) => curso?.[campo] === valorOriginal
-  );
-
-  return cursoReferencia
-    ? obterCampoCurso(cursoReferencia, campo)
-    : String(valorOriginal || "");
-}
-
-
-/* =============================================================
-   3. UTILITÁRIOS
-   ============================================================= */
-
-function normalizarTexto(valor) {
-  return String(valor || "")
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(
-      /[\u0300-\u036f]/g,
-      ""
-    )
-    .trim();
-}
-
-
-function formatarDuracao(minutos) {
-  const totalMinutos =
-    Number(minutos);
-
-  if (
-    !Number.isFinite(totalMinutos) ||
-    totalMinutos <= 0
-  ) {
-    return "";
-  }
-
-  const horas =
-    Math.floor(
-      totalMinutos / 60
-    );
-
-  const minutosRestantes =
-    totalMinutos % 60;
-
-  if (horas === 0) {
-    return t("time.minutes", { value: minutosRestantes });
-  }
-
-  if (minutosRestantes === 0) {
-    return t("time.hours", { value: horas });
-  }
-
-  return t("time.hoursMinutes", { hours: horas, minutes: minutosRestantes });
-}
-
-
-function ordenarValoresPedagogicos(
-  valorA,
-  valorB
-) {
-  return String(
-    valorA || ""
-  ).localeCompare(
-    String(valorB || ""),
-    "pt-BR",
-    {
-      numeric: true,
-      sensitivity: "base"
-    }
-  );
-}
-
-
-function criarOpcao(
-  valor,
-  texto
-) {
-  const opcao =
-    document.createElement(
-      "option"
-    );
-
-  opcao.value =
-    valor;
-
-  opcao.textContent =
-    texto;
-
-  return opcao;
-}
-
-
-function possuiLink(valor) {
-  return String(valor || "")
-    .trim()
-    .length > 0;
-}
-
-
-function obterCursosDisponiveis() {
-  if (
-    typeof cursos === "undefined" ||
-    !Array.isArray(cursos)
-  ) {
-    return [];
-  }
-
-  return cursos.filter(
-    (curso) =>
-      normalizarTexto(
-        curso.status
-      ) === "disponivel"
-  );
-}
-
-
-function criarCabecalhoAgrupamento(
-  classe,
-  titulo,
-  subtitulo = ""
-) {
-  const cabecalho =
-    document.createElement(
-      "div"
-    );
-
-  cabecalho.className =
-    classe;
-
-  const tituloElemento =
-    document.createElement(
-      "span"
-    );
-
-  tituloElemento.textContent =
-    titulo;
-
-  cabecalho.appendChild(
-    tituloElemento
-  );
-
-  if (subtitulo) {
-    const subtituloElemento =
-      document.createElement(
-        "small"
-      );
-
-    subtituloElemento.textContent =
-      subtitulo;
-
-    cabecalho.appendChild(
-      subtituloElemento
-    );
-  }
-
-  return cabecalho;
-}
-
-
-function criarBadgeAula(texto) {
-  const badge =
-    document.createElement(
-      "span"
-    );
-
-  badge.className =
-    "badge-aula";
-
-  badge.textContent =
-    texto || t("content.lesson");
-
-  return badge;
-}
-
-
-function abrirLinkExterno(link) {
-  const endereco =
-    String(link || "")
-      .trim();
-
-  if (!endereco) {
-    return;
-  }
-
-  window.open(
-    endereco,
-    "_blank",
-    "noopener,noreferrer"
-  );
-}
-
-
-function criarBotaoMaterial({
-  texto,
-  link,
-  classeExtra,
-  ariaLabel
-}) {
-  if (!possuiLink(link)) {
-    return null;
-  }
-
-  const botao =
-    document.createElement(
-      "button"
-    );
-
-  botao.type =
-    "button";
-
-  botao.className =
-    `btn-material ${classeExtra}`;
-
-  botao.textContent =
-    texto;
-
-  botao.setAttribute(
-    "aria-label",
-    ariaLabel || texto
-  );
-
-  botao.addEventListener(
-    "click",
-    () => {
-      abrirLinkExterno(
-        link
-      );
-    }
-  );
-
-  return botao;
-}
-
-
-function criarInfoDuracao(minutos) {
-  const textoDuracao =
-    formatarDuracao(
-      minutos
-    );
-
-  if (!textoDuracao) {
-    return null;
-  }
-
-  const item =
-    document.createElement(
-      "div"
-    );
-
-  item.className =
-    "info-item";
-
-  item.innerHTML = `
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-      aria-hidden="true"
-    >
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        d="M12 6v6h4.5m4.5 0a9 9 0
-        11-18 0 9 9 0 0118 0z"
-      />
-    </svg>
-  `;
-
-  const texto =
-    document.createElement(
-      "span"
-    );
-
-  texto.textContent =
-    textoDuracao;
-
-  item.appendChild(
-    texto
-  );
-
-  return item;
-}
-
-
-/* =============================================================
-   3. RENDERIZAÇÃO DOS CONTEÚDOS
-   ============================================================= */
-
-function renderCursos(lista) {
-  const container =
-    document.getElementById(
-      "lista-cursos"
-    );
-
-  if (!container) {
-    console.error(
-      'Elemento com id "lista-cursos" não encontrado.'
-    );
-
-    return;
-  }
-
-  container.replaceChildren();
-
-  if (
-    !Array.isArray(lista) ||
-    lista.length === 0
-  ) {
-    const estadoVazio =
-      document.createElement(
-        "div"
-      );
-
-    estadoVazio.className =
-      "lista-cursos-vazia";
-
-    const titulo =
-      document.createElement(
-        "strong"
-      );
-
-    titulo.textContent =
-      t("content.emptyTitle");
-
-    const mensagem =
-      document.createTextNode(
-        t("content.emptyMessage")
-      );
-
-    estadoVazio.append(
-      titulo,
-      document.createElement("br"),
-      mensagem
-    );
-
-    container.appendChild(
-      estadoVazio
-    );
-
-    return;
-  }
-
-  const listaOrdenada =
-    [...lista].sort(
-      (cursoA, cursoB) => {
-        return (
-          ordenarValoresPedagogicos(
-            obterCampoCurso(cursoA, "material"),
-            obterCampoCurso(cursoB, "material")
-          ) ||
-          ordenarValoresPedagogicos(
-            obterCampoCurso(cursoA, "disciplina"),
-            obterCampoCurso(cursoB, "disciplina")
-          ) ||
-          ordenarValoresPedagogicos(
-            obterCampoCurso(cursoA, "serie"),
-            obterCampoCurso(cursoB, "serie")
-          ) ||
-          ordenarValoresPedagogicos(
-            obterCampoCurso(cursoA, "bimestre"),
-            obterCampoCurso(cursoB, "bimestre")
-          ) ||
-          ordenarValoresPedagogicos(
-            obterCampoCurso(cursoA, "aula"),
-            obterCampoCurso(cursoB, "aula")
-          ) ||
-          ordenarValoresPedagogicos(
-            obterCampoCurso(cursoA, "nome"),
-            obterCampoCurso(cursoB, "nome")
-          )
-        );
-      }
-    );
-
-  let materialAtual = null;
-  let contextoAtual = null;
-  let bimestreAtual = null;
-
-  listaOrdenada.forEach(
-    (curso) => {
-      const material =
-        obterCampoCurso(curso, "material") ||
-        t("content.defaultGroup");
-
-      const disciplina =
-        obterCampoCurso(curso, "disciplina") ||
-        t("content.noSubject");
-
-      const serie =
-        obterCampoCurso(curso, "serie") ||
-        t("content.noGrade");
-
-      const bimestre =
-        obterCampoCurso(curso, "bimestre") ||
-        t("content.noTerm");
-
-      const contexto =
-        `${disciplina} · ${serie}`;
-
-      if (
-        material !== materialAtual
-      ) {
-        materialAtual =
-          material;
-
-        contextoAtual =
-          null;
-
-        bimestreAtual =
-          null;
-
-        container.appendChild(
-          criarCabecalhoAgrupamento(
-            "header-material",
-            material,
-            t("content.material")
-          )
-        );
-      }
-
-      if (
-        contexto !== contextoAtual
-      ) {
-        contextoAtual =
-          contexto;
-
-        bimestreAtual =
-          null;
-
-        container.appendChild(
-          criarCabecalhoAgrupamento(
-            "header-contexto",
-            contexto
-          )
-        );
-      }
-
-      if (
-        bimestre !== bimestreAtual
-      ) {
-        bimestreAtual =
-          bimestre;
-
-        container.appendChild(
-          criarCabecalhoAgrupamento(
-            "header-bimestre",
-            bimestre,
-            t("content.term")
-          )
-        );
-      }
-
-      const card =
-        document.createElement(
-          "article"
-        );
-
-      card.className =
-        "card-curso";
-
-      const cardHeader =
-        document.createElement(
-          "header"
-        );
-
-      cardHeader.className =
-        "card-header";
-
-      const classificacao =
-        document.createElement(
-          "div"
-        );
-
-      classificacao.className =
-        "card-classificacao";
-
-      classificacao.appendChild(
-        criarBadgeAula(
-          obterCampoCurso(curso, "aula")
-        )
-      );
-
-      cardHeader.appendChild(
-        classificacao
-      );
-
-      const titulo =
-        document.createElement(
-          "h2"
-        );
-
-      titulo.className =
-        "card-titulo";
-
-      titulo.textContent =
-        obterCampoCurso(curso, "nome") ||
-        t("content.untitled");
-
-      const descricao =
-        document.createElement(
-          "p"
-        );
-
-      descricao.className =
-        "card-descricao";
-
-      descricao.textContent =
-        obterCampoCurso(curso, "descricao");
-
-      const info =
-        document.createElement(
-          "div"
-        );
-
-      info.className =
-        "card-info";
-
-      const infoDuracao =
-        criarInfoDuracao(
-          curso.duracaoMinutos
-        );
-
-      if (infoDuracao) {
-        info.appendChild(
-          infoDuracao
-        );
-      }
-
-      const footer =
-        document.createElement(
-          "footer"
-        );
-
-      footer.className =
-        "card-footer";
-
-      const botoes =
-        document.createElement(
-          "div"
-        );
-
-      botoes.className =
-        "card-botoes-materiais";
-
-const ehCorrecaoTarefa =
-  curso.material === "Correção da Tarefa";
-
-       const botaoVideo =
-         criarBotaoMaterial({
-           texto: ehCorrecaoTarefa
-             ? t("resources.correction")
-             : t("resources.video"),
-       
-           link: curso.linkAula,
-       
-           classeExtra: "btn-aula",
-       
-           ariaLabel: ehCorrecaoTarefa
-             ? `${t("resources.correction")}: ${titulo.textContent}`
-             : t("resources.videoAria", {
-                 title: titulo.textContent
-               })
-         });
-		
-		
-		
-
-      const botaoMusica =
-        criarBotaoMaterial({
-          texto: t("resources.music"),
-          link: curso.linkMusica,
-          classeExtra: "btn-musica",
-          ariaLabel:
-            t("resources.musicAria", { title: titulo.textContent })
-        });
-
-const botaoPdf =
-  criarBotaoMaterial({
-    texto: ehCorrecaoTarefa
-      ? t("resources.answerKey")
-      : t("resources.pdf"),
-
-    link: curso.linkPdf,
-
-    classeExtra: ehCorrecaoTarefa
-      ? "btn-pdf btn-gabarito"
-      : "btn-pdf",
-
-    ariaLabel: ehCorrecaoTarefa
-      ? `${t("resources.answerKey")}: ${titulo.textContent}`
-      : t("resources.pdfAria", {
-          title: titulo.textContent
-        })
-  });
-
-      const botaoAprofundamento =
-        criarBotaoMaterial({
-          texto: t("resources.deepen"),
-          link: curso.linkAprofundamento,
-          classeExtra: "btn-aprofundamento",
-          ariaLabel:
-            t("resources.deepenAria", {
-              title: titulo.textContent
-            })
-        });
-
-      const botaoAplicativo =
-        criarBotaoMaterial({
-          texto: t("resources.app"),
-          link: curso.linkAplicativo,
-          classeExtra: "btn-aplicativo",
-          ariaLabel:
-            t("resources.appAria", {
-              title: titulo.textContent
-            })
-        });
-		
-      const botaoAcessibilidade =
-        criarBotaoMaterial({
-          texto: t("resources.accessibility"),
-          link: curso.linkAcessibilidade,
-          classeExtra: "btn-acessibilidade",
-          ariaLabel:
-            t("resources.accessibilityAria", {
-              title: titulo.textContent
-            })
-        });		
-		
-		
-
-      [
-        botaoVideo,
-        botaoMusica,
-        botaoPdf,
-        botaoAprofundamento,
-        botaoAplicativo,
-		botaoAcessibilidade
-      ]
-        .filter(Boolean)
-        .forEach(
-          (botao) => {
-            botoes.appendChild(
-              botao
-            );
-          }
-        );
-
-      if (
-        botoes.children.length > 0
-      ) {
-        footer.appendChild(
-          botoes
-        );
-      }
-
-      card.append(
-        cardHeader,
-        titulo
-      );
-
-      if (
-        descricao.textContent
-      ) {
-        card.appendChild(
-          descricao
-        );
-      }
-
-      if (
-        info.children.length > 0
-      ) {
-        card.appendChild(
-          info
-        );
-      }
-
-      if (
-        footer.children.length > 0
-      ) {
-        card.appendChild(
-          footer
-        );
-      }
-
-      container.appendChild(
-        card
-      );
-    }
-  );
+/* Suaviza a troca manual de tema sem atrasar a primeira pintura. */
+html.tema-em-transicao,
+html.tema-em-transicao *,
+html.tema-em-transicao *::before,
+html.tema-em-transicao *::after {
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease !important;
 }
 
 
 /* =============================================================
-   4. RESUMO
+   5. TOOLBAR E FILTROS — DESKTOP
    ============================================================= */
 
-function atualizarResumo(lista) {
-  const listaSegura =
-    Array.isArray(lista)
-      ? lista
-      : [];
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 
-  const totalConteudos =
-    listaSegura.length;
-
-  const totalAulas =
-    listaSegura.reduce(
-      (soma, curso) => {
-        const quantidade =
-          Number(
-            curso.quantidadeAulas
-          );
-
-        return (
-          Number.isFinite(quantidade) &&
-          quantidade > 0
-        )
-          ? soma + quantidade
-          : soma;
-      },
-      0
-    );
-
-  const totalMinutos =
-    listaSegura.reduce(
-      (soma, curso) => {
-        const minutos =
-          Number(
-            curso.duracaoMinutos
-          );
-
-        return (
-          Number.isFinite(minutos) &&
-          minutos > 0
-        )
-          ? soma + minutos
-          : soma;
-      },
-      0
-    );
-
-  const valores = {
-    "resumo-total":
-      totalConteudos,
-
-    "resumo-disponivel":
-      totalConteudos,
-
-    "resumo-em-dev":
-      0,
-
-    "resumo-backlog":
-      0,
-
-    "total-aulas":
-      totalAulas,
-
-    "resumo-tempo":
-      formatarDuracao(
-        totalMinutos
-      ) || "0 min"
-  };
-
-  Object.entries(
-    valores
-  ).forEach(
-    ([id, valor]) => {
-      const elemento =
-        document.getElementById(
-          id
-        );
-
-      if (elemento) {
-        elemento.textContent =
-          valor;
-      }
-    }
-  );
+  margin-top: 4px;
+  padding-top: 28px;
+  border-top: 1px solid var(--color-header-divider);
 }
 
-
-/* =============================================================
-   5. FILTROS ENCADEADOS
-   ============================================================= */
-
-function obterBaseFiltradaPorSelecoes({
-  material = "",
-  disciplina = "",
-  serie = "",
-  bimestre = ""
-} = {}) {
-  return obterCursosDisponiveis().filter(
-    (curso) => {
-      if (
-        material &&
-        curso.material !== material
-      ) {
-        return false;
-      }
-
-      if (
-        disciplina &&
-        curso.disciplina !== disciplina
-      ) {
-        return false;
-      }
-
-      if (
-        serie &&
-        curso.serie !== serie
-      ) {
-        return false;
-      }
-
-      if (
-        bimestre &&
-        curso.bimestre !== bimestre
-      ) {
-        return false;
-      }
-
-      return true;
-    }
-  );
+/* No desktop, o botão que abre o drawer não aparece. */
+.btn-abrir-filtros {
+  display: none;
 }
 
-
-function preencherSelect({
-  id,
-  valores,
-  textoPadrao,
-  valorAnterior = "",
-  campoCurso = ""
-}) {
-  const select =
-    document.getElementById(
-      id
-    );
-
-  if (!select) {
-    return;
-  }
-
-  const valoresOrdenados =
-    Array.from(
-      new Set(
-        valores.filter(Boolean)
-      )
-    ).sort(
-      ordenarValoresPedagogicos
-    );
-
-  select.replaceChildren(
-    criarOpcao(
-      "",
-      textoPadrao
-    )
-  );
-
-  valoresOrdenados.forEach(
-    (valor) => {
-      select.appendChild(
-        criarOpcao(
-          valor,
-          campoCurso
-            ? obterRotuloValorCurso(campoCurso, valor)
-            : valor
-        )
-      );
-    }
-  );
-
-  if (
-    valorAnterior &&
-    valoresOrdenados.includes(
-      valorAnterior
-    )
-  ) {
-    select.value =
-      valorAnterior;
-  }
+.filtros-overlay {
+  display: none;
 }
 
-
-function preencherOpcoesMaterial() {
-  const select =
-    document.getElementById(
-      "filtro-material"
-    );
-
-  preencherSelect({
-    id: "filtro-material",
-
-    valores:
-      obterCursosDisponiveis().map(
-        (curso) =>
-          curso.material
-      ),
-
-    textoPadrao:
-      t("filters.allMasc"),
-
-    campoCurso: "material",
-
-    valorAnterior:
-      select?.value || ""
-  });
+.painel-filtros {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  min-width: 0;
 }
 
-
-function preencherOpcoesDisciplina(
-  material = ""
-) {
-  const select =
-    document.getElementById(
-      "filtro-disciplina"
-    );
-
-  const base =
-    obterBaseFiltradaPorSelecoes({
-      material
-    });
-
-  preencherSelect({
-    id: "filtro-disciplina",
-
-    valores:
-      base.map(
-        (curso) =>
-          curso.disciplina
-      ),
-
-    textoPadrao:
-      t("filters.allFem"),
-
-    campoCurso: "disciplina",
-
-    valorAnterior:
-      select?.value || ""
-  });
+.painel-filtros-cabecalho {
+  display: none;
 }
 
-
-function preencherOpcoesSerie(
-  material = "",
-  disciplina = ""
-) {
-  const select =
-    document.getElementById(
-      "filtro-serie"
-    );
-
-  const base =
-    obterBaseFiltradaPorSelecoes({
-      material,
-      disciplina
-    });
-
-  preencherSelect({
-    id: "filtro-serie",
-
-    valores:
-      base.map(
-        (curso) =>
-          curso.serie
-      ),
-
-    textoPadrao:
-      t("filters.allFem"),
-
-    campoCurso: "serie",
-
-    valorAnterior:
-      select?.value || ""
-  });
+.toolbar-filters {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
 }
 
-
-function preencherOpcoesBimestre(
-  material = "",
-  disciplina = "",
-  serie = ""
-) {
-  const select =
-    document.getElementById(
-      "filtro-bimestre"
-    );
-
-  const base =
-    obterBaseFiltradaPorSelecoes({
-      material,
-      disciplina,
-      serie
-    });
-
-  preencherSelect({
-    id: "filtro-bimestre",
-
-    valores:
-      base.map(
-        (curso) =>
-          curso.bimestre
-      ),
-
-    textoPadrao:
-      t("filters.allMasc"),
-
-    campoCurso: "bimestre",
-
-    valorAnterior:
-      select?.value || ""
-  });
+.select-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex: 1 1 130px;
 }
 
+.select-wrapper label {
+  position: absolute;
+  top: -22px;
+  left: 2px;
+  z-index: 2;
 
-function atualizarRotuloFiltroAula(
-  materialSelecionado = ""
-) {
-  const rotulo =
-    document.getElementById(
-      "rotulo-filtro-aula"
-    );
-
-  if (!rotulo) {
-    return;
-  }
-
-  let chave =
-    "filters.lesson";
-
-  if (
-    materialSelecionado ===
-    "Correção da Tarefa"
-  ) {
-    chave =
-      "filters.assignment";
-  } else if (
-    materialSelecionado ===
-    "Correção da Prova Paulista"
-  ) {
-    chave =
-      "filters.exam";
-  }
-
-  rotulo.dataset.i18n =
-    chave;
-
-  rotulo.textContent =
-    t(chave);
+  color: var(--color-header-text);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
+.select-wrapper select,
+.toolbar-search input {
+  width: 100%;
+  min-height: var(--touch-target);
 
-function preencherOpcoesAula(
-  material = "",
-  disciplina = "",
-  serie = "",
-  bimestre = ""
-) {
-  atualizarRotuloFiltroAula(
-    material
-  );
-  const select =
-    document.getElementById(
-      "filtro-aula"
-    );
+  color: var(--color-header-control-text);
+  background-color: var(--color-header-control);
+  border: 1px solid var(--color-header-control-border);
+  border-radius: var(--radius-lg);
 
-  const base =
-    obterBaseFiltradaPorSelecoes({
-      material,
-      disciplina,
-      serie,
-      bimestre
-    });
+  font-size: 0.86rem;
+  font-weight: 500;
 
-  preencherSelect({
-    id: "filtro-aula",
-
-    valores:
-      base.map(
-        (curso) =>
-          curso.aula
-      ),
-
-    textoPadrao:
-      t("filters.allFem"),
-
-    campoCurso: "aula",
-
-    valorAnterior:
-      select?.value || ""
-  });
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
 }
 
+.select-wrapper select {
+  min-width: 0;
+  padding: 10px 36px 10px 12px;
 
-/* =============================================================
-   6. APLICAÇÃO DOS FILTROS
-   ============================================================= */
-
-function obterCursosFiltrados() {
-  const material =
-    document.getElementById(
-      "filtro-material"
-    )?.value || "";
-
-  const disciplina =
-    document.getElementById(
-      "filtro-disciplina"
-    )?.value || "";
-
-  const serie =
-    document.getElementById(
-      "filtro-serie"
-    )?.value || "";
-
-  const bimestre =
-    document.getElementById(
-      "filtro-bimestre"
-    )?.value || "";
-
-  const aula =
-    document.getElementById(
-      "filtro-aula"
-    )?.value || "";
-
-  const busca =
-    normalizarTexto(
-      document.getElementById(
-        "filtro-busca"
-      )?.value || ""
-    );
-
-  return obterCursosDisponiveis().filter(
-    (curso) => {
-      if (
-        material &&
-        curso.material !== material
-      ) {
-        return false;
-      }
-
-      if (
-        disciplina &&
-        curso.disciplina !== disciplina
-      ) {
-        return false;
-      }
-
-      if (
-        serie &&
-        curso.serie !== serie
-      ) {
-        return false;
-      }
-
-      if (
-        bimestre &&
-        curso.bimestre !== bimestre
-      ) {
-        return false;
-      }
-
-      if (
-        aula &&
-        curso.aula !== aula
-      ) {
-        return false;
-      }
-
-      if (busca) {
-        const textoPesquisavel =
-          normalizarTexto(
-            [
-              obterCampoCurso(curso, "material"),
-              obterCampoCurso(curso, "disciplina"),
-              obterCampoCurso(curso, "serie"),
-              obterCampoCurso(curso, "bimestre"),
-              obterCampoCurso(curso, "aula"),
-              obterCampoCurso(curso, "nome"),
-              obterCampoCurso(curso, "descricao")
-            ].join(" ")
-          );
-
-        if (
-          !textoPesquisavel.includes(
-            busca
-          )
-        ) {
-          return false;
-        }
-      }
-
-      return true;
-    }
-  );
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2305055b' stroke-width='2.5'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
 }
 
-
-function aplicarFiltros() {
-  const cursosFiltrados =
-    obterCursosFiltrados();
-
-  renderCursos(
-    cursosFiltrados
-  );
-
-  atualizarResumo(
-    cursosFiltrados
-  );
+.select-wrapper select:focus,
+.toolbar-search input:focus {
+  border-color: var(--color-focus);
+  box-shadow: 0 0 0 3px var(--color-focus-ring);
+  outline: none;
 }
 
+/* Pesquisa preservada, mas temporariamente oculta no desktop. */
+.toolbar-search {
+  display: none;
+  position: relative;
+  flex: 1;
+  min-width: 200px;
+}
 
-function limparFiltros() {
-  IDS_FILTROS.forEach(
-    (id) => {
-      const campo =
-        document.getElementById(
-          id
-        );
+.toolbar-search input {
+  padding: 10px 12px 10px 44px;
+}
 
-      if (campo) {
-        campo.value = "";
-      }
-    }
-  );
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  z-index: 2;
 
-  removerFiltrosSalvos();
+  width: 19px;
+  height: 19px;
 
-  preencherOpcoesMaterial();
+  color: var(--color-text-muted);
+  pointer-events: none;
+  transform: translateY(-50%);
+}
 
-  preencherOpcoesDisciplina(
-    ""
-  );
+.painel-filtros-acoes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 0 0 auto;
+}
 
-  preencherOpcoesSerie(
-    "",
-    ""
-  );
+.btn-reset,
+.btn-aplicar-filtros,
+.btn-fechar-filtros,
+.btn-abrir-filtros {
+  border: 0;
+  font-family: inherit;
+}
 
-  preencherOpcoesBimestre(
-    "",
-    "",
-    ""
-  );
+.btn-reset {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
-  preencherOpcoesAula(
-    "",
-    "",
-    "",
-    ""
-  );
+  min-height: var(--touch-target);
+  padding: 10px 14px;
 
-  aplicarFiltros();
-  salvarFiltrosAtuais();
+  color: var(--color-header-accent);
+  background: var(--color-header-control-ghost);
+  border: 1px solid var(--color-header-control-border);
+  border-radius: var(--radius-lg);
+
+  font-size: 0.78rem;
+  font-weight: 700;
+
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.btn-reset:hover {
+  color: var(--color-header-accent);
+  background: var(--color-header-control-ghost-hover);
+  border-color: var(--color-header-accent);
+  transform: translateY(-1px);
+}
+
+.btn-aplicar-filtros {
+  display: none;
 }
 
 /* =============================================================
-   7. PAINEL LATERAL DE FILTROS
+   6. INDICADORES
+   Preservados no HTML e ocultos temporariamente.
+   Para reativar, remova display: none.
    ============================================================= */
 
-function configurarPainelFiltros() {
-  const botaoAbrir =
-    document.getElementById(
-      "btn-abrir-filtros"
-    );
-
-  const botaoFechar =
-    document.getElementById(
-      "btn-fechar-filtros"
-    );
-
-  const botaoAplicar =
-    document.getElementById(
-      "btn-aplicar-filtros"
-    );
-
-  const painel =
-    document.getElementById(
-      "painel-filtros"
-    );
-
-  const overlay =
-    document.getElementById(
-      "filtros-overlay"
-    );
-
-  const contador =
-    document.getElementById(
-      "contador-filtros"
-    );
-
-  const camposFiltro = [
-    "filtro-material",
-    "filtro-disciplina",
-    "filtro-serie",
-    "filtro-bimestre",
-    "filtro-aula",
-    "filtro-busca"
-  ]
-    .map(
-      (id) =>
-        document.getElementById(
-          id
-        )
-    )
-    .filter(Boolean);
-
-
-  function atualizarContadorFiltros() {
-    if (!contador) {
-      return;
-    }
-
-    const quantidade =
-      camposFiltro.filter(
-        (campo) =>
-          String(
-            campo.value || ""
-          ).trim() !== ""
-      ).length;
-
-    contador.textContent =
-      quantidade;
-
-    contador.hidden =
-      quantidade === 0;
-  }
-
-
-  function abrirPainel() {
-    if (!painel) {
-      return;
-    }
-
-    painel.classList.add(
-      "aberto"
-    );
-
-    if (overlay) {
-      overlay.hidden =
-        false;
-    }
-
-    document.body.classList.add(
-      "filtros-abertos"
-    );
-
-    botaoAbrir?.setAttribute(
-      "aria-expanded",
-      "true"
-    );
-
-    window.setTimeout(
-      () => {
-        botaoFechar?.focus();
-      },
-      50
-    );
-  }
-
-
-  function fecharPainel({
-    devolverFoco = true
-  } = {}) {
-    if (!painel) {
-      return;
-    }
-
-    painel.classList.remove(
-      "aberto"
-    );
-
-    if (overlay) {
-      overlay.hidden =
-        true;
-    }
-
-    document.body.classList.remove(
-      "filtros-abertos"
-    );
-
-    botaoAbrir?.setAttribute(
-      "aria-expanded",
-      "false"
-    );
-
-    if (devolverFoco) {
-      botaoAbrir?.focus();
-    }
-  }
-
-
-  botaoAbrir?.addEventListener(
-    "click",
-    abrirPainel
-  );
-
-
-  botaoFechar?.addEventListener(
-    "click",
-    () => {
-      fecharPainel();
-    }
-  );
-
-
-  overlay?.addEventListener(
-    "click",
-    () => {
-      fecharPainel();
-    }
-  );
-
-
-  botaoAplicar?.addEventListener(
-    "click",
-    () => {
-      aplicarFiltros();
-	  salvarFiltrosAtuais();
-      atualizarContadorFiltros();
-      fecharPainel();
-    }
-  );
-
-
-  document.addEventListener(
-    "keydown",
-    (evento) => {
-      if (
-        evento.key === "Escape" &&
-        painel?.classList.contains(
-          "aberto"
-        )
-      ) {
-        fecharPainel();
-      }
-    }
-  );
-
-
-  window.addEventListener(
-    "resize",
-    () => {
-      if (
-        window.innerWidth > 700 &&
-        painel?.classList.contains(
-          "aberto"
-        )
-      ) {
-        fecharPainel({
-          devolverFoco: false
-        });
-      }
-    }
-  );
-
-
-  camposFiltro.forEach(
-    (campo) => {
-      const tipoEvento =
-        campo.tagName === "INPUT"
-          ? "input"
-          : "change";
-
-      campo.addEventListener(
-        tipoEvento,
-        atualizarContadorFiltros
-      );
-    }
-  );
-
-
-  return {
-    atualizarContadorFiltros,
-    fecharPainel
-  };
+.resumo {
+  display: none;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  margin: 0 0 12px;
 }
 
+.card-metric {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  min-width: 0;
+  padding: 12px 14px;
+
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+}
+
+.metric-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+}
+
+.metric-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-purple { background: var(--color-icon-purple-bg); color: var(--color-icon-purple); }
+.icon-cyan   { background: var(--color-icon-cyan-bg); color: var(--color-icon-cyan); }
+.icon-gray   { background: var(--color-icon-gray-bg); color: var(--color-icon-gray); }
+.icon-green  { background: var(--color-icon-green-bg); color: var(--color-icon-green); }
+.icon-blue   { background: var(--color-icon-blue-bg); color: var(--color-icon-blue); }
+.icon-orange { background: var(--color-icon-orange-bg); color: var(--color-icon-orange); }
+
+.metric-content {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.metric-value {
+  color: var(--color-text);
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.metric-label {
+  margin-top: 2px;
+  color: var(--color-text-muted);
+  font-size: 0.65rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.text-green { color: var(--color-success); }
+.text-blue { color: var(--color-primary); }
+.text-orange { color: var(--color-warning); }
 
 /* =============================================================
-   8. PERSISTÊNCIA DOS FILTROS
+   7. LISTA E AGRUPAMENTOS
+   Experiência do aluno: hierarquia mais simples e compacta.
    ============================================================= */
 
-const CHAVE_FILTROS = "sala-aula-filtros";
+.lista-cursos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  align-items: stretch;
+  gap: 12px;
 
-const IDS_FILTROS = [
-  "filtro-material",
-  "filtro-disciplina",
-  "filtro-serie",
-  "filtro-bimestre",
-  "filtro-aula",
-  "filtro-busca"
-];
-
-
-function obterEstadoPadraoFiltros() {
-  return {
-    material: "",
-    disciplina: "",
-    serie: "",
-    bimestre: "",
-    aula: "",
-    busca: ""
-  };
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
+.header-material,
+.header-contexto,
+.header-bimestre {
+  grid-column: 1 / -1;
 
-function lerFiltrosSalvos() {
-  try {
-    const conteudo =
-      localStorage.getItem(
-        CHAVE_FILTROS
-      );
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
 
-    if (!conteudo) {
-      return obterEstadoPadraoFiltros();
-    }
+  width: 100%;
+  min-width: 0;
+}
 
-    const filtros =
-      JSON.parse(conteudo);
+.header-material span,
+.header-contexto span,
+.header-bimestre span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
 
-    if (
-      !filtros ||
-      typeof filtros !== "object"
-    ) {
-      return obterEstadoPadraoFiltros();
-    }
+.header-material small,
+.header-contexto small,
+.header-bimestre small {
+  flex: 0 0 auto;
+  font-size: 0.62rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.72;
+}
 
-    return {
-      material:
-        String(
-          filtros.material || ""
-        ),
+/* Tipo de material: único cabeçalho de maior destaque. */
+.header-material {
+  margin: 0 0 2px;
+  padding: 11px 16px;
 
-      disciplina:
-        String(
-          filtros.disciplina || ""
-        ),
+  color: var(--color-text-inverse);
+  background: linear-gradient(
+    135deg,
+    var(--color-material-start),
+    var(--color-material-end)
+  );
+  border-left: 6px solid var(--color-material-accent);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 8px 20px var(--color-material-shadow);
+}
 
-      serie:
-        String(
-          filtros.serie || ""
-        ),
+.header-material span {
+  font-size: 1.08rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
 
-      bimestre:
-        String(
-          filtros.bimestre || ""
-        ),
+/* Disciplina e série juntas: “Ciências · 7º Ano”. */
+.header-contexto {
+  margin: 4px 0 0;
+  padding: 4px 2px;
 
-      aula:
-        String(
-          filtros.aula || ""
-        ),
+  color: var(--color-text);
+  background: transparent;
+  border: 0;
+}
 
-      busca:
-        String(
-          filtros.busca || ""
-        )
-    };
-  } catch {
-    return obterEstadoPadraoFiltros();
+.header-contexto span {
+  font-size: 0.98rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.header-contexto small {
+  color: var(--color-text-muted);
+}
+
+/* Bimestre como subtítulo discreto do grupo. */
+.header-bimestre {
+  margin: -2px 0 2px;
+  padding: 6px 10px;
+
+  color: var(--color-bimestre-text);
+  background: var(--color-bimestre-bg);
+  border: 1px solid var(--color-bimestre-border);
+  border-left: 4px solid var(--color-bimestre-accent);
+  border-radius: var(--radius-sm);
+}
+
+.header-bimestre span {
+  font-size: 0.82rem;
+  font-weight: 750;
+  line-height: 1.2;
+}
+
+/* =============================================================
+   8. CARDS DE CONTEÚDO
+   Apenas informações e recursos relevantes ao aluno.
+   ============================================================= */
+
+.card-curso {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+
+  width: 100%;
+  min-width: 0;
+  min-height: 250px;
+  padding: 15px 16px 14px;
+
+  color: var(--color-text);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+
+  overflow: hidden;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.card-curso:hover {
+  border-color: var(--color-border-strong);
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-2px);
+}
+
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+}
+
+/* No card permanece somente a identificação da aula. */
+.card-classificacao {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 100%;
+}
+
+.badge-aula {
+  display: inline-flex;
+  align-items: center;
+
+  max-width: 100%;
+  padding: 4px 9px;
+
+  color: var(--color-lesson-badge-text);
+  background: var(--color-lesson-badge-bg);
+  border: 1px solid var(--color-lesson-badge-border);
+  border-radius: 999px;
+
+  font-size: 0.7rem;
+  font-weight: 750;
+  line-height: 1.1;
+}
+
+.card-titulo {
+  margin-top: 1px;
+  color: var(--color-text);
+  font-size: 1.02rem;
+  font-weight: 750;
+  line-height: 1.3;
+}
+
+.card-descricao {
+  display: -webkit-box;
+  flex-grow: 1;
+
+  margin: 0;
+
+  color: var(--color-text-muted);
+  font-size: 0.86rem;
+  line-height: 1.5;
+
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
+.card-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  margin-top: 2px;
+  color: var(--color-text-muted);
+  font-size: 0.77rem;
+}
+
+.info-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+
+  padding: 4px 8px;
+
+  background: var(--color-surface-soft);
+  border: 1px solid var(--color-surface-muted);
+  border-radius: 6px;
+}
+
+.info-item svg {
+  width: 15px;
+  height: 15px;
+  color: var(--color-text-soft);
+  stroke-width: 2;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid var(--color-surface-muted);
+}
+.card-botoes-materiais {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(118px, 100%), 1fr));
+  gap: 7px;
+  width: 100%;
+}
+
+.btn-material {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  min-width: 0;
+  min-height: 40px;
+
+  padding: 8px 6px;
+
+  border-radius: 10px;
+
+  font-size: 0.72rem;
+  font-weight: 750;
+  line-height: 1.15;
+  text-align: center;
+  white-space: nowrap;
+
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.btn-material:hover {
+  transform: translateY(-1px);
+}
+
+/* =============================================================
+   BOTÃO PRINCIPAL — VÍDEO
+   Mesma largura dos demais, mas com maior destaque visual.
+   ============================================================= */
+
+.btn-aula {
+  color: var(--color-primary-contrast);
+  background: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  box-shadow: 0 6px 14px rgba(37, 99, 235, 0.24);
+}
+
+.btn-aula::before {
+  content: "▶";
+
+  flex: 0 0 auto;
+
+  margin-right: 6px;
+
+  font-size: 0.68rem;
+  line-height: 1;
+}
+
+.btn-aula:hover {
+  color: var(--color-primary-contrast);
+  background: var(--color-primary-hover);
+  border-color: var(--color-primary-hover);
+  box-shadow: var(--shadow-primary-hover);
+}
+
+/* =============================================================
+   RECURSOS COMPLEMENTARES — MÚSICA E PDF
+   ============================================================= */
+
+.btn-musica,
+.btn-pdf {
+  color: var(--color-text);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-strong);
+  box-shadow: none;
+}
+
+.btn-musica:hover,
+.btn-pdf:hover {
+  color: var(--color-primary);
+  background: var(--color-surface-soft);
+  border-color: var(--color-primary);
+}
+
+.btn-musica::before {
+  content: "♫";
+
+  flex: 0 0 auto;
+
+  margin-right: 6px;
+
+  font-size: 0.8rem;
+  line-height: 1;
+}
+
+.btn-pdf::before {
+  content: "▣";
+
+  flex: 0 0 auto;
+
+  margin-right: 6px;
+
+  font-size: 0.72rem;
+  line-height: 1;
+}
+
+/* =============================================================
+   9. ESTADO VAZIO E RODAPÉ
+   ============================================================= */
+
+.lista-cursos-vazia {
+  grid-column: 1 / -1;
+
+  padding: 24px 16px;
+
+  color: var(--color-text-muted);
+  background: var(--color-surface);
+  border: 1px dashed var(--color-border-strong);
+  border-radius: var(--radius-lg);
+
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.lista-cursos-vazia strong {
+  color: var(--color-text);
+}
+
+.page-footer {
+  margin-top: 24px;
+
+  color: var(--color-text-muted);
+
+  font-size: 0.75rem;
+  line-height: 1.5;
+  text-align: right;
+}
+
+/* =============================================================
+   10. RESPONSIVIDADE — TABLETS
+   ============================================================= */
+
+@media (max-width: 1000px) {
+  .toolbar {
+    align-items: stretch;
+  }
+
+  .painel-filtros {
+    align-items: stretch;
+  }
+
+  .toolbar-filters {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    gap: 28px 10px;
   }
 }
 
+/* =============================================================
+   11. RESPONSIVIDADE — CELULARES / DRAWER
+   ============================================================= */
 
-function salvarFiltrosAtuais() {
-  const filtros = {
-    material:
-      document.getElementById(
-        "filtro-material"
-      )?.value || "",
-
-    disciplina:
-      document.getElementById(
-        "filtro-disciplina"
-      )?.value || "",
-
-    serie:
-      document.getElementById(
-        "filtro-serie"
-      )?.value || "",
-
-    bimestre:
-      document.getElementById(
-        "filtro-bimestre"
-      )?.value || "",
-
-    aula:
-      document.getElementById(
-        "filtro-aula"
-      )?.value || "",
-
-    busca:
-      document.getElementById(
-        "filtro-busca"
-      )?.value || ""
-  };
-
-  try {
-    localStorage.setItem(
-      CHAVE_FILTROS,
-      JSON.stringify(filtros)
-    );
-  } catch {
-    /*
-     * A aplicação continua funcionando quando
-     * o localStorage estiver indisponível.
-     */
-  }
-}
-
-
-function removerFiltrosSalvos() {
-  try {
-    localStorage.removeItem(
-      CHAVE_FILTROS
-    );
-  } catch {
-    /*
-     * Nenhuma ação necessária.
-     */
-  }
-}
-
-
-function definirValorValido(
-  select,
-  valor
-) {
-  if (!select || !valor) {
-    return "";
+@media (max-width: 700px) {
+  body {
+    overflow-x: hidden;
   }
 
-  const valorExiste =
-    Array.from(
-      select.options
-    ).some(
-      (opcao) =>
-        opcao.value === valor
-    );
-
-  if (!valorExiste) {
-    select.value = "";
-
-    return "";
+  .page {
+    max-width: none;
+    padding: 0 12px 30px;
   }
 
-  select.value = valor;
+  .app-header {
+    width: calc(100% + 24px);
 
-  return valor;
-}
+    margin: 0 -12px 14px;
+    padding: 20px 16px;
+
+    border-radius: 0 0 20px 20px;
+
+    gap: 14px;
+  }
+
+  .header-top {
+    align-items: flex-start;
+  }
+
+  .header-top {
+    width: 100%;
+  }
+
+  .header-preferencias {
+    width: 100%;
+  }
+
+  .tema-controle {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .tema-controle select {
+    flex: 1;
+    width: 100%;
+  }
 
 
-function restaurarFiltrosSalvos() {
-  const filtros =
-    lerFiltrosSalvos();
+  .brand-identity {
+    flex-direction: column;
+    align-items: flex-start;
 
-  const filtroMaterial =
-    document.getElementById(
-      "filtro-material"
-    );
+    gap: 8px;
+  }
 
-  const filtroDisciplina =
-    document.getElementById(
-      "filtro-disciplina"
-    );
+  .app-header h1 {
+    font-size: 1.35rem;
+  }
 
-  const filtroSerie =
-    document.getElementById(
-      "filtro-serie"
-    );
+  .version-pill {
+    width: 100%;
+    max-width: 100%;
 
-  const filtroBimestre =
-    document.getElementById(
-      "filtro-bimestre"
-    );
+    padding: 6px 10px;
 
-  const filtroAula =
-    document.getElementById(
-      "filtro-aula"
-    );
+    border-radius: var(--radius-md);
 
-  const filtroBusca =
-    document.getElementById(
-      "filtro-busca"
-    );
+    font-size: 0.66rem;
+    white-space: normal;
+  }
+
+  .toolbar {
+    display: block;
+
+    margin-top: 0;
+    padding-top: 16px;
+  }
+
+  .btn-abrir-filtros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    width: 100%;
+    min-height: 46px;
+
+    padding: 10px 16px;
+
+    color: var(--color-header-text);
+    background: var(--color-header-button-bg);
+    border: 1px solid var(--color-header-button-border);
+    border-radius: var(--radius-lg);
+
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .btn-abrir-filtros svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .contador-filtros {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 22px;
+    height: 22px;
+
+    padding: 0 6px;
+
+    color: var(--color-header);
+    background: var(--color-header-accent);
+    border-radius: 999px;
+
+    font-size: 0.7rem;
+    font-weight: 800;
+  }
+
+  .filtros-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+
+    display: block;
+
+    background: var(--color-overlay);
+    backdrop-filter: blur(2px);
+  }
+
+  .painel-filtros {
+    position: fixed;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 1000;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    gap: 0;
+
+    width: min(90vw, 390px);
+    height: 100vh;
+    height: 100dvh;
+
+    padding: 20px 16px;
+
+    color: var(--color-text);
+    background: var(--color-surface);
+    box-shadow: var(--shadow-drawer);
+
+    overflow-y: auto;
+    overscroll-behavior: contain;
+
+    visibility: hidden;
+    transform: translateX(105%);
+
+    transition:
+      transform 0.25s ease,
+      visibility 0.25s ease;
+  }
+
+  .painel-filtros.aberto {
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .painel-filtros-cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 12px;
+
+    margin-bottom: 22px;
+    padding-bottom: 14px;
+
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .painel-filtros-cabecalho strong {
+    color: var(--color-text);
+    font-size: 1.05rem;
+  }
+
+  .btn-fechar-filtros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+
+    width: var(--touch-target);
+    height: var(--touch-target);
+
+    color: var(--color-close-button-text);
+    background: var(--color-surface-muted);
+    border-radius: var(--radius-md);
+
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+  .painel-filtros .toolbar-filters {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    gap: 16px;
+
+    width: 100%;
+  }
+
+  .painel-filtros .select-wrapper {
+    width: 100%;
+  }
+
+  .painel-filtros .select-wrapper label {
+    position: static;
+
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: var(--color-text);
+
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
+
+  .painel-filtros .select-wrapper select {
+    width: 100%;
+    min-width: 0;
+    min-height: 46px;
+
+    color: var(--color-text);
+    background-color: var(--color-surface);
+    border-color: var(--color-border-strong);
+  }
+
+  /* A pesquisa permanece oculta no desktop e aparece no drawer. */
+  .painel-filtros .toolbar-search {
+    display: block;
+
+    width: 100%;
+    min-width: 0;
+
+    margin-top: 18px;
+  }
+
+  .painel-filtros .toolbar-search input {
+    min-height: 46px;
+
+    color: var(--color-text);
+    background: var(--color-surface);
+    border-color: var(--color-border-strong);
+  }
+
+  .painel-filtros-acoes {
+    position: sticky;
+    bottom: -20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 10px;
+
+    width: calc(100% + 32px);
+
+    margin: auto -16px -20px;
+    padding: 14px 16px 20px;
+
+    background: var(--color-surface);
+    border-top: 1px solid var(--color-border);
+  }
+
+  .painel-filtros-acoes .btn-reset,
+  .btn-aplicar-filtros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    min-height: var(--touch-target);
+
+    padding: 10px 12px;
+
+    border-radius: var(--radius-md);
+
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+
+  .painel-filtros-acoes .btn-reset {
+    color: var(--color-text-muted);
+    background: var(--color-surface-muted);
+    border: 1px solid var(--color-border-strong);
+  }
+
+  .btn-aplicar-filtros {
+    color: var(--color-primary-contrast);
+    background: var(--color-primary);
+    border: 1px solid var(--color-primary);
+  }
+
+  body.filtros-abertos {
+    overflow: hidden;
+  }
+
+  .resumo {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 8px;
+  }
+
+  .lista-cursos {
+    grid-template-columns: 1fr;
+
+    gap: 8px;
+  }
+
+  .header-material,
+  .header-contexto,
+  .header-bimestre {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .header-material span {
+    font-size: 1rem;
+  }
+
+  .header-contexto span {
+    font-size: 0.88rem;
+  }
+
+  .header-bimestre span {
+    font-size: 0.8rem;
+  }
+
+  .header-material small,
+  .header-contexto small,
+  .header-bimestre small {
+    font-size: 0.55rem;
+  }
+
+  .card-curso {
+    min-height: 0;
+    padding: 13px;
+  }
+
+  .badge-aula {
+    padding: 3px 8px;
+
+    font-size: 0.64rem;
+    white-space: normal;
+  }
+
+  .card-titulo {
+    font-size: 0.96rem;
+  }
+
+  .card-descricao {
+    font-size: 0.81rem;
+
+    -webkit-line-clamp: 5;
+  }
+
+  .card-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
 
   /*
-   * A restauração precisa respeitar a ordem
-   * dos filtros encadeados.
+   * Mantém todos os recursos existentes
+   * com exatamente a mesma largura.
    */
+  .card-botoes-materiais {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(0, 1fr);
 
-  preencherOpcoesMaterial();
+    gap: 6px;
 
-  const material =
-    definirValorValido(
-      filtroMaterial,
-      filtros.material
-    );
+    width: 100%;
+  }
 
-  preencherOpcoesDisciplina(
-    material
-  );
+  .btn-material {
+    width: 100%;
+    min-width: 0;
+    min-height: 42px;
 
-  const disciplina =
-    definirValorValido(
-      filtroDisciplina,
-      filtros.disciplina
-    );
+    padding: 9px 5px;
 
-  preencherOpcoesSerie(
-    material,
-    disciplina
-  );
+    font-size: 0.7rem;
+    text-align: center;
+  }
 
-  const serie =
-    definirValorValido(
-      filtroSerie,
-      filtros.serie
-    );
+  .page-footer {
+    text-align: center;
+  }
+}
 
-  preencherOpcoesBimestre(
-    material,
-    disciplina,
-    serie
-  );
+/* =============================================================
+   12. CELULARES MUITO ESTREITOS
+   ============================================================= */
 
-  const bimestre =
-    definirValorValido(
-      filtroBimestre,
-      filtros.bimestre
-    );
+@media (max-width: 420px) {
+  .page {
+    padding-right: 9px;
+    padding-left: 9px;
+  }
 
-  preencherOpcoesAula(
-    material,
-    disciplina,
-    serie,
-    bimestre
-  );
+  .app-header {
+    width: calc(100% + 18px);
 
-  definirValorValido(
-    filtroAula,
-    filtros.aula
-  );
+    margin-right: -9px;
+    margin-left: -9px;
+  }
 
-  if (filtroBusca) {
-    filtroBusca.value =
-      filtros.busca;
+  .resumo {
+    grid-template-columns: 1fr;
+  }
+
+  .header-material small,
+  .header-contexto small,
+  .header-bimestre small {
+    display: none;
+  }
+
+  /*
+   * Continua distribuindo igualmente:
+   * 1, 2 ou 3 botões sempre ocupam toda a largura.
+   */
+  .card-botoes-materiais {
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(0, 1fr);
+
+    gap: 5px;
+  }
+
+  .btn-material {
+    min-height: 40px;
+
+    padding: 8px 3px;
+
+    font-size: 0.65rem;
+  }
+
+  .btn-aula::before,
+  .btn-musica::before,
+  .btn-pdf::before {
+    margin-right: 4px;
+  }
+}
+
+/* =============================================================
+   13. REDUÇÃO DE MOVIMENTO
+   ============================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+/* =============================================================
+   CONTROLE DE IDIOMA
+   ============================================================= */
+
+.header-preferencias {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.idioma-controle {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.idioma-rotulo {
+  color: var(--color-header-muted);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.idioma-botoes {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  min-height: 36px;
+  padding: 3px;
+  background: var(--color-header-control);
+  border: 1px solid var(--color-header-control-border);
+  border-radius: var(--radius-lg);
+}
+
+.btn-idioma {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 38px;
+  min-height: 28px;
+  padding: 4px 7px;
+  color: var(--color-header-control-text);
+  background: transparent;
+  border: 0;
+  border-radius: 8px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    color 0.18s ease,
+    background-color 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.btn-idioma:hover {
+  background: var(--color-surface-muted);
+}
+
+.btn-idioma.ativo {
+  color: var(--color-primary-contrast);
+  background: var(--color-primary);
+  box-shadow: var(--shadow-primary);
+}
+
+@media (max-width: 700px) {
+  .header-preferencias {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .tema-controle,
+  .idioma-controle {
+    flex: 1 1 auto;
+  }
+
+  .idioma-controle {
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 440px) {
+  .header-preferencias {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .tema-controle,
+  .idioma-controle {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .idioma-botoes {
+    flex: 1;
+  }
+
+  .btn-idioma {
+    flex: 1;
   }
 }
 
 
 /* =============================================================
-   9. INICIALIZAÇÃO
+   AUTORIA E APRESENTAÇÃO INSTITUCIONAL
    ============================================================= */
 
-document.addEventListener(
-  "DOMContentLoaded",
-  () => {
-    window.I18N?.configurar();
+.author-pill {
+  display: inline-flex;
+  align-items: center;
+  max-width: max-content;
+  padding: 5px 10px;
+  color: var(--color-header-text);
+  background: var(--color-header-control-ghost);
+  border: 1px solid var(--color-header-button-border);
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 750;
+  line-height: 1.2;
+  text-decoration: none;
+  transition:
+    transform 0.18s ease,
+    color 0.18s ease,
+    background-color 0.18s ease,
+    border-color 0.18s ease;
+}
 
-    configurarTema();
+.author-pill::before {
+  content: "✦";
+  margin-right: 6px;
+  color: var(--color-header-accent);
+  font-size: 0.72rem;
+}
 
-    if (
-      typeof cursos === "undefined" ||
-      !Array.isArray(cursos)
-    ) {
-      console.error(
-        'A variável global "cursos" não foi encontrada. ' +
-        "Verifique se cursos.js foi carregado antes de app.js."
-      );
+.author-pill:hover {
+  color: var(--color-header-accent);
+  background: var(--color-header-control-ghost-hover);
+  border-color: var(--color-header-accent);
+  transform: translateY(-1px);
+}
 
-      return;
-    }
-
-    restaurarFiltrosSalvos();
-
-    const filtroMaterial =
-      document.getElementById(
-        "filtro-material"
-      );
-
-    const filtroDisciplina =
-      document.getElementById(
-        "filtro-disciplina"
-      );
-
-    const filtroSerie =
-      document.getElementById(
-        "filtro-serie"
-      );
-
-    const filtroBimestre =
-      document.getElementById(
-        "filtro-bimestre"
-      );
-
-    const filtroAula =
-      document.getElementById(
-        "filtro-aula"
-      );
-
-    const filtroBusca =
-      document.getElementById(
-        "filtro-busca"
-      );
-
-    const botaoLimpar =
-      document.getElementById(
-        "btn-limpar-filtros"
-      );
-
-    const painelFiltros =
-      configurarPainelFiltros();
-
-
-    filtroMaterial?.addEventListener(
-      "change",
-      () => {
-        if (filtroDisciplina) {
-          filtroDisciplina.value = "";
-        }
-
-        if (filtroSerie) {
-          filtroSerie.value = "";
-        }
-
-        if (filtroBimestre) {
-          filtroBimestre.value = "";
-        }
-
-        if (filtroAula) {
-          filtroAula.value = "";
-        }
-
-        preencherOpcoesDisciplina(
-          filtroMaterial.value
-        );
-
-        preencherOpcoesSerie(
-          filtroMaterial.value,
-          ""
-        );
-
-        preencherOpcoesBimestre(
-          filtroMaterial.value,
-          "",
-          ""
-        );
-
-        preencherOpcoesAula(
-          filtroMaterial.value,
-          "",
-          "",
-          ""
-        );
-
-        aplicarFiltros();
-        salvarFiltrosAtuais();
-        painelFiltros
-          .atualizarContadorFiltros();
-      }
+.sobre-projeto {
+  position: relative;
+  margin-top: 28px;
+  padding: clamp(24px, 4vw, 44px);
+  color: var(--color-text);
+  background:
+    linear-gradient(
+      145deg,
+      var(--color-surface-elevated),
+      var(--color-surface-soft)
     );
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
 
+.sobre-projeto::before {
+  content: "";
+  position: absolute;
+  top: -110px;
+  right: -80px;
+  width: 260px;
+  height: 260px;
+  background: var(--color-header-accent-soft);
+  border-radius: 50%;
+  filter: blur(2px);
+  pointer-events: none;
+}
 
-    filtroDisciplina?.addEventListener(
-      "change",
-      () => {
-        if (filtroSerie) {
-          filtroSerie.value = "";
-        }
+.sobre-projeto-introducao {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+}
 
-        if (filtroBimestre) {
-          filtroBimestre.value = "";
-        }
+.sobre-kicker,
+.autor-etiqueta {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--color-primary);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
 
-        if (filtroAula) {
-          filtroAula.value = "";
-        }
+.sobre-kicker::before,
+.autor-etiqueta::before {
+  content: "";
+  width: 24px;
+  height: 2px;
+  background: var(--color-primary);
+  border-radius: 999px;
+}
 
-        preencherOpcoesSerie(
-          filtroMaterial?.value || "",
-          filtroDisciplina.value
-        );
+.sobre-titulo {
+  max-width: 850px;
+  margin-top: 10px;
+  color: var(--color-text-strong);
+  font-size: clamp(1.55rem, 3vw, 2.35rem);
+  font-weight: 800;
+  line-height: 1.12;
+}
 
-        preencherOpcoesBimestre(
-          filtroMaterial?.value || "",
-          filtroDisciplina.value,
-          ""
-        );
+.sobre-lead {
+  max-width: 900px;
+  margin-top: 14px;
+  color: var(--color-text-muted);
+  font-size: clamp(0.92rem, 1.7vw, 1.04rem);
+  line-height: 1.7;
+}
 
-        preencherOpcoesAula(
-          filtroMaterial?.value || "",
-          filtroDisciplina.value,
-          "",
-          ""
-        );
+.sobre-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 28px;
+}
 
-        aplicarFiltros();
-        salvarFiltrosAtuais();
-        painelFiltros
-          .atualizarContadorFiltros();
-      }
-    );
+.sobre-card {
+  position: relative;
+  min-width: 0;
+  padding: 22px 20px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
 
+.sobre-card-numero {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  color: var(--color-primary);
+  font-size: 1.55rem;
+  font-weight: 800;
+  line-height: 1;
+  opacity: 0.18;
+}
 
-    filtroSerie?.addEventListener(
-      "change",
-      () => {
-        if (filtroBimestre) {
-          filtroBimestre.value = "";
-        }
+.sobre-card h3 {
+  max-width: calc(100% - 34px);
+  color: var(--color-text-strong);
+  font-size: 0.96rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
 
-        if (filtroAula) {
-          filtroAula.value = "";
-        }
+.sobre-card p {
+  margin-top: 10px;
+  color: var(--color-text-muted);
+  font-size: 0.83rem;
+  line-height: 1.58;
+}
 
-        preencherOpcoesBimestre(
-          filtroMaterial?.value || "",
-          filtroDisciplina?.value || "",
-          filtroSerie.value
-        );
+.autor-bloco {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  gap: 28px;
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid var(--color-border);
+}
 
-        preencherOpcoesAula(
-          filtroMaterial?.value || "",
-          filtroDisciplina?.value || "",
-          filtroSerie.value,
-          ""
-        );
+.autor-nome {
+  margin-top: 8px;
+  color: var(--color-text-strong);
+  font-size: clamp(1.55rem, 3vw, 2rem);
+  font-weight: 800;
+  line-height: 1.1;
+}
 
-        aplicarFiltros();
-        salvarFiltrosAtuais();
-        painelFiltros
-          .atualizarContadorFiltros();
-      }
-    );
+.autor-posicionamento {
+  margin-top: 12px;
+  color: var(--color-text);
+  font-size: 0.98rem;
+  font-weight: 650;
+  line-height: 1.55;
+}
 
+.autor-destaque {
+  margin-top: 12px;
+  color: var(--color-text-muted);
+  font-size: 0.86rem;
+  line-height: 1.66;
+}
 
-    filtroBimestre?.addEventListener(
-      "change",
-      () => {
-        if (filtroAula) {
-          filtroAula.value = "";
-        }
+.autor-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-top: 20px;
+}
 
-        preencherOpcoesAula(
-          filtroMaterial?.value || "",
-          filtroDisciplina?.value || "",
-          filtroSerie?.value || "",
-          filtroBimestre.value
-        );
+.autor-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 9px 14px;
+  color: var(--color-primary);
+  background: var(--color-surface);
+  border: 1px solid var(--color-primary);
+  border-radius: var(--radius-lg);
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-decoration: none;
+  transition:
+    transform 0.16s ease,
+    color 0.16s ease,
+    background-color 0.16s ease,
+    box-shadow 0.16s ease;
+}
 
-        aplicarFiltros();
-        salvarFiltrosAtuais();
-        painelFiltros
-          .atualizarContadorFiltros();
-      }
-    );
+.autor-link::after {
+  content: "↗";
+  margin-left: 7px;
+  font-size: 0.8rem;
+}
 
+.autor-link:hover {
+  color: var(--color-primary-contrast);
+  background: var(--color-primary-hover);
+  box-shadow: var(--shadow-primary);
+  transform: translateY(-1px);
+}
 
-    filtroAula?.addEventListener(
-      "change",
-      () => {
-        aplicarFiltros();
-        salvarFiltrosAtuais();
-        painelFiltros
-          .atualizarContadorFiltros();
-      }
-    );
+.autor-link-principal {
+  color: var(--color-primary-contrast);
+  background: var(--color-primary);
+  box-shadow: var(--shadow-primary);
+}
 
+.autor-credenciais {
+  padding: 20px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
 
-    filtroBusca?.addEventListener(
-      "input",
-      () => {
-        aplicarFiltros();
-        salvarFiltrosAtuais();
-        painelFiltros
-          .atualizarContadorFiltros();
-      }
-    );
+.autor-credenciais h3 {
+  color: var(--color-text-strong);
+  font-size: 0.92rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 
+.credenciais-lista {
+  display: grid;
+  gap: 11px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
 
-    botaoLimpar?.addEventListener(
-      "click",
-      () => {
-        limparFiltros();
+.credenciais-lista li {
+  display: grid;
+  grid-template-columns: 10px minmax(0, 1fr);
+  align-items: start;
+  gap: 9px;
+  color: var(--color-text-muted);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
 
-        painelFiltros
-          .atualizarContadorFiltros();
-      }
-    );
+.credencial-marcador {
+  width: 7px;
+  height: 7px;
+  margin-top: 6px;
+  background: var(--color-primary);
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px var(--color-header-accent-soft);
+}
 
-    document.addEventListener(
-      "idiomaalterado",
-      () => {
-        /*
-         * Os valores persistidos dos filtros permanecem estáveis em
-         * português, mas seus rótulos e todos os cards são reconstruídos
-         * no idioma selecionado.
-         */
-        restaurarFiltrosSalvos();
+.sobre-manifesto {
+  position: relative;
+  z-index: 1;
+  margin-top: 26px;
+  padding: 16px 18px;
+  color: var(--color-bimestre-text);
+  background: var(--color-bimestre-bg);
+  border: 1px solid var(--color-bimestre-border);
+  border-left: 5px solid var(--color-bimestre-accent);
+  border-radius: var(--radius-lg);
+  font-size: 0.88rem;
+  font-weight: 750;
+  line-height: 1.5;
+  text-align: center;
+}
 
-        atualizarRotuloFiltroAula(
-          document.getElementById(
-            "filtro-material"
-          )?.value || ""
-        );
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
 
-        aplicarFiltros();
+.footer-autoria {
+  color: var(--color-text);
+  font-weight: 700;
+}
 
-        painelFiltros
-          .atualizarContadorFiltros();
-      }
-    );
-
-    aplicarFiltros();
-    salvarFiltrosAtuais();
-
-    painelFiltros
-      .atualizarContadorFiltros();
+@media (max-width: 900px) {
+  .sobre-grid {
+    grid-template-columns: 1fr;
   }
-);
 
-window.addEventListener(
-  "pagehide",
-  salvarFiltrosAtuais
-);
+  .autor-bloco {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .author-pill {
+    max-width: 100%;
+    border-radius: var(--radius-md);
+  }
+
+  .sobre-projeto {
+    margin-top: 20px;
+    padding: 24px 18px;
+    border-radius: var(--radius-lg);
+  }
+
+  .sobre-titulo {
+    font-size: 1.55rem;
+  }
+
+  .sobre-grid {
+    margin-top: 22px;
+  }
+
+  .autor-bloco {
+    gap: 20px;
+    margin-top: 24px;
+    padding-top: 24px;
+  }
+
+  .autor-links {
+    flex-direction: column;
+  }
+
+  .autor-link {
+    width: 100%;
+  }
+
+  .page-footer {
+    flex-direction: column;
+    text-align: left;
+  }
+}
+
+
+/* =============================================================
+   SELETOR DE IDIOMA POR BANDEIRAS
+   ============================================================= */
+
+.idioma-botoes {
+  gap: 5px;
+  padding: 4px 6px;
+}
+
+.btn-idioma {
+  min-width: 34px;
+  min-height: 28px;
+  padding: 4px 5px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  opacity: 0.62;
+}
+
+.btn-idioma img {
+  display: block;
+  width: 24px;
+  height: 16px;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.18);
+}
+
+.btn-idioma:hover {
+  opacity: 1;
+  background: var(--color-surface-muted);
+  transform: translateY(-1px);
+}
+
+.btn-idioma.ativo {
+  opacity: 1;
+  color: inherit;
+  background: var(--color-header-control);
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 2px var(--color-header-accent-soft);
+}
+
+.btn-idioma.ativo img {
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.28);
+}
+
+@media (max-width: 440px) {
+  .idioma-botoes {
+    justify-content: center;
+  }
+
+  .btn-idioma {
+    flex: 0 0 auto;
+  }
+}
+
+
+/* =============================================================
+   RECURSOS ADICIONAIS — APROFUNDAMENTO E APLICATIVO
+   ============================================================= */
+.btn-aprofundamento,
+.btn-aplicativo {
+  color: var(--color-text);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-strong);
+  box-shadow: none;
+}
+.btn-aprofundamento:hover {
+  color: var(--color-secondary);
+  background: var(--color-surface-soft);
+  border-color: var(--color-secondary);
+}
+.btn-aplicativo:hover {
+  color: var(--color-primary);
+  background: var(--color-surface-soft);
+  border-color: var(--color-primary);
+}
+.btn-aprofundamento::before {
+  content: "↗";
+  flex: 0 0 auto;
+  margin-right: 6px;
+  font-size: 0.78rem;
+  line-height: 1;
+}
+.btn-aplicativo::before {
+  content: "⚙";
+  flex: 0 0 auto;
+  margin-right: 6px;
+  font-size: 0.76rem;
+  line-height: 1;
+}
+@media (min-width: 701px) {
+  .card-botoes-materiais {
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  }
+}
+@media (max-width: 420px) {
+  .card-botoes-materiais {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .card-botoes-materiais > :only-child {
+    grid-column: 1 / -1;
+  }
+}
+
+
+/* =============================================================
+   BOTÃO DE APOIO
+   ============================================================= */
+
+.btn-acessibilidade {
+  color: var(--color-text);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-strong);
+  box-shadow: none;
+}
+
+.btn-acessibilidade:hover {
+  color: var(--color-primary);
+  background: var(--color-surface-soft);
+  border-color: var(--color-primary);
+}
+
+.btn-acessibilidade::before {
+  content: "";
+
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+
+  margin-right: 6px;
+
+  background-color: #ffffff;
+  background-image:
+    url("assets/acessibilidade.png");
+
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-radius: 50%;
+}
+/* =============================================================
+   CABEÇALHO — MANTER UMA ÚNICA LINHA NO DESKTOP
+   ============================================================= */
+
+@media (min-width: 1000px) {
+
+  .header-top {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+
+    gap: 12px;
+
+    flex-wrap: nowrap;
+  }
+
+  .brand-identity {
+    display: flex;
+    align-items: center;
+
+    flex-wrap: nowrap;
+    gap: 8px;
+
+    min-width: 0;
+  }
+
+  .app-header h1 {
+    flex: 0 0 auto;
+
+    white-space: nowrap;
+
+    font-size: clamp(
+      1.25rem,
+      1.7vw,
+      1.6rem
+    );
+  }
+
+  .version-pill {
+    flex: 0 1 auto;
+
+    min-width: 0;
+
+    white-space: nowrap;
+
+    font-size: 0.68rem;
+    padding: 5px 9px;
+  }
+
+  .author-pill {
+    flex: 0 0 auto;
+
+    white-space: nowrap;
+
+    font-size: 0.67rem;
+    padding: 5px 9px;
+  }
+
+  .header-preferencias {
+    flex: 0 0 auto;
+
+    white-space: nowrap;
+
+    gap: 8px;
+  }
+}
+
+/* =============================================================
+   CABEÇALHO DESKTOP — SEM QUEBRA DE LINHA
+   Deve permanecer no FINAL do styles.css
+   ============================================================= */
+
+@media (min-width: 1001px) {
+
+  .header-top {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) auto !important;
+    align-items: center !important;
+    gap: 12px !important;
+
+    width: 100% !important;
+  }
+
+  /* Lado esquerdo */
+  .brand-identity {
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+
+    gap: 8px !important;
+
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+
+  /* Título nunca quebra */
+  .app-header h1 {
+    flex: 0 0 auto !important;
+
+    white-space: nowrap !important;
+
+    font-size: 1.5rem !important;
+  }
+
+  /* A descrição é o elemento que pode encolher */
+.version-pill {
+  flex: 1 1 auto !important;
+
+  min-width: 0 !important;
+  max-width: none !important;
+
+  overflow: visible !important;
+  white-space: nowrap !important;
+  text-overflow: clip !important;
+
+  padding: 5px 9px !important;
+
+  font-size: 0.68rem !important;
+}
+
+  /* Autoria nunca quebra */
+  .author-pill {
+    flex: 0 0 auto !important;
+
+    white-space: nowrap !important;
+
+    padding: 5px 9px !important;
+
+    font-size: 0.67rem !important;
+  }
+
+  /* Lado direito */
+  .header-preferencias {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+
+    flex: 0 0 auto !important;
+    flex-wrap: nowrap !important;
+
+    width: auto !important;
+
+    gap: 8px !important;
+
+    white-space: nowrap !important;
+  }
+
+  .tema-controle,
+  .idioma-controle {
+    flex: 0 0 auto !important;
+    width: auto !important;
+  }
+}
+
+
+/* =============================================================
+   BOTÃO GABARITO — DESTAQUE FIXO EM TODOS OS TEMAS
+   ============================================================= */
+
+.btn-gabarito {
+  color: #ffffff !important;
+  background: #7c3aed !important;
+  border: 1px solid #7c3aed !important;
+  box-shadow: 0 5px 12px rgba(124, 58, 237, 0.28) !important;
+}
+
+.btn-gabarito:hover {
+  color: #ffffff !important;
+  background: #6d28d9 !important;
+  border-color: #6d28d9 !important;
+  box-shadow: 0 7px 16px rgba(124, 58, 237, 0.38) !important;
+}
+
+.btn-gabarito::before {
+  content: "✓";
+  margin-right: 6px;
+  font-size: 0.8rem;
+  font-weight: 900;
+}
