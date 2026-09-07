@@ -914,22 +914,24 @@ const ehCorrecaoTarefa =
             t("resources.musicAria", { title: titulo.textContent })
         });
 
-       const botaoPdf =
-         criarBotaoMaterial({
-           texto: ehCorrecaoTarefa
-             ? t("resources.answerKey")
-             : t("resources.pdf"),
-       
-           link: curso.linkPdf,
-       
-           classeExtra: "btn-pdf",
-       
-           ariaLabel: ehCorrecaoTarefa
-             ? `${t("resources.answerKey")}: ${titulo.textContent}`
-             : t("resources.pdfAria", {
-                 title: titulo.textContent
-               })
-         });
+const botaoPdf =
+  criarBotaoMaterial({
+    texto: ehCorrecaoTarefa
+      ? t("resources.answerKey")
+      : t("resources.pdf"),
+
+    link: curso.linkPdf,
+
+    classeExtra: ehCorrecaoTarefa
+      ? "btn-pdf btn-gabarito"
+      : "btn-pdf",
+
+    ariaLabel: ehCorrecaoTarefa
+      ? `${t("resources.answerKey")}: ${titulo.textContent}`
+      : t("resources.pdfAria", {
+          title: titulo.textContent
+        })
+  });
 
       const botaoAprofundamento =
         criarBotaoMaterial({
