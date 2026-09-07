@@ -2329,6 +2329,9 @@ document.addEventListener(
       }
     );
 
+
+
+
     document.addEventListener(
       "idiomaalterado",
       () => {
@@ -2351,6 +2354,44 @@ document.addEventListener(
           .atualizarContadorFiltros();
       }
     );
+	
+	
+/* =============================================================
+   ATALHO DO AVISO DE NOVIDADES
+   ============================================================= */
+
+const atalhoTarefas =
+  document.getElementById("atalho-tarefas");
+
+atalhoTarefas?.addEventListener(
+  "click",
+  (event) => {
+    event.preventDefault();
+
+    const filtroMaterial =
+      document.getElementById("filtro-material");
+
+    if (!filtroMaterial) {
+      return;
+    }
+
+    filtroMaterial.value =
+      "Correção da Tarefa";
+
+    filtroMaterial.dispatchEvent(
+      new Event("change")
+    );
+  }
+);
+
+
+/* Primeira renderização */
+
+aplicarFiltros();
+salvarFiltrosAtuais();
+
+painelFiltros
+  .atualizarContadorFiltros();
 
     aplicarFiltros();
     salvarFiltrosAtuais();
@@ -2359,6 +2400,8 @@ document.addEventListener(
       .atualizarContadorFiltros();
   }
 );
+
+
 
 window.addEventListener(
   "pagehide",
