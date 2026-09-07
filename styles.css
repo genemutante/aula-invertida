@@ -2800,3 +2800,29 @@ html.tema-em-transicao *::after {
     width: auto !important;
   }
 }
+
+
+/* =============================================================
+   BOTÃO GABARITO — DESTAQUE FIXO EM TODOS OS TEMAS
+   ============================================================= */
+
+.btn-gabarito {
+  color: #ffffff !important;
+  background: #7c3aed !important;
+  border: 1px solid #7c3aed !important;
+  box-shadow: 0 5px 12px rgba(124, 58, 237, 0.28) !important;
+}
+
+.btn-gabarito:hover {
+  color: #ffffff !important;
+  background: #6d28d9 !important;
+  border-color: #6d28d9 !important;
+  box-shadow: 0 7px 16px rgba(124, 58, 237, 0.38) !important;
+}
+
+.btn-gabarito::before {
+  content: "✓";
+  margin-right: 6px;
+  font-size: 0.8rem;
+  font-weight: 900;
+}
