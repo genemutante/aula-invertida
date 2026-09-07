@@ -2826,3 +2826,155 @@ html.tema-em-transicao *::after {
   font-size: 0.8rem;
   font-weight: 900;
 }
+
+/* =============================================================
+   DESTAQUE DE NOVIDADE
+   ============================================================= */
+
+.aviso-novidade,
+.aviso-novidade:visited {
+  position: relative;
+
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+
+  width: 100%;
+
+  margin: 2px 0 18px;
+  padding: 12px 14px;
+
+  color: #111827;
+
+  background:
+    linear-gradient(
+      90deg,
+      #fff7cc 0%,
+      #fffbe8 55%,
+      #ffffff 100%
+    );
+
+  border: 1px solid #f59e0b;
+  border-left: 6px solid #f59e0b;
+  border-radius: 12px;
+
+  text-decoration: none !important;
+
+  box-shadow:
+    0 6px 18px rgba(245, 158, 11, 0.24);
+
+  transition:
+    transform 0.16s ease,
+    box-shadow 0.16s ease;
+}
+
+.aviso-novidade:hover {
+  color: #111827;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 10px 24px rgba(245, 158, 11, 0.32);
+}
+
+
+/* BADGE */
+
+.aviso-novidade-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 26px;
+
+  padding: 5px 9px;
+
+  color: #ffffff;
+  background: #dc2626;
+
+  border-radius: 999px;
+
+  font-size: 0.62rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+
+  text-transform: uppercase;
+
+  box-shadow:
+    0 3px 8px rgba(220, 38, 38, 0.28);
+}
+
+
+/* TEXTO */
+
+.aviso-novidade-texto {
+  min-width: 0;
+
+  color: #111827;
+
+  font-size: 0.82rem;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+
+/* SETA */
+
+.aviso-novidade-seta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 30px;
+  height: 30px;
+
+  color: #ffffff;
+  background: #f59e0b;
+
+  border-radius: 50%;
+
+  font-size: 1rem;
+  font-weight: 900;
+
+  transition:
+    transform 0.16s ease,
+    background-color 0.16s ease;
+}
+
+.aviso-novidade:hover
+.aviso-novidade-seta {
+  background: #d97706;
+
+  transform: translateX(3px);
+}
+
+
+/* EVITA COR DE LINK VISITADO */
+
+.aviso-novidade:visited
+.aviso-novidade-texto {
+  color: #111827;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+  .aviso-novidade {
+    grid-template-columns: auto minmax(0, 1fr);
+
+    gap: 8px;
+
+    padding: 10px 11px;
+  }
+
+  .aviso-novidade-seta {
+    display: none;
+  }
+
+  .aviso-novidade-texto {
+    font-size: 0.76rem;
+  }
+}
