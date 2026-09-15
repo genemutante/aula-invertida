@@ -6377,7 +6377,7 @@ const cursos = [
         "en": "AVAILABLE",
         "es": "DISPONIBLE"
       }
-    }
+    },
   },
   
  
@@ -6394,7 +6394,1812 @@ const cursos = [
    // 9 ANO 4BIM  TAREFA 6  
   
   
-  
+    {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Especial Prova Paulista 3º BIM",
+    "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+    "descricao": "QUESTÃO 1",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/YEngkQ7y6IQ?list=PLRw8l1k9NZSU",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "linkAcessibilidade": "",
+    "duracaoMinutos": 3,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Especial Prova Paulista 3º BIM",
+        "en": "Special São Paulo State Assessment Assignment - Term 3",
+        "es": "Tarea Especial de la Evaluación Paulista - 3º Bimestre"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+        "en": "SPECIAL SÃO PAULO STATE ASSESSMENT ASSIGNMENT REVIEW - TERM 3",
+        "es": "CORRECCIÓN DE LA TAREA ESPECIAL DE LA EVALUACIÓN PAULISTA - 3º BIMESTRE"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 1",
+        "en": "QUESTION 1",
+        "es": "PREGUNTA 1"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Especial Prova Paulista 3º BIM",
+    "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+    "descricao": "QUESTÃO 2",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/bB7xoqraUeU?list=PLRw8l1k9NZSU",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "linkAcessibilidade": "",
+    "duracaoMinutos": 3,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Especial Prova Paulista 3º BIM",
+        "en": "Special São Paulo State Assessment Assignment - Term 3",
+        "es": "Tarea Especial de la Evaluación Paulista - 3º Bimestre"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+        "en": "SPECIAL SÃO PAULO STATE ASSESSMENT ASSIGNMENT REVIEW - TERM 3",
+        "es": "CORRECCIÓN DE LA TAREA ESPECIAL DE LA EVALUACIÓN PAULISTA - 3º BIMESTRE"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 2",
+        "en": "QUESTION 2",
+        "es": "PREGUNTA 2"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Especial Prova Paulista 3º BIM",
+    "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+    "descricao": "QUESTÃO 3",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/M_fJ7zEVKi4?list=PLRw8l1k9NZSU",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "linkAcessibilidade": "",
+    "duracaoMinutos": 3,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Especial Prova Paulista 3º BIM",
+        "en": "Special São Paulo State Assessment Assignment - Term 3",
+        "es": "Tarea Especial de la Evaluación Paulista - 3º Bimestre"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+        "en": "SPECIAL SÃO PAULO STATE ASSESSMENT ASSIGNMENT REVIEW - TERM 3",
+        "es": "CORRECCIÓN DE LA TAREA ESPECIAL DE LA EVALUACIÓN PAULISTA - 3º BIMESTRE"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 3",
+        "en": "QUESTION 3",
+        "es": "PREGUNTA 3"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Especial Prova Paulista 3º BIM",
+    "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+    "descricao": "QUESTÃO 4",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/tzlMFYLCcfo?list=PLRw8l1k9NZSU",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "linkAcessibilidade": "",
+    "duracaoMinutos": 3,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Especial Prova Paulista 3º BIM",
+        "en": "Special São Paulo State Assessment Assignment - Term 3",
+        "es": "Tarea Especial de la Evaluación Paulista - 3º Bimestre"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+        "en": "SPECIAL SÃO PAULO STATE ASSESSMENT ASSIGNMENT REVIEW - TERM 3",
+        "es": "CORRECCIÓN DE LA TAREA ESPECIAL DE LA EVALUACIÓN PAULISTA - 3º BIMESTRE"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 4",
+        "en": "QUESTION 4",
+        "es": "PREGUNTA 4"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Especial Prova Paulista 3º BIM",
+    "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+    "descricao": "QUESTÃO 5",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/yrsvgsedF-Y?list=PLRw8l1k9NZSU",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "linkAcessibilidade": "",
+    "duracaoMinutos": 3,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Especial Prova Paulista 3º BIM",
+        "en": "Special São Paulo State Assessment Assignment - Term 3",
+        "es": "Tarea Especial de la Evaluación Paulista - 3º Bimestre"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+        "en": "SPECIAL SÃO PAULO STATE ASSESSMENT ASSIGNMENT REVIEW - TERM 3",
+        "es": "CORRECCIÓN DE LA TAREA ESPECIAL DE LA EVALUACIÓN PAULISTA - 3º BIMESTRE"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 5",
+        "en": "QUESTION 5",
+        "es": "PREGUNTA 5"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Especial Prova Paulista 3º BIM",
+    "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+    "descricao": "QUESTÃO 6",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/rcOoWAZklSE?list=PLRw8l1k9NZSU",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "linkAcessibilidade": "",
+    "duracaoMinutos": 3,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Especial Prova Paulista 3º BIM",
+        "en": "Special São Paulo State Assessment Assignment - Term 3",
+        "es": "Tarea Especial de la Evaluación Paulista - 3º Bimestre"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+        "en": "SPECIAL SÃO PAULO STATE ASSESSMENT ASSIGNMENT REVIEW - TERM 3",
+        "es": "CORRECCIÓN DE LA TAREA ESPECIAL DE LA EVALUACIÓN PAULISTA - 3º BIMESTRE"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 6",
+        "en": "QUESTION 6",
+        "es": "PREGUNTA 6"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Especial Prova Paulista 3º BIM",
+    "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+    "descricao": "QUESTÃO 7",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/uEL6fwbQnbs?list=PLRw8l1k9NZSU",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "linkAcessibilidade": "",
+    "duracaoMinutos": 3,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Especial Prova Paulista 3º BIM",
+        "en": "Special São Paulo State Assessment Assignment - Term 3",
+        "es": "Tarea Especial de la Evaluación Paulista - 3º Bimestre"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+        "en": "SPECIAL SÃO PAULO STATE ASSESSMENT ASSIGNMENT REVIEW - TERM 3",
+        "es": "CORRECCIÓN DE LA TAREA ESPECIAL DE LA EVALUACIÓN PAULISTA - 3º BIMESTRE"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 7",
+        "en": "QUESTION 7",
+        "es": "PREGUNTA 7"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Especial Prova Paulista 3º BIM",
+    "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+    "descricao": "QUESTÃO 8",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/rzqg7-PioME?list=PLRw8l1k9NZSU",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "linkAcessibilidade": "",
+    "duracaoMinutos": 3,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Especial Prova Paulista 3º BIM",
+        "en": "Special São Paulo State Assessment Assignment - Term 3",
+        "es": "Tarea Especial de la Evaluación Paulista - 3º Bimestre"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+        "en": "SPECIAL SÃO PAULO STATE ASSESSMENT ASSIGNMENT REVIEW - TERM 3",
+        "es": "CORRECCIÓN DE LA TAREA ESPECIAL DE LA EVALUACIÓN PAULISTA - 3º BIMESTRE"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 8",
+        "en": "QUESTION 8",
+        "es": "PREGUNTA 8"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Especial Prova Paulista 3º BIM",
+    "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+    "descricao": "QUESTÃO 9",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/4yHXR9iLkks?list=PLRw8l1k9NZSU",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "linkAcessibilidade": "",
+    "duracaoMinutos": 3,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Especial Prova Paulista 3º BIM",
+        "en": "Special São Paulo State Assessment Assignment - Term 3",
+        "es": "Tarea Especial de la Evaluación Paulista - 3º Bimestre"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+        "en": "SPECIAL SÃO PAULO STATE ASSESSMENT ASSIGNMENT REVIEW - TERM 3",
+        "es": "CORRECCIÓN DE LA TAREA ESPECIAL DE LA EVALUACIÓN PAULISTA - 3º BIMESTRE"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 9",
+        "en": "QUESTION 9",
+        "es": "PREGUNTA 9"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+  {
+    "material": "Correção da Tarefa",
+    "disciplina": "Ciências",
+    "serie": "7º Ano",
+    "bimestre": "3º Bimestre",
+    "aula": "Especial Prova Paulista 3º BIM",
+    "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+    "descricao": "QUESTÃO 10",
+    "quantidadeAulas": 1,
+    "status": "DISPONÍVEL",
+    "linkAula": "https://youtu.be/XKxSREq_U84?list=PLRw8l1k9NZSU",
+    "linkMusica": "",
+    "linkPdf": "",
+    "linkAprofundamento": "",
+    "linkAplicativo": "",
+    "linkAcessibilidade": "",
+    "duracaoMinutos": 3,
+    "i18n": {
+      "material": {
+        "pt": "Correção da Tarefa",
+        "en": "Assignment Review",
+        "es": "Corrección de la Tarea"
+      },
+      "disciplina": {
+        "pt": "Ciências",
+        "en": "Science",
+        "es": "Ciencias"
+      },
+      "serie": {
+        "pt": "7º Ano",
+        "en": "Grade 7",
+        "es": "7º Curso"
+      },
+      "bimestre": {
+        "pt": "3º Bimestre",
+        "en": "Term 3",
+        "es": "3º Bimestre"
+      },
+      "aula": {
+        "pt": "Especial Prova Paulista 3º BIM",
+        "en": "Special São Paulo State Assessment Assignment - Term 3",
+        "es": "Tarea Especial de la Evaluación Paulista - 3º Bimestre"
+      },
+      "nome": {
+        "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+        "en": "SPECIAL SÃO PAULO STATE ASSESSMENT ASSIGNMENT REVIEW - TERM 3",
+        "es": "CORRECCIÓN DE LA TAREA ESPECIAL DE LA EVALUACIÓN PAULISTA - 3º BIMESTRE"
+      },
+      "descricao": {
+        "pt": "QUESTÃO 10",
+        "en": "QUESTION 10",
+        "es": "PREGUNTA 10"
+      },
+      "status": {
+        "pt": "DISPONÍVEL",
+        "en": "AVAILABLE",
+        "es": "DISPONIBLE"
+      }
+    }
+  },
+
+// 8o ANO
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "8º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 1",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "https://youtu.be/H2MODwLDp3U?list=PLf5ikBXYGKHY",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "8º Ano",
+      "en": "Grade 8",
+      "es": "8.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 1",
+      "en": "QUESTION 1",
+      "es": "PREGUNTA 1"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "8º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 2",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "https://youtu.be/9mTxO4ZJNpg?list=PLf5ikBXYGKHY",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "8º Ano",
+      "en": "Grade 8",
+      "es": "8.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 2",
+      "en": "QUESTION 2",
+      "es": "PREGUNTA 2"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "8º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 3",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "https://youtu.be/81vzwwE7aco?list=PLf5ikBXYGKHY",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "8º Ano",
+      "en": "Grade 8",
+      "es": "8.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 3",
+      "en": "QUESTION 3",
+      "es": "PREGUNTA 3"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "8º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 4",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "https://youtu.be/scfZzk_3pjc?list=PLf5ikBXYGKHY",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "8º Ano",
+      "en": "Grade 8",
+      "es": "8.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 4",
+      "en": "QUESTION 4",
+      "es": "PREGUNTA 4"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "8º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 5",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "https://youtu.be/LxlonAxqeuQ?list=PLf5ikBXYGKHY",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "8º Ano",
+      "en": "Grade 8",
+      "es": "8.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 5",
+      "en": "QUESTION 5",
+      "es": "PREGUNTA 5"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "8º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 6",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "https://youtu.be/Bjo01SqZh1I?list=PLf5ikBXYGKHY",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "8º Ano",
+      "en": "Grade 8",
+      "es": "8.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 6",
+      "en": "QUESTION 6",
+      "es": "PREGUNTA 6"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "8º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 7",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "https://youtu.be/D3hPcxEhC20?list=PLf5ikBXYGKHY",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "8º Ano",
+      "en": "Grade 8",
+      "es": "8.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 7",
+      "en": "QUESTION 7",
+      "es": "PREGUNTA 7"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "8º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 8",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "https://youtu.be/-rIdwFx_yQ8?list=PLf5ikBXYGKHY",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "8º Ano",
+      "en": "Grade 8",
+      "es": "8.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 8",
+      "en": "QUESTION 8",
+      "es": "PREGUNTA 8"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "8º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 9",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "https://youtu.be/s5e2xIb6-dM?list=PLf5ikBXYGKHY",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "8º Ano",
+      "en": "Grade 8",
+      "es": "8.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 9",
+      "en": "QUESTION 9",
+      "es": "PREGUNTA 9"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "8º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 10",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "https://youtu.be/FM29z7dlKvk?list=PLf5ikBXYGKHY",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "8º Ano",
+      "en": "Grade 8",
+      "es": "8.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 10",
+      "en": "QUESTION 10",
+      "es": "PREGUNTA 10"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
+
+//9 ano
+
+// 9o ANO
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "9º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 1",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "9º Ano",
+      "en": "Grade 9",
+      "es": "9.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 1",
+      "en": "QUESTION 1",
+      "es": "PREGUNTA 1"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "9º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 2",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "9º Ano",
+      "en": "Grade 9",
+      "es": "9.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 2",
+      "en": "QUESTION 2",
+      "es": "PREGUNTA 2"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "9º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 3",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "9º Ano",
+      "en": "Grade 9",
+      "es": "9.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 3",
+      "en": "QUESTION 3",
+      "es": "PREGUNTA 3"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "9º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 4",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "9º Ano",
+      "en": "Grade 9",
+      "es": "9.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 4",
+      "en": "QUESTION 4",
+      "es": "PREGUNTA 4"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "9º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 5",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "9º Ano",
+      "en": "Grade 9",
+      "es": "9.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 5",
+      "en": "QUESTION 5",
+      "es": "PREGUNTA 5"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "9º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 6",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "9º Ano",
+      "en": "Grade 9",
+      "es": "9.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 6",
+      "en": "QUESTION 6",
+      "es": "PREGUNTA 6"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "9º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 7",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "9º Ano",
+      "en": "Grade 9",
+      "es": "9.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 7",
+      "en": "QUESTION 7",
+      "es": "PREGUNTA 7"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "9º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 8",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "9º Ano",
+      "en": "Grade 9",
+      "es": "9.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 8",
+      "en": "QUESTION 8",
+      "es": "PREGUNTA 8"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "9º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 9",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "9º Ano",
+      "en": "Grade 9",
+      "es": "9.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 9",
+      "en": "QUESTION 9",
+      "es": "PREGUNTA 9"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
+{
+  "material": "Correção da Tarefa",
+  "disciplina": "Ciências",
+  "serie": "9º Ano",
+  "bimestre": "3º Bimestre",
+  "aula": "Especial Prova Paulista 3º BIM",
+  "nome": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+  "descricao": "QUESTÃO 10",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 3,
+  "i18n": {
+    "material": {
+      "pt": "Correção da Tarefa",
+      "en": "Assignment Review",
+      "es": "Corrección de la Tarea"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "9º Ano",
+      "en": "Grade 9",
+      "es": "9.º Grado"
+    },
+    "bimestre": {
+      "pt": "3º Bimestre",
+      "en": "3rd Term",
+      "es": "3.er Bimestre"
+    },
+    "aula": {
+      "pt": "Especial Prova Paulista 3º BIM",
+      "en": "Special Prova Paulista - 3rd Term",
+      "es": "Especial Prova Paulista - 3.er Bimestre"
+    },
+    "nome": {
+      "pt": "CORREÇÃO DA TAREFA ESPECIAL PP 3º BIM",
+      "en": "SPECIAL PROVA PAULISTA ASSIGNMENT REVIEW - 3RD TERM",
+      "es": "CORRECCIÓN DE LA TAREA ESPECIAL PROVA PAULISTA - 3.er BIMESTRE"
+    },
+    "descricao": {
+      "pt": "QUESTÃO 10",
+      "en": "QUESTION 10",
+      "es": "PREGUNTA 10"
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
   
   //------------------------
 
