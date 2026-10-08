@@ -27186,7 +27186,7 @@ const cursos = [
   "linkAprofundamento": "",
   "linkAplicativo": "",
   "linkAcessibilidade": "",
-  "duracaoMinutos": 15,
+  "duracaoMinutos": 29,
   "i18n": {
     "material": {
       "pt": "Vídeo-Aula",
