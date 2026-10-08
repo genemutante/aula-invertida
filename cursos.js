@@ -8203,6 +8203,11 @@ const cursos = [
   
   //------------------------
 
+
+
+
+
+//----------------------------
   
   
   
@@ -27163,6 +27168,67 @@ const cursos = [
       "es": "DISPONIBLE"
     }
   }
-} 
+},
+
+{
+  "material": "Vídeo-Aula",
+  "disciplina": "Ciências",
+  "serie": "9º Ano",
+  "bimestre": "4º Bimestre",
+  "aula": "Aula 2",
+  "nome": "Introdução à Cinemática e Primeira Lei de Newton",
+  "descricao": "Introduz os conceitos fundamentais da Cinemática, abordando movimento, repouso e referencial, e apresenta a Primeira Lei de Newton, conhecida como Lei da Inércia, relacionando-a a situações do cotidiano.",
+  "quantidadeAulas": 1,
+  "status": "DISPONÍVEL",
+  "linkAula": "https://youtu.be/xUAL_XepJWs",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+  "duracaoMinutos": 15,
+  "i18n": {
+    "material": {
+      "pt": "Vídeo-Aula",
+      "en": "Video Lesson",
+      "es": "Videoclase"
+    },
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+    "serie": {
+      "pt": "9º Ano",
+      "en": "Grade 9",
+      "es": "9º Curso"
+    },
+    "bimestre": {
+      "pt": "4º Bimestre",
+      "en": "Term 4",
+      "es": "4º Bimestre"
+    },
+    "aula": {
+      "pt": "Aula 2",
+      "en": "Lesson 2",
+      "es": "Clase 2"
+    },
+    "nome": {
+      "pt": "Introdução à Cinemática e Primeira Lei de Newton",
+      "en": "Introduction to Kinematics and Newton's First Law",
+      "es": "Introducción a la Cinemática y Primera Ley de Newton"
+    },
+    "descricao": {
+      "pt": "Introduz os conceitos fundamentais da Cinemática, abordando movimento, repouso e referencial, e apresenta a Primeira Lei de Newton, conhecida como Lei da Inércia, relacionando-a a situações do cotidiano.",
+      "en": "Introduces the fundamental concepts of Kinematics, covering motion, rest and reference frames, and presents Newton's First Law, known as the Law of Inertia, relating it to everyday situations.",
+      "es": "Introduce los conceptos fundamentales de la Cinemática, abordando el movimiento, el reposo y los sistemas de referencia, y presenta la Primera Ley de Newton, conocida como Ley de la Inercia, relacionándola con situaciones cotidianas."
+    },
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+}
   
 ];
