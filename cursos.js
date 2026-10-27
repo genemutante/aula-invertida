@@ -8203,67 +8203,76 @@ const cursos = [
   
   //------------------------
 
-  {
-    "material": "SARESP",
-    "disciplina": "Ciências",
-    "serie": "9º Ano",
-    "bimestre": "4º Bimestre",
-    "aula": "REVISÃO",
-    "nome": "APRENDIZAGENS ESSENCIAIS",
-    "descricao": "2026",
-    "quantidadeAulas": 13,
-    "status": "DISPONÍVEL",
-    "linkAula": "https://www.youtube.com/playlist?list=PLaVTaggLv2-w",
-    "linkMusica": "",
-    "linkPdf": "",
-	"linkAprofundamento": "",
-    "linkAplicativo": "",
-	"linkAcessibilidade": "",
-    "duracaoMinutos": 2,
-    "i18n": {
-      "material": {
-        "pt": "Correção da Prova Paulista",
-        "en": "Prova Paulista Review",
-        "es": "Corrección de la Prova Paulista"
-      },
-      "disciplina": {
-        "pt": "Ciências",
-        "en": "Science",
-        "es": "Ciencias"
-      },
-      "serie": {
-        "pt": "7º Ano",
-        "en": "Grade 7",
-        "es": "7º Curso"
-      },
-      "bimestre": {
-        "pt": "3º Bimestre",
-        "en": "Term 3",
-        "es": "3º Bimestre"
-      },
-      "aula": {
-        "pt": "CADERNO VERDE",
-        "en": "GREEN BOOKLET",
-        "es": "CUADERNILLO VERDE"
-      },
-      "nome": {
-        "pt": "QUESTÃO 1",
-        "en": "QUESTION 1",
-        "es": "PREGUNTA 1"
-      },
-      "descricao": {
-        "pt": "2026",
-        "en": "2026",
-        "es": "2026"
-      },
-      "status": {
-        "pt": "DISPONÍVEL",
-        "en": "AVAILABLE",
-        "es": "DISPONIBLE"
-      }
-    }
-  },
+ {
+  "material": "SARESP",
+  "disciplina": "Ciências",
+  "serie": "9º Ano",
+  "bimestre": "4º Bimestre",
+  "aula": "REVISÃO",
+  "nome": "APRENDIZAGENS ESSENCIAIS",
+  "descricao": "2026",
+  "quantidadeAulas": 13,
+  "status": "DISPONÍVEL",
 
+  "linkAula": "https://www.youtube.com/playlist?list=PLaVTaggLv2-w",
+  "linkMusica": "",
+  "linkPdf": "",
+  "linkAprofundamento": "",
+  "linkAplicativo": "",
+  "linkAcessibilidade": "",
+
+  "duracaoMinutos": 2,
+
+  "i18n": {
+    "material": {
+      "pt": "SARESP",
+      "en": "SARESP",
+      "es": "SARESP"
+    },
+
+    "disciplina": {
+      "pt": "Ciências",
+      "en": "Science",
+      "es": "Ciencias"
+    },
+
+    "serie": {
+      "pt": "9º Ano",
+      "en": "Grade 9",
+      "es": "9º Curso"
+    },
+
+    "bimestre": {
+      "pt": "4º Bimestre",
+      "en": "Term 4",
+      "es": "4º Bimestre"
+    },
+
+    "aula": {
+      "pt": "REVISÃO",
+      "en": "REVIEW",
+      "es": "REVISIÓN"
+    },
+
+    "nome": {
+      "pt": "APRENDIZAGENS ESSENCIAIS",
+      "en": "ESSENTIAL LEARNING",
+      "es": "APRENDIZAJES ESENCIALES"
+    },
+
+    "descricao": {
+      "pt": "2026",
+      "en": "2026",
+      "es": "2026"
+    },
+
+    "status": {
+      "pt": "DISPONÍVEL",
+      "en": "AVAILABLE",
+      "es": "DISPONIBLE"
+    }
+  }
+},
 
 
 //----------------------------
