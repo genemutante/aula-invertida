@@ -8203,7 +8203,7 @@ const cursos = [
   
   //------------------------
 
- {
+{
   "material": "SARESP",
   "disciplina": "Ciências",
   "serie": "9º Ano",
@@ -8256,14 +8256,14 @@ const cursos = [
 
     "nome": {
       "pt": "APRENDIZAGENS ESSENCIAIS",
-      "en": "ESSENTIAL LEARNING",
+      "en": "ESSENTIAL LEARNING OBJECTIVES",
       "es": "APRENDIZAJES ESENCIALES"
     },
 
     "descricao": {
-      "pt": "2026",
-      "en": "2026",
-      "es": "2026"
+      "pt": "Revisão das aprendizagens essenciais de Ciências do 9º Ano para o SARESP 2026.",
+      "en": "Review of the essential Science learning objectives for Grade 9 in preparation for SARESP 2026.",
+      "es": "Revisión de los aprendizajes esenciales de Ciencias de 9º Curso para la preparación del SARESP 2026."
     },
 
     "status": {
@@ -8273,7 +8273,6 @@ const cursos = [
     }
   }
 },
-
 
 //----------------------------
   
