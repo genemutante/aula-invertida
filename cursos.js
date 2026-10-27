@@ -8210,7 +8210,7 @@ const cursos = [
   "bimestre": "4º Bimestre",
   "aula": "REVISÃO",
   "nome": "APRENDIZAGENS ESSENCIAIS",
-  "descricao": "2026",
+  "descricao": "Revisão das aprendizagens essenciais de Ciências do 9º Ano para o SARESP 2026.",
   "quantidadeAulas": 13,
   "status": "DISPONÍVEL",
 
@@ -8221,7 +8221,7 @@ const cursos = [
   "linkAplicativo": "",
   "linkAcessibilidade": "",
 
-  "duracaoMinutos": 2,
+  "duracaoMinutos": 90,
 
   "i18n": {
     "material": {
